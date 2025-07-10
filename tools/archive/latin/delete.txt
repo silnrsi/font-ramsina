@@ -1,7 +1,0 @@
-quotedbl
-comma
-quoteleft
-quoteright
-quotedblleft
-quotedblright
-dottedCircle

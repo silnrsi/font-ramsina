@@ -1,5 +1,5 @@
 ---
-title: Idiqlat - Frequently Asked Questions
+title: EastSyriacMarcusNew - Frequently Asked Questions
 fontversion: 1.101
 ---
 
@@ -18,10 +18,10 @@ Many questions can be answered by consulting the following FAQ pages. Here are a
     - *If I use the font on a web page do I have to include an acknowledgement?*
     - The full OFL-FAQ.txt is also included in the font package.
 
-Here are a few of the most frequently asked questions specifically regarding Idiqlat:
+Here are a few of the most frequently asked questions specifically regarding EastSyriacMarcusNew:
 
 #### *How is this font different from East Syriac Marcus?*
 
-This font was based on the design of the Syriac characters in East Syriac Marcus. The outlines have been cleaned up or redrawn. The Latin characters were imported from Crimson Pro. The font has support for ligatures and diacritics that the East Syriac style requires. This font was updated to use a more modern build system so that it can be easily updated in the future. The font also includes other weights.
+This font was based on the design of the Syriac characters in East Syriac Marcus. The outlines have been cleaned up or redrawn. The Latin characters were imported from Crimson Pro. The font has support for ligatures and diacritics that the East Syriac style requires. This font was updated to use a more modern build system so that it can be easily updated in the future.
 
 

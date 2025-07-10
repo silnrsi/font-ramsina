@@ -1,14 +1,14 @@
 #!/usr/bin/python
 # encoding: utf8
 
-# Smith configuration file for Idiqlat
+# Smith configuration file for EastSyriacMarcusNew
 
 # set the default output folders
 DOCDIR = ["documentation", "web"]
 genout = "generated/"
 
 # set the font name and description
-APPNAME = 'Idiqlat'
+APPNAME = 'EastSyriacMarcusNew'
 FAMILY = APPNAME
 DESC_SHORT = "Font for the East Syriac script"
 
@@ -21,7 +21,7 @@ ftmlTest('tools/ftml-smith.xsl')
 # APs to omit:
 omitaps = '--omitaps "L,O,R"'
 
-designspace('source/Idiqlat.designspace',
+designspace('source/EastSyriacMarcusNew.designspace',
     instanceparams='-l ' + genout + '${DS:FILENAME_BASE}_createinstances.log',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}'),

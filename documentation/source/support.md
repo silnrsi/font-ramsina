@@ -1,5 +1,5 @@
 ---
-title: Idiqlat - Support
+title: EastSyriacMarcusNew - Support
 fontversion: 1.101
 ---
 
@@ -15,9 +15,6 @@ For person-to-person support visit the [SIL Language Software Community](https:/
 
 ## Reporting bugs and feature requests
 
-If you have a bug to report or a suggestion for how we could improve the fonts please create an issue in the [Github Idiqlat project](https://github.com/silnrsi/font-idiqlat/issues) or contact us directly.
+If you have a bug to report or a suggestion for how we could improve the fonts please create an issue in the [Github EastSyriacMarcusNew project](https://github.com/silnrsi/font-east-syriac-marcus-new/issues) or contact us directly.
 
-## Contact form
-
-If the documentation and community fail to answer your question or need further help using the fonts, please contact us using [the form on the Idiqlat web site](https://software.sil.org/idiqlat/about/contact/).
 

@@ -1,5 +1,5 @@
 ---
-title: Idiqlat - Resources
+title: EastSyriacMarcusNew - Resources
 fontversion: 1.101
 ---
 

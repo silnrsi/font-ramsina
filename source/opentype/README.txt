@@ -1,14 +1,14 @@
 sources/opentype/README.txt
 ==================
 
-This file describes the fea source files included with the Idiqlat
+This file describes the fea source files included with the EastSyriacMarcusNew
 font family. This information should be distributed along with the 
-Idiqlat fonts and any derivative works.
+EastSyriacMarcusNew fonts and any derivative works.
 
-These files are part of the Idiqlat font family 
-(https://software.sil.org/idiqlat/) and are 
+These files are part of the EastSyriacMarcusNew font family 
+(https://github.com/silnrsi/font-east-syriac-marcus-new) and are 
 Copyright (c) SIL Global (https://www.sil.org/),
-with Reserved Font Names "Idiqlat" and "SIL".
+with Reserved Font Name "SIL".
 
 This Font Software is licensed under the SIL Open Font License,
 Version 1.1.

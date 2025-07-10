@@ -1,30 +1,30 @@
 FONTLOG
-Idiqlat
+EastSyriacMarcusNew
 ===================
 
 
-This file provides detailed information on the Idiqlat fonts.
-This information should be distributed along with the Idiqlat fonts and
+This file provides detailed information on the EastSyriacMarcusNew font.
+This information should be distributed along with the EastSyriacMarcusNew font and
 any derivative works.
 
 
 Basic Font Information
 ----------------------
 
-Idiqlat is a font family for the East Syriac script.
+EastSyriacMarcusNew is a font family for the East Syriac script.
 
 ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-### 2025 Jun 30 (WSTech team) Idiqlat TestA Version 1.105
+### 2025 Jul 10 (WSTech team) EastSyriacMarcusNew Version 1.105
 - New test version of font (not for distribution)
 
 Information for Contributors
 ----------------------------
 We welcome contributions to this font project, such as new glyphs, enhanced 
-smart font code, or bug fixes. The best way to begin the process is to file 
-an issue in the Github project (https://github.com/silnrsi/font-idiqlat) 
+smart font code, or bug fixes. The best way to begin the process is to file an 
+issue in the Github project (https://github.com/silnrsi/font-east-syriac-marcus-new) 
 or respond to an existing issue and express your interest. Then we can begin 
 to correspond with you regarding what all might be required and discuss how 
 to best submit your contributions.
@@ -52,9 +52,12 @@ W: https://github.com/SparksoftSystems/Syriac-Fonts
 D: Type Designer
 
 N: Becca Spalinger and Lorna Evans
-W: https://github.com/silnrsi/font-idiqlat
+W: https://github.com/silnrsi/font-east-syriac-marcus-new
 D: SIL Designers and Engineers
 
-The Idiqlat project is maintained by SIL Global.
+The EastSyriacMarcusNew project is maintained by SIL Global, a global,
+faith-based nonprofit that works with local communities around the world
+to develop language solutions that expand possibilities for a better life.
 
-For more information please visit SIL Global's website: https://software.sil.org/idiqlat/
+For more information or support please visit: 
+https://github.com/silnrsi/font-east-syriac-marcus-new

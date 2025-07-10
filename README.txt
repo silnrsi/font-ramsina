@@ -1,6 +1,7 @@
-# Idiqlat
+# EastSyriacMarcusNew
 
-Idiqlat is a font family for the East Syriac script. The font name, Idiqlat, means Tigris River in ancient Akkadian/Assyrian.
+EastSyriacMarcusNew is a font family for the East Syriac script. The font was designed as a facsimile based on 
+metal type cut in India from around 1920.
 
 For more details about this project, including its design history and acknowledgements see [FONTLOG.txt](FONTLOG.txt).
 

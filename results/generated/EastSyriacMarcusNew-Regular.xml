@@ -1,0 +1,3295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<font name="EastSyriacMarcusNew-Regular" upem="2048">
+<glyph PSName=".notdef"/>
+<glyph PSName=".null"/>
+<glyph PSName="nonmarkingreturn"/>
+<glyph PSName="space" UID="0020">
+  <point type="above">
+    <location x="202" y="995"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="995"/>
+  </point>
+  <point type="below">
+    <location x="202" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="exclam" UID="0021"/>
+<glyph PSName="quotedbl" UID="0022"/>
+<glyph PSName="numbersign" UID="0023"/>
+<glyph PSName="dollar" UID="0024"/>
+<glyph PSName="percent" UID="0025"/>
+<glyph PSName="ampersand" UID="0026"/>
+<glyph PSName="quotesingle" UID="0027"/>
+<glyph PSName="parenleft" UID="0028"/>
+<glyph PSName="parenright" UID="0029"/>
+<glyph PSName="asterisk" UID="002A"/>
+<glyph PSName="plus" UID="002B"/>
+<glyph PSName="comma" UID="002C"/>
+<glyph PSName="hyphentwo" UID="2010"/>
+<glyph PSName="hyphen" UID="002D"/>
+<glyph PSName="period" UID="002E"/>
+<glyph PSName="slash" UID="002F"/>
+<glyph PSName="zero" UID="0030">
+  <point type="L">
+    <location x="468" y="-75"/>
+  </point>
+  <point type="U">
+    <location x="468" y="1147"/>
+  </point>
+</glyph>
+<glyph PSName="one" UID="0031">
+  <point type="L">
+    <location x="450" y="-75"/>
+  </point>
+  <point type="U">
+    <location x="450" y="1147"/>
+  </point>
+</glyph>
+<glyph PSName="two" UID="0032">
+  <point type="L">
+    <location x="468" y="-75"/>
+  </point>
+  <point type="U">
+    <location x="468" y="1147"/>
+  </point>
+</glyph>
+<glyph PSName="three" UID="0033">
+  <point type="L">
+    <location x="468" y="-75"/>
+  </point>
+  <point type="U">
+    <location x="468" y="1147"/>
+  </point>
+</glyph>
+<glyph PSName="four" UID="0034">
+  <point type="L">
+    <location x="468" y="-75"/>
+  </point>
+  <point type="U">
+    <location x="468" y="1147"/>
+  </point>
+</glyph>
+<glyph PSName="five" UID="0035">
+  <point type="L">
+    <location x="468" y="-75"/>
+  </point>
+  <point type="U">
+    <location x="468" y="1147"/>
+  </point>
+</glyph>
+<glyph PSName="six" UID="0036">
+  <point type="L">
+    <location x="468" y="-75"/>
+  </point>
+  <point type="U">
+    <location x="468" y="1147"/>
+  </point>
+</glyph>
+<glyph PSName="seven" UID="0037">
+  <point type="L">
+    <location x="468" y="-75"/>
+  </point>
+  <point type="U">
+    <location x="468" y="1147"/>
+  </point>
+</glyph>
+<glyph PSName="eight" UID="0038">
+  <point type="L">
+    <location x="468" y="-75"/>
+  </point>
+  <point type="U">
+    <location x="468" y="1147"/>
+  </point>
+</glyph>
+<glyph PSName="nine" UID="0039">
+  <point type="L">
+    <location x="468" y="-75"/>
+  </point>
+  <point type="U">
+    <location x="468" y="1147"/>
+  </point>
+</glyph>
+<glyph PSName="zero.latn"/>
+<glyph PSName="one.latn"/>
+<glyph PSName="two.latn"/>
+<glyph PSName="three.latn"/>
+<glyph PSName="four.latn"/>
+<glyph PSName="five.latn"/>
+<glyph PSName="six.latn"/>
+<glyph PSName="seven.latn"/>
+<glyph PSName="eight.latn"/>
+<glyph PSName="nine.latn"/>
+<glyph PSName="colon" UID="003A"/>
+<glyph PSName="semicolon" UID="003B"/>
+<glyph PSName="less" UID="003C"/>
+<glyph PSName="equal" UID="003D"/>
+<glyph PSName="greater" UID="003E"/>
+<glyph PSName="question" UID="003F"/>
+<glyph PSName="at" UID="0040"/>
+<glyph PSName="A" UID="0041">
+  <point type="above">
+    <location x="412" y="824"/>
+  </point>
+  <point type="below">
+    <location x="379" y="0"/>
+  </point>
+  <point type="ogonek">
+    <location x="802" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="B" UID="0042">
+  <point type="above">
+    <location x="433" y="824"/>
+  </point>
+  <point type="below">
+    <location x="433" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="C" UID="0043">
+  <point type="above">
+    <location x="495" y="824"/>
+  </point>
+  <point type="below">
+    <location x="495" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="D" UID="0044">
+  <point type="above">
+    <location x="491" y="824"/>
+  </point>
+  <point type="below">
+    <location x="477" y="0"/>
+  </point>
+  <point type="center">
+    <location x="505" y="412"/>
+  </point>
+  <point type="stroke">
+    <location x="301" y="412"/>
+  </point>
+</glyph>
+<glyph PSName="E" UID="0045">
+  <point type="above">
+    <location x="413" y="824"/>
+  </point>
+  <point type="below">
+    <location x="413" y="0"/>
+  </point>
+  <point type="ogonek">
+    <location x="737" y="0"/>
+  </point>
+  <point type="topleft">
+    <location x="40" y="824"/>
+  </point>
+</glyph>
+<glyph PSName="F" UID="0046">
+  <point type="above">
+    <location x="370" y="824"/>
+  </point>
+  <point type="below">
+    <location x="244" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="G" UID="0047">
+  <point type="above">
+    <location x="493" y="824"/>
+  </point>
+  <point type="below">
+    <location x="493" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="H" UID="0048">
+  <point type="above">
+    <location x="494" y="824"/>
+  </point>
+  <point type="below">
+    <location x="494" y="0"/>
+  </point>
+  <point type="center">
+    <location x="494" y="609"/>
+  </point>
+  <point type="topleft">
+    <location x="40" y="824"/>
+  </point>
+</glyph>
+<glyph PSName="I" UID="0049">
+  <point type="above">
+    <location x="245" y="824"/>
+  </point>
+  <point type="below">
+    <location x="245" y="0"/>
+  </point>
+  <point type="ogonek">
+    <location x="350" y="0"/>
+  </point>
+  <point type="topleft">
+    <location x="40" y="824"/>
+  </point>
+</glyph>
+<glyph PSName="J" UID="004A">
+  <point type="above">
+    <location x="245" y="824"/>
+  </point>
+</glyph>
+<glyph PSName="K" UID="004B">
+  <point type="above">
+    <location x="469" y="824"/>
+  </point>
+  <point type="below">
+    <location x="469" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="L" UID="004C">
+  <point type="above">
+    <location x="245" y="824"/>
+  </point>
+  <point type="below">
+    <location x="420" y="0"/>
+  </point>
+  <point type="center">
+    <location x="285" y="425"/>
+  </point>
+  <point type="dotacc">
+    <location x="549" y="448"/>
+  </point>
+  <point type="topright">
+    <location x="539" y="824"/>
+  </point>
+</glyph>
+<glyph PSName="M" UID="004D">
+  <point type="above">
+    <location x="588" y="824"/>
+  </point>
+  <point type="below">
+    <location x="588" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="N" UID="004E">
+  <point type="above">
+    <location x="492" y="824"/>
+  </point>
+  <point type="below">
+    <location x="492" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="O" UID="004F">
+  <point type="above">
+    <location x="499" y="824"/>
+  </point>
+  <point type="below">
+    <location x="499" y="0"/>
+  </point>
+  <point type="center">
+    <location x="499" y="412"/>
+  </point>
+  <point type="ogonek">
+    <location x="602" y="0"/>
+  </point>
+  <point type="topleft">
+    <location x="23" y="824"/>
+  </point>
+  <point type="topright">
+    <location x="973" y="824"/>
+  </point>
+</glyph>
+<glyph PSName="P" UID="0050">
+  <point type="above">
+    <location x="409" y="824"/>
+  </point>
+  <point type="below">
+    <location x="246" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="Q" UID="0051">
+  <point type="above">
+    <location x="499" y="824"/>
+  </point>
+</glyph>
+<glyph PSName="R" UID="0052">
+  <point type="above">
+    <location x="428" y="824"/>
+  </point>
+  <point type="below">
+    <location x="474" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="S" UID="0053">
+  <point type="above">
+    <location x="373" y="824"/>
+  </point>
+  <point type="below">
+    <location x="373" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="T" UID="0054">
+  <point type="above">
+    <location x="434" y="824"/>
+  </point>
+  <point type="below">
+    <location x="433" y="0"/>
+  </point>
+  <point type="stroke">
+    <location x="434" y="425"/>
+  </point>
+</glyph>
+<glyph PSName="U" UID="0055">
+  <point type="above">
+    <location x="536" y="824"/>
+  </point>
+  <point type="below">
+    <location x="535" y="0"/>
+  </point>
+  <point type="ogonek">
+    <location x="614" y="0"/>
+  </point>
+  <point type="topright">
+    <location x="943" y="824"/>
+  </point>
+</glyph>
+<glyph PSName="V" UID="0056">
+  <point type="above">
+    <location x="425" y="824"/>
+  </point>
+  <point type="below">
+    <location x="425" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="W" UID="0057">
+  <point type="above">
+    <location x="699" y="824"/>
+  </point>
+  <point type="below">
+    <location x="699" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="X" UID="0058">
+  <point type="above">
+    <location x="422" y="824"/>
+  </point>
+  <point type="below">
+    <location x="422" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="Y" UID="0059">
+  <point type="above">
+    <location x="414" y="824"/>
+  </point>
+  <point type="below">
+    <location x="414" y="0"/>
+  </point>
+  <point type="topleft">
+    <location x="34" y="824"/>
+  </point>
+</glyph>
+<glyph PSName="Z" UID="005A">
+  <point type="above">
+    <location x="386" y="824"/>
+  </point>
+  <point type="below">
+    <location x="386" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="bracketleft" UID="005B"/>
+<glyph PSName="bracketright" UID="005D"/>
+<glyph PSName="backslash" UID="005C"/>
+<glyph PSName="underscore" UID="005F"/>
+<glyph PSName="a" UID="0061">
+  <point type="above">
+    <location x="348" y="618"/>
+  </point>
+  <point type="below">
+    <location x="355" y="0"/>
+  </point>
+  <point type="ogonek">
+    <location x="639" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="b" UID="0062">
+  <point type="above">
+    <location x="392" y="926"/>
+  </point>
+  <point type="below">
+    <location x="392" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="c" UID="0063">
+  <point type="above">
+    <location x="366" y="618"/>
+  </point>
+  <point type="below">
+    <location x="366" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="d" UID="0064">
+  <point type="above">
+    <location x="395" y="926"/>
+  </point>
+  <point type="below">
+    <location x="420" y="0"/>
+  </point>
+  <point type="center">
+    <location x="395" y="309"/>
+  </point>
+  <point type="stroke">
+    <location x="505" y="726"/>
+  </point>
+  <point type="topright">
+    <location x="731" y="966"/>
+  </point>
+</glyph>
+<glyph PSName="e" UID="0065">
+  <point type="above">
+    <location x="357" y="618"/>
+  </point>
+  <point type="below">
+    <location x="357" y="0"/>
+  </point>
+  <point type="ogonek">
+    <location x="552" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="f" UID="0066"/>
+<glyph PSName="g" UID="0067">
+  <point type="above">
+    <location x="357" y="618"/>
+  </point>
+  <point type="below">
+    <location x="364" y="-308"/>
+  </point>
+</glyph>
+<glyph PSName="h" UID="0068">
+  <point type="above">
+    <location x="210" y="926"/>
+  </point>
+  <point type="below">
+    <location x="419" y="0"/>
+  </point>
+  <point type="stroke">
+    <location x="285" y="726"/>
+  </point>
+</glyph>
+<glyph PSName="i" UID="0069"/>
+<glyph PSName="j" UID="006A"/>
+<glyph PSName="k" UID="006B">
+  <point type="above">
+    <location x="210" y="926"/>
+  </point>
+  <point type="below">
+    <location x="408" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="l" UID="006C">
+  <point type="above">
+    <location x="211" y="926"/>
+  </point>
+  <point type="below">
+    <location x="211" y="0"/>
+  </point>
+  <point type="center">
+    <location x="211" y="476"/>
+  </point>
+  <point type="dotacc">
+    <location x="468" y="476"/>
+  </point>
+  <point type="topright">
+    <location x="363" y="966"/>
+  </point>
+</glyph>
+<glyph PSName="m" UID="006D">
+  <point type="above">
+    <location x="616" y="618"/>
+  </point>
+  <point type="below">
+    <location x="616" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="n" UID="006E">
+  <point type="above">
+    <location x="419" y="618"/>
+  </point>
+  <point type="below">
+    <location x="419" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="o" UID="006F">
+  <point type="above">
+    <location x="376" y="618"/>
+  </point>
+  <point type="below">
+    <location x="376" y="0"/>
+  </point>
+  <point type="center">
+    <location x="376" y="309"/>
+  </point>
+  <point type="ogonek">
+    <location x="476" y="0"/>
+  </point>
+  <point type="topright">
+    <location x="729" y="618"/>
+  </point>
+</glyph>
+<glyph PSName="p" UID="0070">
+  <point type="above">
+    <location x="401" y="618"/>
+  </point>
+</glyph>
+<glyph PSName="q" UID="0071">
+  <point type="above">
+    <location x="397" y="618"/>
+  </point>
+</glyph>
+<glyph PSName="r" UID="0072">
+  <point type="above">
+    <location x="276" y="618"/>
+  </point>
+  <point type="below">
+    <location x="213" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="s" UID="0073">
+  <point type="above">
+    <location x="296" y="618"/>
+  </point>
+  <point type="below">
+    <location x="292" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="t" UID="0074">
+  <point type="above">
+    <location x="250" y="759"/>
+  </point>
+  <point type="below">
+    <location x="281" y="0"/>
+  </point>
+  <point type="stroke">
+    <location x="194" y="378"/>
+  </point>
+  <point type="topright">
+    <location x="350" y="966"/>
+  </point>
+</glyph>
+<glyph PSName="u" UID="0075">
+  <point type="above">
+    <location x="408" y="618"/>
+  </point>
+  <point type="below">
+    <location x="408" y="0"/>
+  </point>
+  <point type="ogonek">
+    <location x="617" y="0"/>
+  </point>
+  <point type="topright">
+    <location x="670" y="618"/>
+  </point>
+</glyph>
+<glyph PSName="v" UID="0076">
+  <point type="above">
+    <location x="352" y="618"/>
+  </point>
+  <point type="below">
+    <location x="352" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="w" UID="0077">
+  <point type="above">
+    <location x="625" y="618"/>
+  </point>
+  <point type="below">
+    <location x="570" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="x" UID="0078">
+  <point type="above">
+    <location x="377" y="618"/>
+  </point>
+  <point type="below">
+    <location x="377" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="y" UID="0079">
+  <point type="above">
+    <location x="407" y="618"/>
+  </point>
+  <point type="below">
+    <location x="465" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="z" UID="007A">
+  <point type="above">
+    <location x="334" y="618"/>
+  </point>
+  <point type="below">
+    <location x="334" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="braceleft" UID="007B"/>
+<glyph PSName="braceright" UID="007D"/>
+<glyph PSName="bar" UID="007C"/>
+<glyph PSName="asciitilde" UID="007E"/>
+<glyph PSName="nbspace" UID="00A0">
+  <point type="above">
+    <location x="202" y="995"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="995"/>
+  </point>
+  <point type="below">
+    <location x="202" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="exclamdown" UID="00A1"/>
+<glyph PSName="cent" UID="00A2"/>
+<glyph PSName="sterling" UID="00A3"/>
+<glyph PSName="currency" UID="00A4"/>
+<glyph PSName="yen" UID="00A5"/>
+<glyph PSName="brokenbar" UID="00A6"/>
+<glyph PSName="section" UID="00A7"/>
+<glyph PSName="copyright" UID="00A9"/>
+<glyph PSName="registered" UID="00AE"/>
+<glyph PSName="ordfeminine" UID="00AA"/>
+<glyph PSName="guillemetleft" UID="00AB"/>
+<glyph PSName="logicalnot" UID="00AC"/>
+<glyph PSName="softhyphen" UID="00AD"/>
+<glyph PSName="degree" UID="00B0"/>
+<glyph PSName="plusminus" UID="00B1"/>
+<glyph PSName="asciicircum" UID="005E"/>
+<glyph PSName="micro" UID="00B5"/>
+<glyph PSName="paragraph" UID="00B6"/>
+<glyph PSName="periodcentered" UID="00B7"/>
+<glyph PSName="ordmasculine" UID="00BA"/>
+<glyph PSName="guillemetright" UID="00BB"/>
+<glyph PSName="onesuperior" UID="00B9"/>
+<glyph PSName="twosuperior" UID="00B2"/>
+<glyph PSName="threesuperior" UID="00B3"/>
+<glyph PSName="foursuperior" UID="2074"/>
+<glyph PSName="onehalf" UID="00BD"/>
+<glyph PSName="onequarter" UID="00BC"/>
+<glyph PSName="threequarters" UID="00BE"/>
+<glyph PSName="questiondown" UID="00BF"/>
+<glyph PSName="Agrave" UID="00C0"/>
+<glyph PSName="Aacute" UID="00C1"/>
+<glyph PSName="Acircumflex" UID="00C2"/>
+<glyph PSName="Atilde" UID="00C3"/>
+<glyph PSName="Adieresis" UID="00C4"/>
+<glyph PSName="Aring" UID="00C5"/>
+<glyph PSName="AE" UID="00C6">
+  <point type="above">
+    <location x="613" y="824"/>
+  </point>
+  <point type="below">
+    <location x="613" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="Ccedilla" UID="00C7"/>
+<glyph PSName="Egrave" UID="00C8"/>
+<glyph PSName="Eacute" UID="00C9"/>
+<glyph PSName="Ecircumflex" UID="00CA"/>
+<glyph PSName="Edieresis" UID="00CB"/>
+<glyph PSName="Igrave" UID="00CC"/>
+<glyph PSName="Iacute" UID="00CD"/>
+<glyph PSName="Icircumflex" UID="00CE"/>
+<glyph PSName="Idieresis" UID="00CF"/>
+<glyph PSName="Eth" UID="00D0"/>
+<glyph PSName="Ntilde" UID="00D1"/>
+<glyph PSName="Ograve" UID="00D2"/>
+<glyph PSName="Oacute" UID="00D3"/>
+<glyph PSName="Ocircumflex" UID="00D4"/>
+<glyph PSName="Otilde" UID="00D5"/>
+<glyph PSName="Odieresis" UID="00D6"/>
+<glyph PSName="multiply" UID="00D7"/>
+<glyph PSName="Oslash" UID="00D8"/>
+<glyph PSName="Ugrave" UID="00D9"/>
+<glyph PSName="Uacute" UID="00DA"/>
+<glyph PSName="Ucircumflex" UID="00DB"/>
+<glyph PSName="Udieresis" UID="00DC"/>
+<glyph PSName="Yacute" UID="00DD"/>
+<glyph PSName="Thorn" UID="00DE"/>
+<glyph PSName="germandbls" UID="00DF"/>
+<glyph PSName="agrave" UID="00E0"/>
+<glyph PSName="aacute" UID="00E1"/>
+<glyph PSName="acircumflex" UID="00E2"/>
+<glyph PSName="atilde" UID="00E3"/>
+<glyph PSName="adieresis" UID="00E4"/>
+<glyph PSName="aring" UID="00E5"/>
+<glyph PSName="ae" UID="00E6">
+  <point type="above">
+    <location x="510" y="618"/>
+  </point>
+  <point type="below">
+    <location x="510" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="ccedilla" UID="00E7"/>
+<glyph PSName="egrave" UID="00E8"/>
+<glyph PSName="eacute" UID="00E9"/>
+<glyph PSName="ecircumflex" UID="00EA"/>
+<glyph PSName="edieresis" UID="00EB"/>
+<glyph PSName="igrave" UID="00EC"/>
+<glyph PSName="iacute" UID="00ED"/>
+<glyph PSName="icircumflex" UID="00EE"/>
+<glyph PSName="idieresis" UID="00EF"/>
+<glyph PSName="eth" UID="00F0"/>
+<glyph PSName="ntilde" UID="00F1"/>
+<glyph PSName="ograve" UID="00F2"/>
+<glyph PSName="oacute" UID="00F3"/>
+<glyph PSName="ocircumflex" UID="00F4"/>
+<glyph PSName="otilde" UID="00F5"/>
+<glyph PSName="odieresis" UID="00F6"/>
+<glyph PSName="divide" UID="00F7"/>
+<glyph PSName="oslash" UID="00F8">
+  <point type="above">
+    <location x="383" y="618"/>
+  </point>
+</glyph>
+<glyph PSName="ugrave" UID="00F9"/>
+<glyph PSName="uacute" UID="00FA"/>
+<glyph PSName="ucircumflex" UID="00FB"/>
+<glyph PSName="udieresis" UID="00FC"/>
+<glyph PSName="yacute" UID="00FD"/>
+<glyph PSName="thorn" UID="00FE"/>
+<glyph PSName="ydieresis" UID="00FF"/>
+<glyph PSName="idotless" UID="0131">
+  <point type="above">
+    <location x="211" y="618"/>
+  </point>
+  <point type="below">
+    <location x="211" y="0"/>
+  </point>
+  <point type="ogonek">
+    <location x="292" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="OE" UID="0152">
+  <point type="above">
+    <location x="742" y="824"/>
+  </point>
+  <point type="below">
+    <location x="742" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="oe" UID="0153">
+  <point type="above">
+    <location x="602" y="618"/>
+  </point>
+  <point type="below">
+    <location x="602" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="Scaron" UID="0160"/>
+<glyph PSName="scaron" UID="0161"/>
+<glyph PSName="Ydieresis" UID="0178"/>
+<glyph PSName="Zcaron" UID="017D"/>
+<glyph PSName="zcaron" UID="017E"/>
+<glyph PSName="florin" UID="0192"/>
+<glyph PSName="grave" UID="0060"/>
+<glyph PSName="macron" UID="00AF"/>
+<glyph PSName="dieresis" UID="00A8"/>
+<glyph PSName="acute" UID="00B4"/>
+<glyph PSName="cedilla" UID="00B8"/>
+<glyph PSName="circumflex" UID="02C6"/>
+<glyph PSName="caron" UID="02C7"/>
+<glyph PSName="breve" UID="02D8"/>
+<glyph PSName="dotaccent" UID="02D9"/>
+<glyph PSName="ring" UID="02DA"/>
+<glyph PSName="ogonek" UID="02DB"/>
+<glyph PSName="tilde" UID="02DC"/>
+<glyph PSName="hungarumlaut" UID="02DD"/>
+<glyph PSName="graphemejoinercomb" UID="034F">
+  <point type="_none">
+    <location x="0" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="pi" UID="03C0"/>
+<glyph PSName="paragraph-syriac" UID="0700"/>
+<glyph PSName="fullstopSupralinear-syriac" UID="0701"/>
+<glyph PSName="fullstopSublinear-syriac" UID="0702"/>
+<glyph PSName="colonSupralinear-syriac" UID="0703"/>
+<glyph PSName="colonSublinear-syriac" UID="0704"/>
+<glyph PSName="colonHorizontal-syriac" UID="0705"/>
+<glyph PSName="colonSkewedleft-syriac" UID="0706"/>
+<glyph PSName="colonSkewedright-syriac" UID="0707"/>
+<glyph PSName="colonSkewedleftSupralinear-syriac" UID="0708"/>
+<glyph PSName="colonSkewedrightSublinear-syriac" UID="0709"/>
+<glyph PSName="contraction-syriac" UID="070A"/>
+<glyph PSName="harkleanObelus-syriac" UID="070B"/>
+<glyph PSName="harkleanMetobelus-syriac" UID="070C"/>
+<glyph PSName="harkleanAsteriscus-syriac" UID="070D"/>
+<glyph PSName="abbreviation-syriac" UID="070F"/>
+<glyph PSName="alaph-syriac" UID="0710">
+  <point type="above">
+    <location x="259" y="975"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="975"/>
+  </point>
+  <point type="below">
+    <location x="259" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="alaph-syriac.med2">
+  <point type="above">
+    <location x="259" y="975"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="975"/>
+  </point>
+  <point type="below">
+    <location x="259" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="alaph-syriac.fina">
+  <point type="above">
+    <location x="259" y="975"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="975"/>
+  </point>
+  <point type="below">
+    <location x="331" y="-360"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-360"/>
+  </point>
+</glyph>
+<glyph PSName="alaph-syriac.fin2">
+  <point type="above">
+    <location x="259" y="975"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="975"/>
+  </point>
+  <point type="below">
+    <location x="322" y="-360"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-360"/>
+  </point>
+</glyph>
+<glyph PSName="alaph-syriac.fin3">
+  <point type="above">
+    <location x="259" y="975"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="975"/>
+  </point>
+  <point type="below">
+    <location x="331" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="alaphSuperscript-syriac" UID="0711">
+  <point type="_above">
+    <location x="135" y="0"/>
+  </point>
+  <point type="above">
+    <location x="90" y="600"/>
+  </point>
+</glyph>
+<glyph PSName="beth-syriac" UID="0712">
+  <point type="above">
+    <location x="678" y="780"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="780"/>
+  </point>
+  <point type="below">
+    <location x="618" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="beth-syriac.init">
+  <point type="above">
+    <location x="570" y="780"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="780"/>
+  </point>
+  <point type="below">
+    <location x="555" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="beth-syriac.medi">
+  <point type="above">
+    <location x="555" y="750"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="750"/>
+  </point>
+  <point type="below">
+    <location x="510" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="beth-syriac.fina">
+  <point type="above">
+    <location x="665" y="795"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="795"/>
+  </point>
+  <point type="below">
+    <location x="705" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="gamal-syriac" UID="0713">
+  <point type="above">
+    <location x="962" y="795"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="795"/>
+  </point>
+  <point type="below">
+    <location x="685" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="gamal-syriac.init">
+  <point type="above">
+    <location x="706" y="795"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="795"/>
+  </point>
+  <point type="below">
+    <location x="465" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="gamal-syriac.medi">
+  <point type="above">
+    <location x="676" y="795"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="795"/>
+  </point>
+  <point type="below">
+    <location x="300" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="gamal-syriac.fina">
+  <point type="above">
+    <location x="909" y="795"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="795"/>
+  </point>
+  <point type="below">
+    <location x="548" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="gamalgarshuni-syriac" UID="0714">
+  <point type="above">
+    <location x="962" y="795"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="795"/>
+  </point>
+  <point type="below">
+    <location x="685" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="gamalgarshuni-syriac.init">
+  <point type="above">
+    <location x="706" y="795"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="795"/>
+  </point>
+  <point type="below">
+    <location x="465" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="gamalgarshuni-syriac.medi">
+  <point type="above">
+    <location x="676" y="795"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="795"/>
+  </point>
+  <point type="below">
+    <location x="300" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="gamalgarshuni-syriac.fina">
+  <point type="above">
+    <location x="909" y="795"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="795"/>
+  </point>
+  <point type="below">
+    <location x="548" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="dalath-syriac" UID="0715">
+  <point type="above">
+    <location x="282" y="720"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="720"/>
+  </point>
+  <point type="below">
+    <location x="282" y="-390"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-390"/>
+  </point>
+</glyph>
+<glyph PSName="dalath-syriac.fina">
+  <point type="above">
+    <location x="282" y="720"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="750"/>
+  </point>
+  <point type="below">
+    <location x="310" y="-390"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-390"/>
+  </point>
+</glyph>
+<glyph PSName="dalath_hbasaEsasadotted-syriac">
+  <point type="above">
+    <location x="282" y="720"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="720"/>
+  </point>
+  <point type="below">
+    <location x="282" y="-390"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-390"/>
+  </point>
+</glyph>
+<glyph PSName="dalath_hbasaEsasadotted-syriac.fina">
+  <point type="above">
+    <location x="282" y="720"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="720"/>
+  </point>
+  <point type="below">
+    <location x="310" y="-390"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-390"/>
+  </point>
+</glyph>
+<glyph PSName="dalathrishDotless-syriac" UID="0716">
+  <point type="above">
+    <location x="282" y="720"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="720"/>
+  </point>
+  <point type="below">
+    <location x="282" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="20" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="dalathrishDotless-syriac.fina">
+  <point type="above">
+    <location x="282" y="720"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="720"/>
+  </point>
+  <point type="below">
+    <location x="282" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="he-syriac" UID="0717">
+  <point type="above">
+    <location x="415" y="765"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="765"/>
+  </point>
+  <point type="below">
+    <location x="400" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="he-syriac.fina">
+  <point type="above">
+    <location x="450" y="765"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="765"/>
+  </point>
+  <point type="below">
+    <location x="450" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="waw-syriac" UID="0718">
+  <point type="above">
+    <location x="359" y="750"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="750"/>
+  </point>
+  <point type="below">
+    <location x="359" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="waw-syriac.fina">
+  <point type="above">
+    <location x="359" y="735"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="735"/>
+  </point>
+  <point type="below">
+    <location x="359" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="zain-syriac" UID="0719">
+  <point type="above">
+    <location x="221" y="705"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="705"/>
+  </point>
+  <point type="below">
+    <location x="267" y="-345"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-345"/>
+  </point>
+</glyph>
+<glyph PSName="zain-syriac.fina">
+  <point type="above">
+    <location x="221" y="705"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="705"/>
+  </point>
+  <point type="below">
+    <location x="356" y="-330"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-330"/>
+  </point>
+</glyph>
+<glyph PSName="heth-syriac" UID="071A">
+  <point type="above">
+    <location x="676" y="540"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="540"/>
+  </point>
+  <point type="below">
+    <location x="691" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="heth-syriac.init">
+  <point type="above">
+    <location x="405" y="540"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="540"/>
+  </point>
+  <point type="below">
+    <location x="420" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="heth-syriac.medi">
+  <point type="above">
+    <location x="420" y="540"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="540"/>
+  </point>
+  <point type="below">
+    <location x="420" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="heth-syriac.fina">
+  <point type="above">
+    <location x="691" y="540"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="540"/>
+  </point>
+  <point type="below">
+    <location x="676" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="teth-syriac" UID="071B">
+  <point type="above">
+    <location x="901" y="750"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="750"/>
+  </point>
+  <point type="below">
+    <location x="616" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="teth-syriac.init">
+  <point type="above">
+    <location x="685" y="750"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="750"/>
+  </point>
+  <point type="below">
+    <location x="355" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="teth-syriac.medi">
+  <point type="above">
+    <location x="720" y="750"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="750"/>
+  </point>
+  <point type="below">
+    <location x="420" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="teth-syriac.fina">
+  <point type="above">
+    <location x="887" y="750"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="750"/>
+  </point>
+  <point type="below">
+    <location x="632" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="tethGarshuni-syriac" UID="071C">
+  <point type="above">
+    <location x="901" y="750"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="750"/>
+  </point>
+  <point type="below">
+    <location x="616" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="tethGarshuni-syriac.init">
+  <point type="above">
+    <location x="720" y="750"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="750"/>
+  </point>
+  <point type="below">
+    <location x="355" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="tethGarshuni-syriac.medi">
+  <point type="above">
+    <location x="720" y="750"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="750"/>
+  </point>
+  <point type="below">
+    <location x="420" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="tethGarshuni-syriac.fina">
+  <point type="above">
+    <location x="960" y="765"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="765"/>
+  </point>
+  <point type="below">
+    <location x="632" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="yudh-syriac" UID="071D">
+  <point type="above">
+    <location x="496" y="540"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="540"/>
+  </point>
+  <point type="below">
+    <location x="511" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="yudh-syriac.init">
+  <point type="above">
+    <location x="390" y="540"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="540"/>
+  </point>
+  <point type="below">
+    <location x="420" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="yudh-syriac.medi">
+  <point type="above">
+    <location x="360" y="540"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="540"/>
+  </point>
+  <point type="below">
+    <location x="345" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="yudh-syriac.fina">
+  <point type="above">
+    <location x="496" y="540"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="540"/>
+  </point>
+  <point type="below">
+    <location x="541" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="yudhhe-syriac" UID="071E"/>
+<glyph PSName="yudhhe-syriac.fina"/>
+<glyph PSName="kaph-syriac" UID="071F">
+  <point type="above">
+    <location x="648" y="750"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="750"/>
+  </point>
+  <point type="below">
+    <location x="648" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="kaph-syriac.init">
+  <point type="above">
+    <location x="425" y="750"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="750"/>
+  </point>
+  <point type="below">
+    <location x="425" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="kaph-syriac.medi">
+  <point type="above">
+    <location x="425" y="750"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="750"/>
+  </point>
+  <point type="below">
+    <location x="425" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="kaph-syriac.fina">
+  <point type="above">
+    <location x="323" y="705"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="705"/>
+  </point>
+  <point type="below">
+    <location x="328" y="-375"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-375"/>
+  </point>
+</glyph>
+<glyph PSName="kaph-syriac.cv15">
+  <point type="above">
+    <location x="357" y="765"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="765"/>
+  </point>
+  <point type="below">
+    <location x="402" y="-210"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-210"/>
+  </point>
+</glyph>
+<glyph PSName="lamadh-syriac" UID="0720">
+  <point type="above">
+    <location x="888" y="945"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="945"/>
+  </point>
+  <point type="below">
+    <location x="723" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="lamadh-syriac.init">
+  <point type="above">
+    <location x="625" y="930"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="930"/>
+  </point>
+  <point type="below">
+    <location x="435" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="lamadh-syriac.medi">
+  <point type="above">
+    <location x="650" y="945"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="945"/>
+  </point>
+  <point type="below">
+    <location x="440" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="lamadh-syriac.fina">
+  <point type="above">
+    <location x="858" y="945"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="945"/>
+  </point>
+  <point type="below">
+    <location x="693" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="lamadh_alaph-syriac">
+  <point type="above_1">
+    <location x="1135" y="945"/>
+  </point>
+  <point type="above_2">
+    <location x="310" y="945"/>
+  </point>
+  <point type="below_1">
+    <location x="1075" y="-150"/>
+  </point>
+  <point type="below_2">
+    <location x="430" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="lamadh_alaph-syriac.fina">
+  <point type="above_1">
+    <location x="1155" y="990"/>
+  </point>
+  <point type="above_2">
+    <location x="360" y="960"/>
+  </point>
+  <point type="below_1">
+    <location x="1035" y="-150"/>
+  </point>
+  <point type="below_2">
+    <location x="450" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="alaph-syriac.ccmp"/>
+<glyph PSName="mim-syriac" UID="0721">
+  <point type="above">
+    <location x="801" y="765"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="765"/>
+  </point>
+  <point type="below">
+    <location x="801" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="mim-syriac.init">
+  <point type="above">
+    <location x="510" y="765"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="765"/>
+  </point>
+  <point type="below">
+    <location x="540" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="mim-syriac.medi">
+  <point type="above">
+    <location x="525" y="765"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="765"/>
+  </point>
+  <point type="below">
+    <location x="585" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="mim-syriac.fina">
+  <point type="above">
+    <location x="555" y="750"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="750"/>
+  </point>
+  <point type="below">
+    <location x="585" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="mim-syriac.cv17">
+  <point type="above">
+    <location x="537" y="735"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="735"/>
+  </point>
+  <point type="below">
+    <location x="552" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="nun-syriac" UID="0722">
+  <point type="above">
+    <location x="548" y="765"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="765"/>
+  </point>
+  <point type="below">
+    <location x="558" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="nun-syriac.init">
+  <point type="above">
+    <location x="345" y="765"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="765"/>
+  </point>
+  <point type="below">
+    <location x="375" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="nun-syriac.medi">
+  <point type="above">
+    <location x="375" y="765"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="765"/>
+  </point>
+  <point type="below">
+    <location x="390" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="nun-syriac.fina">
+  <point type="above">
+    <location x="225" y="465"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="465"/>
+  </point>
+  <point type="below">
+    <location x="240" y="-615"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-615"/>
+  </point>
+</glyph>
+<glyph PSName="nun-syriac.cv18">
+  <point type="above">
+    <location x="228" y="450"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="450"/>
+  </point>
+  <point type="below">
+    <location x="213" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="semkath-syriac" UID="0723">
+  <point type="above">
+    <location x="766" y="810"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="810"/>
+  </point>
+  <point type="below">
+    <location x="676" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="semkath-syriac.init">
+  <point type="above">
+    <location x="615" y="780"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="780"/>
+  </point>
+  <point type="below">
+    <location x="540" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="semkath-syriac.medi">
+  <point type="above">
+    <location x="645" y="780"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="780"/>
+  </point>
+  <point type="below">
+    <location x="540" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="semkath-syriac.fina">
+  <point type="above">
+    <location x="818" y="780"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="780"/>
+  </point>
+  <point type="below">
+    <location x="758" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="semkathFinal-syriac" UID="0724">
+  <point type="above">
+    <location x="708" y="810"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="810"/>
+  </point>
+  <point type="below">
+    <location x="678" y="-210"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-210"/>
+  </point>
+</glyph>
+<glyph PSName="semkathFinal-syriac.init">
+  <point type="above">
+    <location x="630" y="780"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="780"/>
+  </point>
+  <point type="below">
+    <location x="540" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="semkathFinal-syriac.medi">
+  <point type="above">
+    <location x="630" y="780"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="780"/>
+  </point>
+  <point type="below">
+    <location x="540" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="semkathFinal-syriac.fina">
+  <point type="above">
+    <location x="750" y="795"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="795"/>
+  </point>
+  <point type="below">
+    <location x="765" y="-195"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-195"/>
+  </point>
+</glyph>
+<glyph PSName="e-syriac" UID="0725">
+  <point type="above">
+    <location x="573" y="975"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="975"/>
+  </point>
+  <point type="below">
+    <location x="663" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="e-syriac.init">
+  <point type="above">
+    <location x="340" y="975"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="975"/>
+  </point>
+  <point type="below">
+    <location x="425" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="e-syriac.medi">
+  <point type="above">
+    <location x="355" y="975"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="975"/>
+  </point>
+  <point type="below">
+    <location x="435" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="e-syriac.fina">
+  <point type="above">
+    <location x="573" y="975"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="975"/>
+  </point>
+  <point type="below">
+    <location x="693" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="pe-syriac" UID="0726">
+  <point type="above">
+    <location x="721" y="990"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="990"/>
+  </point>
+  <point type="below">
+    <location x="706" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="pe-syriac.init">
+  <point type="above">
+    <location x="460" y="975"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="975"/>
+  </point>
+  <point type="below">
+    <location x="490" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="pe-syriac.medi">
+  <point type="above">
+    <location x="465" y="990"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="990"/>
+  </point>
+  <point type="below">
+    <location x="510" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="pe-syriac.fina">
+  <point type="above">
+    <location x="721" y="990"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="990"/>
+  </point>
+  <point type="below">
+    <location x="691" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="pe_brevebelowcomb-syriac">
+  <point type="above">
+    <location x="721" y="990"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="990"/>
+  </point>
+  <point type="below">
+    <location x="725" y="-373"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="pe_brevebelowcomb-syriac.init">
+  <point type="above">
+    <location x="460" y="975"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="975"/>
+  </point>
+  <point type="below">
+    <location x="431" y="-373"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="pe_brevebelowcomb-syriac.medi">
+  <point type="above">
+    <location x="465" y="990"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="990"/>
+  </point>
+  <point type="below">
+    <location x="439" y="-373"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="pe_brevebelowcomb-syriac.fina">
+  <point type="above">
+    <location x="721" y="990"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="990"/>
+  </point>
+  <point type="below">
+    <location x="730" y="-373"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="sadhe-syriac" UID="0728">
+  <point type="above">
+    <location x="274" y="420"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="420"/>
+  </point>
+  <point type="below">
+    <location x="349" y="-615"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-615"/>
+  </point>
+</glyph>
+<glyph PSName="sadhe-syriac.fina">
+  <point type="above">
+    <location x="334" y="420"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="420"/>
+  </point>
+  <point type="below">
+    <location x="454" y="-585"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-585"/>
+  </point>
+</glyph>
+<glyph PSName="qaph-syriac" UID="0729">
+  <point type="above">
+    <location x="630" y="780"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="780"/>
+  </point>
+  <point type="below">
+    <location x="690" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="qaph-syriac.init">
+  <point type="above">
+    <location x="465" y="780"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="780"/>
+  </point>
+  <point type="below">
+    <location x="510" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="qaph-syriac.medi">
+  <point type="above">
+    <location x="480" y="780"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="780"/>
+  </point>
+  <point type="below">
+    <location x="540" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="qaph-syriac.fina">
+  <point type="above">
+    <location x="655" y="780"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="780"/>
+  </point>
+  <point type="below">
+    <location x="685" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="rish-syriac" UID="072A">
+  <point type="above">
+    <location x="280" y="1005"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="1005"/>
+  </point>
+  <point type="below">
+    <location x="310" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="rish-syriac.fina">
+  <point type="above">
+    <location x="285" y="1005"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="1005"/>
+  </point>
+  <point type="below">
+    <location x="310" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="rish_dieresiscomb-syriac">
+  <point type="above">
+    <location x="285" y="1005"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="1005"/>
+  </point>
+  <point type="below">
+    <location x="310" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="rish_dieresiscomb-syriac.fina">
+  <point type="above">
+    <location x="280" y="1005"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="1005"/>
+  </point>
+  <point type="below">
+    <location x="310" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="shin-syriac" UID="072B">
+  <point type="above">
+    <location x="615" y="780"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="780"/>
+  </point>
+  <point type="below">
+    <location x="645" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="shin-syriac.init">
+  <point type="above">
+    <location x="450" y="780"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="780"/>
+  </point>
+  <point type="below">
+    <location x="465" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="shin-syriac.medi">
+  <point type="above">
+    <location x="450" y="780"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="780"/>
+  </point>
+  <point type="below">
+    <location x="465" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="shin-syriac.fina">
+  <point type="above">
+    <location x="640" y="780"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="780"/>
+  </point>
+  <point type="below">
+    <location x="735" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="taw-syriac" UID="072C">
+  <point type="above">
+    <location x="305" y="975"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="975"/>
+  </point>
+  <point type="below">
+    <location x="365" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="taw-syriac.fina">
+  <point type="above">
+    <location x="305" y="975"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="975"/>
+  </point>
+  <point type="below">
+    <location x="365" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="he_yudh-syriac">
+  <point type="above_1">
+    <location x="660" y="765"/>
+  </point>
+  <point type="above_2">
+    <location x="135" y="840"/>
+  </point>
+  <point type="below_1">
+    <location x="645" y="-150"/>
+  </point>
+  <point type="below_2">
+    <location x="165" y="-180"/>
+  </point>
+</glyph>
+<glyph PSName="he_yudh-syriac.fina">
+  <point type="above_1">
+    <location x="720" y="750"/>
+  </point>
+  <point type="above_2">
+    <location x="195" y="840"/>
+  </point>
+  <point type="below_1">
+    <location x="675" y="-135"/>
+  </point>
+  <point type="below_2">
+    <location x="225" y="-180"/>
+  </point>
+</glyph>
+<glyph PSName="sadhe_nun-syriac">
+  <point type="above_1">
+    <location x="676" y="420"/>
+  </point>
+  <point type="above_2">
+    <location x="181" y="270"/>
+  </point>
+  <point type="below_1">
+    <location x="766" y="-675"/>
+  </point>
+  <point type="below_2">
+    <location x="286" y="-675"/>
+  </point>
+</glyph>
+<glyph PSName="sadhe_nun-syriac.fina">
+  <point type="above_1">
+    <location x="777" y="420"/>
+  </point>
+  <point type="above_2">
+    <location x="177" y="330"/>
+  </point>
+  <point type="below_1">
+    <location x="837" y="-645"/>
+  </point>
+  <point type="below_2">
+    <location x="312" y="-240"/>
+  </point>
+</glyph>
+<glyph PSName="taw_alaph-syriac">
+  <point type="above_1">
+    <location x="883" y="975"/>
+  </point>
+  <point type="above_2">
+    <location x="301" y="975"/>
+  </point>
+  <point type="below_1">
+    <location x="943" y="-150"/>
+  </point>
+  <point type="below_2">
+    <location x="361" y="-285"/>
+  </point>
+</glyph>
+<glyph PSName="taw_alaph-syriac.fina">
+  <point type="above_1">
+    <location x="923" y="975"/>
+  </point>
+  <point type="above_2">
+    <location x="341" y="975"/>
+  </point>
+  <point type="below_1">
+    <location x="983" y="-150"/>
+  </point>
+  <point type="below_2">
+    <location x="401" y="-285"/>
+  </point>
+</glyph>
+<glyph PSName="taw_alaph-syriac.triangle">
+  <point type="above_1">
+    <location x="605" y="915"/>
+  </point>
+  <point type="above_2">
+    <location x="305" y="975"/>
+  </point>
+  <point type="below_1">
+    <location x="665" y="-210"/>
+  </point>
+  <point type="below_2">
+    <location x="170" y="-210"/>
+  </point>
+</glyph>
+<glyph PSName="taw_alaph-syriac.fina.triangle">
+  <point type="above_1">
+    <location x="605" y="915"/>
+  </point>
+  <point type="above_2">
+    <location x="305" y="975"/>
+  </point>
+  <point type="below_1">
+    <location x="720" y="-210"/>
+  </point>
+  <point type="below_2">
+    <location x="225" y="-210"/>
+  </point>
+</glyph>
+<glyph PSName="taw_alaph-syriac.twined">
+  <point type="above_1">
+    <location x="883" y="825"/>
+  </point>
+  <point type="above_2">
+    <location x="448" y="990"/>
+  </point>
+  <point type="below_1">
+    <location x="943" y="-150"/>
+  </point>
+  <point type="below_2">
+    <location x="523" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="taw_alaph-syriac.fina.twined">
+  <point type="above_1">
+    <location x="883" y="825"/>
+  </point>
+  <point type="above_2">
+    <location x="448" y="990"/>
+  </point>
+  <point type="below_1">
+    <location x="943" y="-150"/>
+  </point>
+  <point type="below_2">
+    <location x="523" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="taw_yudh-syriac">
+  <point type="above_1">
+    <location x="875" y="975"/>
+  </point>
+  <point type="above_2">
+    <location x="320" y="570"/>
+  </point>
+  <point type="below_1">
+    <location x="905" y="-150"/>
+  </point>
+  <point type="below_2">
+    <location x="350" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="taw_yudh-syriac.fina">
+  <point type="above_1">
+    <location x="875" y="975"/>
+  </point>
+  <point type="above_2">
+    <location x="320" y="570"/>
+  </point>
+  <point type="below_1">
+    <location x="905" y="-150"/>
+  </point>
+  <point type="below_2">
+    <location x="350" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="pthahaabove-syriac" UID="0730">
+  <point type="_above">
+    <location x="195" y="60"/>
+  </point>
+  <point type="above">
+    <location x="165" y="435"/>
+  </point>
+</glyph>
+<glyph PSName="pthahabelow-syriac" UID="0731">
+  <point type="_below">
+    <location x="240" y="-45"/>
+  </point>
+  <point type="below">
+    <location x="180" y="-420"/>
+  </point>
+</glyph>
+<glyph PSName="pthahadotted-syriac" UID="0732"/>
+<glyph PSName="zqaphaabove-syriac" UID="0733">
+  <point type="_above">
+    <location x="105" y="45"/>
+  </point>
+  <point type="above">
+    <location x="120" y="480"/>
+  </point>
+</glyph>
+<glyph PSName="zqaphabelow-syriac" UID="0734">
+  <point type="_below">
+    <location x="120" y="-45"/>
+  </point>
+  <point type="below">
+    <location x="100" y="-475"/>
+  </point>
+</glyph>
+<glyph PSName="zqaphadotted-syriac" UID="0735">
+  <point type="_above">
+    <location x="210" y="65"/>
+  </point>
+  <point type="above">
+    <location x="270" y="510"/>
+  </point>
+</glyph>
+<glyph PSName="rbasaabove-syriac" UID="0736">
+  <point type="_above">
+    <location x="210" y="30"/>
+  </point>
+  <point type="above">
+    <location x="195" y="435"/>
+  </point>
+</glyph>
+<glyph PSName="rbasabelow-syriac" UID="0737">
+  <point type="_below">
+    <location x="195" y="0"/>
+  </point>
+  <point type="below">
+    <location x="135" y="-420"/>
+  </point>
+</glyph>
+<glyph PSName="zlamadottedhorizontal-syriac" UID="0738">
+  <point type="_below">
+    <location x="450" y="-180"/>
+  </point>
+  <point type="below">
+    <location x="450" y="-465"/>
+  </point>
+</glyph>
+<glyph PSName="zlamadottedangular-syriac" UID="0739">
+  <point type="_below">
+    <location x="465" y="-140"/>
+  </point>
+  <point type="below">
+    <location x="465" y="-465"/>
+  </point>
+</glyph>
+<glyph PSName="hbasaabove-syriac" UID="073A">
+  <point type="_above">
+    <location x="160" y="0"/>
+  </point>
+  <point type="above">
+    <location x="160" y="300"/>
+  </point>
+</glyph>
+<glyph PSName="hbasabelow-syriac" UID="073B">
+  <point type="_below">
+    <location x="160" y="0"/>
+  </point>
+  <point type="below">
+    <location x="160" y="-300"/>
+  </point>
+</glyph>
+<glyph PSName="hbasaEsasadotted-syriac" UID="073C">
+  <point type="_below">
+    <location x="80" y="-30"/>
+  </point>
+  <point type="below">
+    <location x="80" y="-315"/>
+  </point>
+</glyph>
+<glyph PSName="esasaabove-syriac" UID="073D">
+  <point type="_above">
+    <location x="240" y="0"/>
+  </point>
+  <point type="above">
+    <location x="180" y="435"/>
+  </point>
+</glyph>
+<glyph PSName="esasabelow-syriac" UID="073E">
+  <point type="_below">
+    <location x="195" y="0"/>
+  </point>
+  <point type="below">
+    <location x="180" y="-465"/>
+  </point>
+</glyph>
+<glyph PSName="rwaha-syriac" UID="073F">
+  <point type="_above">
+    <location x="88" y="0"/>
+  </point>
+  <point type="above">
+    <location x="88" y="375"/>
+  </point>
+</glyph>
+<glyph PSName="femininedot-syriac" UID="0740">
+  <point type="_aboveleft">
+    <location x="68" y="-186"/>
+  </point>
+</glyph>
+<glyph PSName="qushshaya-syriac" UID="0741">
+  <point type="_above">
+    <location x="120" y="-15"/>
+  </point>
+</glyph>
+<glyph PSName="rukkakha-syriac" UID="0742">
+  <point type="_below">
+    <location x="75" y="-15"/>
+  </point>
+  <point type="below">
+    <location x="75" y="-330"/>
+  </point>
+</glyph>
+<glyph PSName="rukkakha-syriac.square">
+  <point type="_below">
+    <location x="105" y="-15"/>
+  </point>
+  <point type="below">
+    <location x="105" y="-330"/>
+  </point>
+</glyph>
+<glyph PSName="twodotsverticalabove-syriac" UID="0743">
+  <point type="_above">
+    <location x="60" y="0"/>
+  </point>
+  <point type="above">
+    <location x="60" y="400"/>
+  </point>
+</glyph>
+<glyph PSName="twodotsverticalbelow-syriac" UID="0744">
+  <point type="_below">
+    <location x="65" y="0"/>
+  </point>
+  <point type="below">
+    <location x="65" y="-385"/>
+  </point>
+</glyph>
+<glyph PSName="threedotsabove-syriac" UID="0745">
+  <point type="_above">
+    <location x="180" y="0"/>
+  </point>
+  <point type="above">
+    <location x="165" y="375"/>
+  </point>
+</glyph>
+<glyph PSName="threedotsbelow-syriac" UID="0746">
+  <point type="_below">
+    <location x="165" y="0"/>
+  </point>
+  <point type="below">
+    <location x="180" y="-375"/>
+  </point>
+</glyph>
+<glyph PSName="obliquelineabove-syriac" UID="0747">
+  <point type="_above">
+    <location x="150" y="60"/>
+  </point>
+  <point type="above">
+    <location x="150" y="390"/>
+  </point>
+</glyph>
+<glyph PSName="obliquelinebelow-syriac" UID="0748">
+  <point type="_below">
+    <location x="-15" y="-60"/>
+  </point>
+  <point type="below">
+    <location x="0" y="-480"/>
+  </point>
+</glyph>
+<glyph PSName="music-syriac" UID="0749">
+  <point type="_above">
+    <location x="330" y="180"/>
+  </point>
+  <point type="above">
+    <location x="270" y="585"/>
+  </point>
+</glyph>
+<glyph PSName="barrekh-syriac" UID="074A">
+  <point type="_above">
+    <location x="195" y="0"/>
+  </point>
+  <point type="above">
+    <location x="195" y="525"/>
+  </point>
+</glyph>
+<glyph PSName="westSyriacCross" UID="2670"/>
+<glyph PSName="eastSyriacCross" UID="2671"/>
+<glyph PSName="tildecomb" UID="0303">
+  <point type="_above">
+    <location x="255" y="0"/>
+  </point>
+  <point type="above">
+    <location x="240" y="310"/>
+  </point>
+</glyph>
+<glyph PSName="macroncomb" UID="0304">
+  <point type="_above">
+    <location x="255" y="0"/>
+  </point>
+  <point type="above">
+    <location x="255" y="225"/>
+  </point>
+</glyph>
+<glyph PSName="dotaccentcomb" UID="0307">
+  <point type="_above">
+    <location x="110" y="0"/>
+  </point>
+  <point type="above">
+    <location x="110" y="315"/>
+  </point>
+</glyph>
+<glyph PSName="dieresiscomb" UID="0308">
+  <point type="_above">
+    <location x="240" y="0"/>
+  </point>
+  <point type="above">
+    <location x="240" y="305"/>
+  </point>
+</glyph>
+<glyph PSName="ringcomb" UID="030A">
+  <point type="_above">
+    <location x="118" y="0"/>
+  </point>
+  <point type="above">
+    <location x="118" y="337"/>
+  </point>
+</glyph>
+<glyph PSName="minusbelowcomb" UID="0320">
+  <point type="_below">
+    <location x="263" y="0"/>
+  </point>
+  <point type="below">
+    <location x="263" y="-195"/>
+  </point>
+</glyph>
+<glyph PSName="dotbelowcomb" UID="0323">
+  <point type="_below">
+    <location x="145" y="-30"/>
+  </point>
+  <point type="below">
+    <location x="145" y="-330"/>
+  </point>
+</glyph>
+<glyph PSName="dotaboveleftcomb" UID="1DF8">
+  <point type="_aboveleft">
+    <location x="150" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="dotbelowleftcomb" UID="1DFA">
+  <point type="_belowleft">
+    <location x="220" y="240"/>
+  </point>
+</glyph>
+<glyph PSName="dieresisbelowcomb" UID="0324">
+  <point type="_below">
+    <location x="250" y="-30"/>
+  </point>
+  <point type="below">
+    <location x="250" y="-330"/>
+  </point>
+</glyph>
+<glyph PSName="ringbelowcomb" UID="0325">
+  <point type="_below">
+    <location x="118" y="30"/>
+  </point>
+  <point type="below">
+    <location x="120" y="-325"/>
+  </point>
+</glyph>
+<glyph PSName="circumflexbelowcomb" UID="032D">
+  <point type="_below">
+    <location x="0" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="brevebelowcomb" UID="032E">
+  <point type="_below">
+    <location x="287" y="-95"/>
+  </point>
+  <point type="below">
+    <location x="287" y="-420"/>
+  </point>
+</glyph>
+<glyph PSName="tildebelowcomb" UID="0330">
+  <point type="_below">
+    <location x="255" y="165"/>
+  </point>
+  <point type="below">
+    <location x="255" y="-105"/>
+  </point>
+</glyph>
+<glyph PSName="macronbelowcomb" UID="0331">
+  <point type="_below">
+    <location x="263" y="0"/>
+  </point>
+  <point type="below">
+    <location x="263" y="-195"/>
+  </point>
+</glyph>
+<glyph PSName="comma-ar" UID="060C"/>
+<glyph PSName="semicolon-ar" UID="061B"/>
+<glyph PSName="question-ar" UID="061F"/>
+<glyph PSName="kashida-ar" UID="0640">
+  <point type="above">
+    <location x="180" y="405"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="405"/>
+  </point>
+  <point type="below">
+    <location x="180" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="kashida-ar.threequarter">
+  <point type="above">
+    <location x="174" y="405"/>
+  </point>
+  <point type="below">
+    <location x="174" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="kashida-ar.half">
+  <point type="above">
+    <location x="90" y="405"/>
+  </point>
+  <point type="below">
+    <location x="90" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="kashida-ar.quarter">
+  <point type="above">
+    <location x="45" y="405"/>
+  </point>
+  <point type="below">
+    <location x="45" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="shadda-ar" UID="0651">
+  <point type="_above">
+    <location x="150" y="0"/>
+  </point>
+  <point type="above">
+    <location x="135" y="390"/>
+  </point>
+</glyph>
+<glyph PSName="enquad" UID="2000"/>
+<glyph PSName="emquad" UID="2001"/>
+<glyph PSName="enspace" UID="2002"/>
+<glyph PSName="emspace" UID="2003"/>
+<glyph PSName="threeperemspace" UID="2004"/>
+<glyph PSName="fourperemspace" UID="2005"/>
+<glyph PSName="sixperemspace" UID="2006"/>
+<glyph PSName="figurespace" UID="2007"/>
+<glyph PSName="punctuationspace" UID="2008"/>
+<glyph PSName="thinspace" UID="2009"/>
+<glyph PSName="hairspace" UID="200A"/>
+<glyph PSName="zerowidthspace" UID="200B"/>
+<glyph PSName="zerowidthnonjoiner" UID="200C"/>
+<glyph PSName="zerowidthjoiner" UID="200D"/>
+<glyph PSName="zeroWidthNoBreakSpace" UID="FEFF"/>
+<glyph PSName="lefttorightmark" UID="200E"/>
+<glyph PSName="righttoleftmark" UID="200F"/>
+<glyph PSName="nonbreakinghyphen" UID="2011"/>
+<glyph PSName="figuredash" UID="2012"/>
+<glyph PSName="endash" UID="2013"/>
+<glyph PSName="emdash" UID="2014"/>
+<glyph PSName="horizontalbar" UID="2015"/>
+<glyph PSName="quoteleft" UID="2018"/>
+<glyph PSName="quoteright" UID="2019"/>
+<glyph PSName="quotesinglbase" UID="201A"/>
+<glyph PSName="quotereversed" UID="201B"/>
+<glyph PSName="quotedblleft" UID="201C"/>
+<glyph PSName="quotedblright" UID="201D"/>
+<glyph PSName="quotedblbase" UID="201E"/>
+<glyph PSName="quotedblrightreversed" UID="201F"/>
+<glyph PSName="dagger" UID="2020"/>
+<glyph PSName="daggerdbl" UID="2021"/>
+<glyph PSName="bullet" UID="2022"/>
+<glyph PSName="ellipsis" UID="2026"/>
+<glyph PSName="hyphenationpoint" UID="2027"/>
+<glyph PSName="lineseparator" UID="2028"/>
+<glyph PSName="paragraphseparator" UID="2029"/>
+<glyph PSName="lefttorightembedding" UID="202A"/>
+<glyph PSName="righttoleftembedding" UID="202B"/>
+<glyph PSName="popdirectionalformatting" UID="202C"/>
+<glyph PSName="lefttorightoverride" UID="202D"/>
+<glyph PSName="righttoleftoverride" UID="202E"/>
+<glyph PSName="mark-ar" UID="061C"/>
+<glyph PSName="narrownbspace" UID="202F">
+  <point type="above">
+    <location x="510" y="995"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="995"/>
+  </point>
+  <point type="below">
+    <location x="525" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="perthousand" UID="2030"/>
+<glyph PSName="guilsinglleft" UID="2039"/>
+<glyph PSName="guilsinglright" UID="203A"/>
+<glyph PSName="fraction" UID="2044"/>
+<glyph PSName="wordjoiner" UID="2060"/>
+<glyph PSName="lefttorightisolate" UID="2066"/>
+<glyph PSName="righttoleftisolate" UID="2067"/>
+<glyph PSName="firststrongisolate" UID="2068"/>
+<glyph PSName="popdirectionalisolate" UID="2069"/>
+<glyph PSName="inhibitformshaping-ar" UID="206C"/>
+<glyph PSName="activateformshaping-ar" UID="206D"/>
+<glyph PSName="euro" UID="20AC"/>
+<glyph PSName="trademark" UID="2122"/>
+<glyph PSName="Ohm" UID="2126"/>
+<glyph PSName="partialdiff" UID="2202"/>
+<glyph PSName="partialdiff.rtl"/>
+<glyph PSName="increment" UID="2206"/>
+<glyph PSName="product" UID="220F"/>
+<glyph PSName="summation" UID="2211"/>
+<glyph PSName="summation.rtl"/>
+<glyph PSName="minus" UID="2212"/>
+<glyph PSName="divisionslash" UID="2215"/>
+<glyph PSName="reverseSolidusOperator" UID="29F5"/>
+<glyph PSName="bulletoperator" UID="2219"/>
+<glyph PSName="radical" UID="221A"/>
+<glyph PSName="radical.rtl"/>
+<glyph PSName="infinity" UID="221E"/>
+<glyph PSName="integral" UID="222B"/>
+<glyph PSName="integral.rtl"/>
+<glyph PSName="approxequal" UID="2248"/>
+<glyph PSName="approxequal.rtl"/>
+<glyph PSName="notequal" UID="2260"/>
+<glyph PSName="notequal.rtl"/>
+<glyph PSName="lessequal" UID="2264"/>
+<glyph PSName="greaterequal" UID="2265"/>
+<glyph PSName="blank" UID="2423"/>
+<glyph PSName="lozenge" UID="25CA"/>
+<glyph PSName="dottedCircle" UID="25CC">
+  <point type="above">
+    <location x="448" y="995"/>
+  </point>
+  <point type="aboveleft">
+    <location x="50" y="995"/>
+  </point>
+  <point type="below">
+    <location x="448" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="50" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="sidebearingleft" UID="F130"/>
+<glyph PSName="sidebearingright" UID="F131"/>
+<glyph PSName="fi" UID="FB01"/>
+<glyph PSName="fl" UID="FB02"/>
+<glyph PSName="glottalstopmod" UID="02C0"/>
+<glyph PSName="glottalstopreversedmod" UID="02C1"/>
+<glyph PSName="overline" UID="203E"/>
+<glyph PSName="ringhalfrightcentered" UID="02D2"/>
+<glyph PSName="ringhalfleftcentered" UID="02D3"/>
+<glyph PSName="VS1" UID="FE00">
+  <point type="_none">
+    <location x="0" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="VS2" UID="FE01">
+  <point type="_none">
+    <location x="0" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="VS3" UID="FE02">
+  <point type="_none">
+    <location x="0" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="VS4" UID="FE03">
+  <point type="_none">
+    <location x="0" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="VS5" UID="FE04">
+  <point type="_none">
+    <location x="0" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="VS6" UID="FE05">
+  <point type="_none">
+    <location x="0" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="VS7" UID="FE06">
+  <point type="_none">
+    <location x="0" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="VS8" UID="FE07">
+  <point type="_none">
+    <location x="0" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="VS9" UID="FE08">
+  <point type="_none">
+    <location x="0" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="VS10" UID="FE09">
+  <point type="_none">
+    <location x="0" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="VS11" UID="FE0A">
+  <point type="_none">
+    <location x="0" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="VS12" UID="FE0B">
+  <point type="_none">
+    <location x="0" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="VS13" UID="FE0C">
+  <point type="_none">
+    <location x="0" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="VS14" UID="FE0D">
+  <point type="_none">
+    <location x="0" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="VS15" UID="FE0E">
+  <point type="_none">
+    <location x="0" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="VS16" UID="FE0F">
+  <point type="_none">
+    <location x="0" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="objectReplacementCharacter" UID="FFFC"/>
+<glyph PSName="replacementCharacter" UID="FFFD"/>
+<glyph PSName="_beth"/>
+<glyph PSName="_heth-init">
+  <point type="above">
+    <location x="-37" y="585"/>
+  </point>
+  <point type="aboveleft">
+    <location x="-52" y="525"/>
+  </point>
+  <point type="below">
+    <location x="-22" y="-165"/>
+  </point>
+  <point type="belowleft">
+    <location x="-52" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="_heth-med">
+  <point type="above">
+    <location x="302" y="585"/>
+  </point>
+  <point type="aboveleft">
+    <location x="287" y="525"/>
+  </point>
+  <point type="below">
+    <location x="317" y="-165"/>
+  </point>
+  <point type="belowleft">
+    <location x="287" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="_LeftTail"/>
+<glyph PSName="_LrgSquareDot"/>
+<glyph PSName="_qaph"/>
+<glyph PSName="_semkath">
+  <point type="above">
+    <location x="466" y="780"/>
+  </point>
+  <point type="aboveleft">
+    <location x="481" y="750"/>
+  </point>
+  <point type="below">
+    <location x="391" y="-150"/>
+  </point>
+  <point type="belowleft">
+    <location x="391" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="_shin"/>
+<glyph PSName="_yudh-med">
+  <point type="above">
+    <location x="-37" y="585"/>
+  </point>
+  <point type="aboveleft">
+    <location x="-52" y="525"/>
+  </point>
+  <point type="below">
+    <location x="-22" y="-165"/>
+  </point>
+  <point type="belowleft">
+    <location x="-52" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="_acute">
+  <point type="_above">
+    <location x="420" y="618"/>
+  </point>
+  <point type="above">
+    <location x="420" y="964"/>
+  </point>
+</glyph>
+<glyph PSName="_acute.case">
+  <point type="_above">
+    <location x="420" y="926"/>
+  </point>
+  <point type="above">
+    <location x="420" y="1216"/>
+  </point>
+</glyph>
+<glyph PSName="_breve">
+  <point type="_above">
+    <location x="420" y="618"/>
+  </point>
+  <point type="above">
+    <location x="420" y="964"/>
+  </point>
+</glyph>
+<glyph PSName="_caron">
+  <point type="_above">
+    <location x="420" y="618"/>
+  </point>
+  <point type="above">
+    <location x="420" y="964"/>
+  </point>
+</glyph>
+<glyph PSName="_caron.case">
+  <point type="_above">
+    <location x="420" y="926"/>
+  </point>
+  <point type="above">
+    <location x="420" y="1217"/>
+  </point>
+</glyph>
+<glyph PSName="_cedilla">
+  <point type="_below">
+    <location x="420" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="_cedilla.case">
+  <point type="_below">
+    <location x="420" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="_circumflex">
+  <point type="_above">
+    <location x="420" y="618"/>
+  </point>
+  <point type="above">
+    <location x="420" y="964"/>
+  </point>
+</glyph>
+<glyph PSName="_circumflex.case">
+  <point type="_above">
+    <location x="420" y="926"/>
+  </point>
+  <point type="above">
+    <location x="420" y="1217"/>
+  </point>
+</glyph>
+<glyph PSName="_dieresis">
+  <point type="_above">
+    <location x="420" y="618"/>
+  </point>
+  <point type="above">
+    <location x="420" y="929"/>
+  </point>
+</glyph>
+<glyph PSName="_dieresis.case">
+  <point type="_above">
+    <location x="420" y="926"/>
+  </point>
+  <point type="above">
+    <location x="420" y="1181"/>
+  </point>
+</glyph>
+<glyph PSName="_dot1">
+  <point type="_above">
+    <location x="0" y="-157"/>
+  </point>
+  <point type="_below_unused">
+    <location x="0" y="157"/>
+  </point>
+  <point type="_center">
+    <location x="0" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="_dot_punct">
+  <point type="_above">
+    <location x="207" y="-157"/>
+  </point>
+  <point type="_below_unused">
+    <location x="207" y="157"/>
+  </point>
+  <point type="_center">
+    <location x="207" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="_dotaccent">
+  <point type="_above">
+    <location x="420" y="618"/>
+  </point>
+  <point type="above">
+    <location x="420" y="929"/>
+  </point>
+</glyph>
+<glyph PSName="_dotaccent.i">
+  <point type="_above">
+    <location x="420" y="618"/>
+  </point>
+  <point type="above">
+    <location x="420" y="929"/>
+  </point>
+</glyph>
+<glyph PSName="_grave">
+  <point type="_above">
+    <location x="420" y="618"/>
+  </point>
+  <point type="above">
+    <location x="420" y="964"/>
+  </point>
+</glyph>
+<glyph PSName="_grave.case">
+  <point type="_above">
+    <location x="420" y="926"/>
+  </point>
+  <point type="above">
+    <location x="420" y="1216"/>
+  </point>
+</glyph>
+<glyph PSName="_hungarumlaut">
+  <point type="_above">
+    <location x="420" y="618"/>
+  </point>
+  <point type="above">
+    <location x="420" y="964"/>
+  </point>
+</glyph>
+<glyph PSName="_jdotless">
+  <point type="above">
+    <location x="211" y="618"/>
+  </point>
+</glyph>
+<glyph PSName="_macron">
+  <point type="_above">
+    <location x="420" y="618"/>
+  </point>
+  <point type="above">
+    <location x="420" y="964"/>
+  </point>
+</glyph>
+<glyph PSName="_ogonek">
+  <point type="_ogonek">
+    <location x="439" y="0"/>
+  </point>
+</glyph>
+<glyph PSName="_ringabv">
+  <point type="_above">
+    <location x="420" y="618"/>
+  </point>
+  <point type="above">
+    <location x="420" y="928"/>
+  </point>
+</glyph>
+<glyph PSName="_ringabv.case">
+  <point type="_above">
+    <location x="420" y="926"/>
+  </point>
+  <point type="above">
+    <location x="420" y="1238"/>
+  </point>
+</glyph>
+<glyph PSName="_slashlong">
+  <point type="_center">
+    <location x="420" y="309"/>
+  </point>
+</glyph>
+<glyph PSName="_slashlong.case">
+  <point type="_center">
+    <location x="420" y="412"/>
+  </point>
+</glyph>
+<glyph PSName="_strokeshortcomb.case">
+  <point type="_stroke">
+    <location x="362" y="569"/>
+  </point>
+</glyph>
+<glyph PSName="_tilde">
+  <point type="_above">
+    <location x="420" y="618"/>
+  </point>
+  <point type="above">
+    <location x="420" y="964"/>
+  </point>
+</glyph>
+<glyph PSName="_tilde.case">
+  <point type="_above">
+    <location x="420" y="926"/>
+  </point>
+  <point type="above">
+    <location x="420" y="1216"/>
+  </point>
+</glyph>
+<glyph PSName="four.dnom"/>
+<glyph PSName="one.numr"/>
+<glyph PSName="three.numr"/>
+<glyph PSName="two.dnom"/>
+<glyph PSName="topleftHalfBracket" UID="2E22"/>
+<glyph PSName="toprightHalfBracket" UID="2E23"/>
+<glyph PSName="_heth-med.1">
+  <point type="above">
+    <location x="-37" y="585"/>
+  </point>
+  <point type="aboveleft">
+    <location x="-52" y="525"/>
+  </point>
+  <point type="below">
+    <location x="-22" y="-165"/>
+  </point>
+  <point type="belowleft">
+    <location x="-52" y="-150"/>
+  </point>
+</glyph>
+<glyph PSName="_smDotsquare"/>
+<glyph PSName="exclam.001"/>
+</font>

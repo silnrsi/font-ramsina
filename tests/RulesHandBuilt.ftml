@@ -4,7 +4,7 @@
   <head>
     <fontscale>200</fontscale>
     <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
-    <fontsrc label="Idiqlat">url(../results/Idiqlat-Regular.ttf)</fontsrc>
+    <fontsrc label="ESMN">url(../results/EastSyriacMarcusNew-Regular.ttf)</fontsrc>
     <styles>
       <style feats="'cv38' 1" name="cv38_1"/>
       <style feats="'cv55' 1" name="cv55_1"/>

@@ -1,8 +1,7 @@
 #!/bin/sh
 
 echo "-----Fixing FontForge debris and normalizing UFOs..."
-psffixffglifs source/masters/Idiqlat-Regular.ufo -p checkfix=fix     &
-psffixffglifs source/masters/Idiqlat-ExtraLight.ufo -p checkfix=fix        &
+psffixffglifs source/masters/EastSyriacMarcusNew-Regular.ufo -p checkfix=fix     &
 wait
 
 # Continue with normal preflight

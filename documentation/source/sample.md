@@ -1,5 +1,5 @@
 ---
-title: Idiqlat - Type Sample
+title: EastSyriacMarcusNew - Type Sample
 fontversion: 1.101
 ---
 

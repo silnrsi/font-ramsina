@@ -1,9 +1,9 @@
 ---
-title: Idiqlat - Announcement
+title: EastSyriacMarcusNew - Announcement
 fontversion: 1.101
 ---
 
-We are very pleased to announce the release of Idiqlat, a new font for the East Syriac style of the Syriac script.
+We are very pleased to announce the release of EastSyriacMarcusNew, a new font for the East Syriac style of the Syriac script.
 
 ### Changes
 

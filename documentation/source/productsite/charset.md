@@ -5,7 +5,7 @@ This font supports supports most of the characters in the Syriac block.
 
 The following character ranges are supported by this font:
 
-Unicode block | Idiqlat support
+Unicode block | EastSyriacMarcusNew support
 ------------- | ---------------
 Arabic | only includes 060C, 061B, 061F, 0640, 0651 
 Syriac 	| ✓ (does not include 0727, 072D..072F, 074D..074F)
