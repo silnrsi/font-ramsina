@@ -1,8 +1,8 @@
-# font-idiqlat
+# font-east-syriac-marcus-new
 
-## Project status [![Build Status](https://build.palaso.org/app/rest/builds/buildType:Fonts_Idiqlat/statusIcon)](https://build.palaso.org/viewType.html?buildTypeId=Fonts_Idiqlat&guest=1)  
+## Project status [![Build Status](https://build.palaso.org/app/rest/builds/buildType:Fonts_EastSyriacMarcusNew/StatusIcon)](https://build.palaso.org/viewType.html?buildTypeId=Fonts_EastSyriacMarcusNew&guest=1)  
 
-Idiqlat is a font family for the East Syriac script.
+East Syriac Marcus New is a font family for the East Syriac script.
 
 For more details about this project, including its design history and acknowledgements see [FONTLOG.txt](FONTLOG.txt).
 
