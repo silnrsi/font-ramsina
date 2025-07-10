@@ -3,8 +3,8 @@ title: EastSyriacMarcusNew - Design
 fontversion: 1.101
 ---
 
-The EastSyriacMarcusNew font supports the East Syriac style of the Syriac script.
-The font was designed as a facsimile based on metal type cut in India from around 1920.
+EastSyriacMarcusNew is a font family for the East Syriac script. The font was designed as a revival, or facsimile, of 
+metal type cut in India from around 1920.
 
 This font was initially designed by Esho Marcus and named East Syriac Marcus.
 

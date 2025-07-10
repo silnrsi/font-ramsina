@@ -932,6 +932,8 @@ lookup RightJoinFina {
     # Taw Yudh U+072C U+071D cv60=1 (ligature forms but mark is in wrong position)
     # Used in East Syriac only
     # End of Idiqlat|EastSyriacMarcusNew cv
+    # Sadhe Nun U+0728 U+0722 cv55 (marks position)
+    # Used in East Syriac, West Syriac, Estrangela
     lookup KaphAlternate {
         lookupflag IgnoreMarks;
         sub kaph-syriac by kaph-syriac.cv15;
@@ -966,29 +968,27 @@ lookup RightJoinFina {
     } TawAlaphLigatures;
 
 
-    # Sadhe Nun U+0728 U+0722 cv55 (marks position)
-    # Used in East Syriac, West Syriac, Estrangela
-    # End of Idiqlat|EastSyriacMarcusNew cv
-    # Taw Alaph U+072C U+0710 cv59=2 (ligature does not form in presense of marks)
-    # Used in East Syriac and Estrangela
-    #NB: Lookup names ending in "TT" are used only by TypeTuner
-    #**********************************
-    #  GSUB FEATURES
-    #**********************************
-    # These are intended to be arranged in the order MS & HB engines execute.
-    #---  rtlm feature (pass 2) ---
-    # feature rtlm {  # Right-To-Left Mirrored Forms
-    #     lookup Mirror;
-    # } rtlm ;
-    # HB PAUSE
-    #---  ccmp feature (pass 3) ---
-    lookup SadheNunLigature {
-        lookupflag IgnoreMarks;
-        sub sadhe-syriac nun-syriac by sadhe_nun-syriac;
-        sub sadhe-syriac.fina nun-syriac by sadhe_nun-syriac.fina;
-    } SadheNunLigature;
+lookup SadheNunLigature {
+    lookupflag IgnoreMarks;
+    sub sadhe-syriac nun-syriac by sadhe_nun-syriac;
+    sub sadhe-syriac.fina nun-syriac by sadhe_nun-syriac.fina;
+    sub sadhe-syriac nun-syriac.cv18 by sadhe_nun-syriac;
+    sub sadhe-syriac.fina nun-syriac.cv18 by sadhe_nun-syriac.fina;
+} SadheNunLigature;
 
-
+# Taw Alaph U+072C U+0710 cv59=2 (ligature does not form in presense of marks)
+# Used in East Syriac and Estrangela
+#NB: Lookup names ending in "TT" are used only by TypeTuner
+#**********************************
+#  GSUB FEATURES
+#**********************************
+# These are intended to be arranged in the order MS & HB engines execute.
+#---  rtlm feature (pass 2) ---
+# feature rtlm {  # Right-To-Left Mirrored Forms
+#     lookup Mirror;
+# } rtlm ;
+# HB PAUSE
+#---  ccmp feature (pass 3) ---
 feature ccmp {
     # Glyph Composition/Decomposition
     # Same for latin & syriac:
@@ -1204,36 +1204,34 @@ feature liga {
     } cv38;
 
 
+feature cv55 {
     # Character Variant 55
-    # English US
-    # English US
-    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-    # Syriac
-    #end do - Idiqlat|EastSyriacMarcusNew
-        feature cv55 {
-                cvParameters {
-                        FeatUILabelNameID {
-                name "Sadhe Nun";
-            };
-
-                        FeatUITooltipTextNameID {
-                name "Sadhe Nun ligature";
-            };
-
-                        SampleTextNameID {
-                name "ܨܢ";
-            };
-
-                        ParamUILabelNameID {
-                name "Ligature";
-            };
-
+        cvParameters {
+                FeatUILabelNameID {
+            name "Sadhe Nun";
         };
 
-        script syrc;
-        lookup SadheNunLigature;
-    } cv55;
+                FeatUITooltipTextNameID {
+            name "Sadhe Nun ligature";
+            # English US
+        };
 
+                SampleTextNameID {
+            name "ܨܢ";
+            # English US
+        };
+
+        ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
+                ParamUILabelNameID {
+            name "Ligature";
+        };
+
+    };
+
+    script syrc;
+    # Syriac
+    lookup SadheNunLigature;
+} cv55;
 
     # Character Variant 59
     # English US
