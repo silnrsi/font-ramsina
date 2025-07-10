@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="he-syriac.fina" format="2">
+  <advance width="867"/>
+  <anchor x="450" y="765" name="above"/>
+  <anchor x="50" y="765" name="aboveleft"/>
+  <anchor x="450" y="-150" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
+  <outline>
+    <component base="he-syriac"/>
+    <contour>
+      <point x="784" y="195" type="line"/>
+      <point x="787" y="0" type="line"/>
+      <point x="887" y="0" type="line"/>
+      <point x="887" y="195" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

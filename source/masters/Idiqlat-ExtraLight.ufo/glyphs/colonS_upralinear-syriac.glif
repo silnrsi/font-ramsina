@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colonSupralinear-syriac" format="2">
+  <advance width="430"/>
+  <unicode hex="0703"/>
+  <outline>
+    <component base="fullstopSupralinear-syriac" yOffset="287"/>
+    <component base="fullstopSupralinear-syriac" yOffset="-22"/>
+  </outline>
+</glyph>

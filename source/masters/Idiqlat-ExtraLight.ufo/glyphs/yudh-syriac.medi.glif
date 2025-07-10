@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yudh-syriac.medi" format="2">
+  <advance width="722"/>
+  <anchor x="360" y="540" name="above"/>
+  <anchor x="50" y="540" name="aboveleft"/>
+  <anchor x="345" y="-150" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
+  <outline>
+    <component base="_yudh-med" xOffset="170"/>
+    <contour>
+      <point x="387" y="195" type="curve"/>
+      <point x="-20" y="195" type="line"/>
+      <point x="-20" y="0" type="line"/>
+      <point x="268" y="0" type="line" smooth="yes"/>
+      <point x="353" y="0"/>
+      <point x="387" y="65"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

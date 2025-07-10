@@ -1,0 +1,126 @@
+#**********************************
+#
+# Copyright (c) 1994-2025 SIL Global  (https://www.sil.org)
+# Released under the MIT License (https://opensource.org/licenses/MIT)
+#
+#**********************************
+
+#**********************************
+#  Classes
+#**********************************
+
+# Next 4 should have 18 glyphs
+
+# was called @DualJoiningXn
+@DualLinkIsol = [beth-syriac gamal-syriac gamalgarshuni-syriac heth-syriac teth-syriac tethGarshuni-syriac yudh-syriac kaph-syriac lamadh-syriac mim-syriac nun-syriac semkath-syriac semkathFinal-syriac e-syriac pe-syriac pe_brevebelowcomb-syriac qaph-syriac shin-syriac];
+
+# was called @DualJoiningXr
+@DualLinkFina = [beth-syriac.fina gamal-syriac.fina gamalgarshuni-syriac.fina heth-syriac.fina teth-syriac.fina tethGarshuni-syriac.fina yudh-syriac.fina kaph-syriac.fina lamadh-syriac.fina mim-syriac.fina nun-syriac.fina semkath-syriac.fina semkathFinal-syriac.fina e-syriac.fina pe-syriac.fina pe_brevebelowcomb-syriac.fina qaph-syriac.fina shin-syriac.fina];
+
+# was called @DualJoiningXm
+@DualLinkMedi = [beth-syriac.medi gamal-syriac.medi gamalgarshuni-syriac.medi heth-syriac.medi teth-syriac.medi tethGarshuni-syriac.medi yudh-syriac.medi kaph-syriac.medi lamadh-syriac.medi mim-syriac.medi nun-syriac.medi semkath-syriac.medi semkathFinal-syriac.medi e-syriac.medi pe-syriac.medi pe_brevebelowcomb-syriac.medi qaph-syriac.medi shin-syriac.medi];
+
+# was called @DualJoiningXl
+@DualLinkInit = [beth-syriac.init gamal-syriac.init gamalgarshuni-syriac.init heth-syriac.init teth-syriac.init tethGarshuni-syriac.init yudh-syriac.init kaph-syriac.init lamadh-syriac.init mim-syriac.init nun-syriac.init semkath-syriac.init semkathFinal-syriac.init e-syriac.init pe-syriac.init pe_brevebelowcomb-syriac.init qaph-syriac.init shin-syriac.init];
+
+@DualJoining = [@DualLinkIsol @DualLinkFina @DualLinkMedi @DualLinkInit];
+
+#**********************************
+#  Need to revisit Right joining because original VOLT uses a mixture, see RightJoiningXn and RightJoiningXr
+#**********************************
+
+@RightJoiningFina = [alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina];
+@RightJoiningIsol = [alaph-syriac dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac];
+@RightJoining = [@RightJoiningIsol @RightJoiningFina];
+
+@AllBase = [@DualJoining @RightJoining];
+
+# Removed glyphs not in font: fathatan-ar dammatan-ar fatha-ar damma-ar sukun-ar madda-ar hamzaabove-ar alefbelow-ar
+@MarkAboveCanChain = [tildecomb macroncomb dotaccentcomb dieresiscomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac zqaphaabove-syriac zqaphadotted-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac rwaha-syriac twodotsverticalabove-syriac threedotsabove-syriac obliquelineabove-syriac music-syriac barrekh-syriac];
+@MarkAboveNoChain = [ringcomb qushshaya-syriac];
+
+# Removed glyphs not in font: kasratan-ar kasra-ar hamzabelow-ar
+# why did I add minusbelowcomb dotbelowleftcomb?
+@MarkBelowCanChain = [dotbelowcomb dieresisbelowcomb circumflexbelowcomb brevebelowcomb tildebelowcomb macronbelowcomb pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac minusbelowcomb dotbelowleftcomb];
+
+@MarkBelowNoChain = [ringbelowcomb rukkakha-syriac rukkakha-syriac.square];
+
+# Added gamalgarshuni-syriac kaph and pe be added to this group?
+# dalath, kaph, and pe are not in the group (intentionally?)
+@TakeRukkakhaSquare = [beth-syriac beth-syriac.init beth-syriac.medi beth-syriac.fina gamal-syriac gamal-syriac.init gamal-syriac.medi gamal-syriac.fina gamalgarshuni-syriac gamalgarshuni-syriac.init gamalgarshuni-syriac.medi gamalgarshuni-syriac.fina taw-syriac taw-syriac.fina];
+
+@TypeLigature = [lamadh_alaph-syriac lamadh_alaph-syriac.fina rish_dieresiscomb-syriac rish_dieresiscomb-syriac.fina];
+
+# Ligatures
+
+@LigatureOptional = [sadhe_nun-syriac sadhe_nun-syriac.fina taw_alaph-syriac taw_alaph-syriac.fina he_yudh-syriac he_yudh-syriac.fina taw_yudh-syriac taw_yudh-syriac.fina taw_alaph-syriac.triangle taw_alaph-syriac.fina.triangle taw_alaph-syriac.twined taw_alaph-syriac.fina.twined];
+
+# Add in U0742Square
+@TypeMark = [@MarkAboveCanChain @MarkAboveNoChain @MarkBelowCanChain @MarkBelowNoChain femininedot-syriac dotaboveleftcomb 
+dotbelowleftcomb];
+
+# Not sure this is necessary, but need to check if kashida is being tested.
+@TypeSimple = [@RightJoining @DualJoining kashida-ar.threequarter kashida-ar.quarter kashida-ar.half kashida-ar dottedCircle];
+
+@kern_below = [dotbelowcomb dieresisbelowcomb brevebelowcomb tildebelowcomb circumflexbelowcomb pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasabelow-syriac twodotsverticalbelow-syriac threedotsbelow-syriac obliquelinebelow-syriac minusbelowcomb dotbelowleftcomb];
+
+# Not in font: alefbelow-ar fathatan-ar dammatan-ar kasratan-ar fatha-ar damma-ar kasra-ar sukun-ar madda-ar hamzaabove-ar hamzabelow-ar 
+@AllCombining = [tildecomb macroncomb dotaccentcomb dieresiscomb ringcomb macronbelowcomb dotbelowcomb dieresisbelowcomb ringbelowcomb brevebelowcomb tildebelowcomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac pthahabelow-syriac zqaphaabove-syriac zqaphabelow-syriac zqaphadotted-syriac rbasaabove-syriac rbasabelow-syriac zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasaabove-syriac hbasabelow-syriac hbasaEsasadotted-syriac esasaabove-syriac esasabelow-syriac rwaha-syriac femininedot-syriac qushshaya-syriac rukkakha-syriac twodotsverticalabove-syriac twodotsverticalbelow-syriac threedotsabove-syriac threedotsbelow-syriac obliquelineabove-syriac obliquelinebelow-syriac music-syriac barrekh-syriac dotaboveleftcomb dotbelowleftcomb circumflexbelowcomb rukkakha-syriac.square minusbelowcomb pthahadotted-syriac graphemejoinercomb];
+
+# ====
+# These classes cannot have more than one diacritic from a class on the same base
+# ====
+
+# 0730 0733 0736 073A 073D - Syriac above Greek
+@diac1 = [pthahaabove-syriac zqaphaabove-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac] ;
+
+# 0731 0734 0737 073B 073E - Syriac below Greek
+@diac2 = [pthahabelow-syriac zqaphabelow-syriac rbasabelow-syriac hbasabelow-syriac esasabelow-syriac];
+
+# 0740 0749 074A - Syriac other
+@diac3 = [femininedot-syriac music-syriac barrekh-syriac];
+
+# 0732 0735 073F - Syriac dotted class above
+@diac4 = [pthahadotted-syriac zqaphadotted-syriac rwaha-syriac];
+
+# 0738 0739 073C - Syriac dotted class below
+@diac5 = [zlamadottedhorizontal-syriac zlamadottedangular-syriac hbasaEsasadotted-syriac];
+
+# 0741 030A - Syriac qushshaya
+@diac6 = [qushshaya-syriac ringcomb];
+
+# 0742 0325 - Syriac rukkakha
+@diac7 = [rukkakha-syriac rukkakha-syriac.square ringbelowcomb];
+
+# 0747 0303 0304 - Syriac line type above
+@diac8 = [obliquelineabove-syriac tildecomb macroncomb];
+
+# 0748 032D 032E 0330 0331 - Syriac line type below
+@diac9 = [obliquelinebelow-syriac circumflexbelowcomb brevebelowcomb tildebelowcomb macronbelowcomb];
+
+# 0308 - Syriac seyame above
+@diac10 = [dieresiscomb];
+
+# 0324 - OpenType is wrong, it says 0304  - Syriac seyame below
+@diac11 = [dieresisbelowcomb];
+
+# 0307 - Syriac dot above
+@diac12 = [dotaccentcomb];
+
+# 0323 - Syriac dot below
+@diac13 = [dotbelowcomb];
+
+# 0743 - Syriac two dots above
+@diac14 = [twodotsverticalabove-syriac];
+
+# 0744 - Syriac two dots below
+@diac15 = [twodotsverticalbelow-syriac];
+
+# 0745 - Syriac three dots above
+@diac16 = [threedotsabove-syriac];
+
+# 0746 - Syriac three dots below
+@diac17 = [threedotsbelow-syriac];
+
+# not listed minusbelowcomb dotaboveleftcomb dotbelowleftcomb
+

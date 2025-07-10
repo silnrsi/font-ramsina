@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qaph-syriac.init" format="2">
+  <advance width="875"/>
+  <anchor x="465" y="780" name="above"/>
+  <anchor x="50" y="780" name="aboveleft"/>
+  <anchor x="510" y="-150" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
+  <outline>
+    <component base="_qaph" xOffset="100"/>
+    <contour>
+      <point x="265" y="145" type="curve"/>
+      <point x="-20" y="145" type="line"/>
+      <point x="-20" y="0" type="line"/>
+      <point x="147" y="0" type="line" smooth="yes"/>
+      <point x="230" y="0"/>
+      <point x="261" y="65"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

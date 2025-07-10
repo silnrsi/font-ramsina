@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name=".notdef" format="2">
+  <advance width="993"/>
+  <outline>
+    <component base="kaph-syriac" xScale="0.7" yScale="0.7" xOffset="142" yOffset="335"/>
+    <contour>
+      <point x="918" y="871" type="line"/>
+      <point x="918" y="-199" type="line"/>
+      <point x="74" y="-199" type="line"/>
+      <point x="74" y="871" type="line"/>
+    </contour>
+    <contour>
+      <point x="940" y="893" type="line"/>
+      <point x="52" y="893" type="line"/>
+      <point x="52" y="-221" type="line"/>
+      <point x="940" y="-221" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CPP</string>
+    </dict>
+  </lib>
+</glyph>

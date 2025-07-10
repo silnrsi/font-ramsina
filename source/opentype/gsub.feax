@@ -1,0 +1,631 @@
+#**********************************
+#
+# Copyright (c) 1994-2025 SIL Global (https://www.sil.org)
+# Released under the MIT License (https://opensource.org/licenses/MIT)
+#
+#**********************************
+
+
+#**********************************
+#  Language Systems
+#**********************************
+
+languagesystem DFLT dflt ;
+languagesystem syrc dflt ; # Syriac default
+languagesystem syrc SYRN ; # Eastern Syriac
+languagesystem latn dflt ;
+
+# Anchors on diacritics: _aboveleft2 _b.U0331_2_2 _below_unused _center _none _ogonek _stroke
+# Anchors on bases: above aboveleft below_1 below_2 b.U0331_2
+# b.U0331_2_2_ligComponent_1 b.U0331_2_2_ligComponent_2 b.U0740 below belowleft center dotacc
+# m.U030a_1_2_ligComponent_1 above_2 m.U0656_ligComponent_1 m.U0656_ligComponent_2 ogonek stroke t.U0656 above topleft topright
+
+@MarksAbove = [@_above @_aboveleft] ; # _diaA
+@MarksBelow = [ @_below @_belowleft] ; # _diaB @_b.U0740 @_b.U0325_3
+@MarksAny = [@MarksAbove @MarksBelow] ;
+
+
+
+# Notes:
+#   The lookups and then the features should be arranged and grouped into ordered passes
+#   as the rendering engines (esp Harfbuzz) will execute them.
+#   The boundaries between passes are indicated by the comment
+#       # HB PAUSE
+#   in the code.
+
+
+#**********************************
+# GSUB (Substitution) lookups
+#**********************************
+
+#---  rtlm feature  ---
+
+lookup Mirror {
+  lookupflag IgnoreMarks ;
+    sub @cno_rtl by @c_rtl ;
+} Mirror ;
+
+# HB PAUSE
+
+#---  ccmp feature  ---
+
+# Font rendering check
+#
+# The following three lookups change "RenderingUnknown" to "RenderingOpenType"
+
+lookup _FontCheck_Unknow {
+  lookupflag IgnoreMarks;
+    sub [U n k o w ] by [O p e T y];
+} _FontCheck_Unknow ;
+
+lookup _FontCheck_n {
+  lookupflag IgnoreMarks;
+    sub n by p e;
+} _FontCheck_n ;
+
+lookup FontCheck {
+  lookupflag IgnoreMarks ;
+    sub [R] e n d e r i n g
+      U' lookup _FontCheck_Unknow
+      n' lookup _FontCheck_Unknow
+      k' lookup _FontCheck_Unknow
+      n'
+      o' lookup _FontCheck_Unknow
+      w' lookup _FontCheck_Unknow
+      n' lookup _FontCheck_n;
+} FontCheck ;
+
+
+
+
+# Replace Syriac punctuation glyphs with Latin ones:
+
+lookup LatinPunctuation {
+  lookupflag 0 ;
+    sub @cno_latn by @c_latn ;
+} LatinPunctuation ;
+
+# HB PAUSE
+
+#---  fina feature  ---
+
+lookup ltrFina {
+  lookupflag IgnoreMarks ;
+    sub @DualLinkIsol  by  @DualLinkFina ;
+    sub @RightJoiningIsol by  @RightJoiningFina ;
+} ltrFina ;
+
+# HB PAUSE
+
+#---  medi feature  ---
+
+lookup ltrMedi {
+  lookupflag IgnoreMarks ;
+    sub @DualLinkIsol  by  @DualLinkMedi ;
+} ltrMedi ;
+
+# HB PAUSE
+
+#---  init  feature  ---
+
+lookup ltrInit {
+  lookupflag IgnoreMarks ;
+    sub @DualLinkIsol  by  @DualLinkInit ;
+} ltrInit ;
+
+
+# HB PAUSE
+
+# This one answers my question on how to handle U+073C which is above and below
+lookup GPreDecompose {
+    sub pthahadotted-syriac by hbasaEsasadotted-syriac rwaha-syriac;
+} GPreDecompose ;
+
+lookup Seyame {
+    sub rish-syriac by dalathrishDotless-syriac ;
+} Seyame ;
+
+lookup SeyameChain {
+# GSUB lookup 2, type 16 (Chaining Context)
+  sub rish-syriac' lookup Seyame dieresiscomb zlamadottedhorizontal-syriac;
+  sub rish-syriac' lookup Seyame dieresiscomb zlamadottedangular-syriac;
+  sub rish-syriac' lookup Seyame zlamadottedhorizontal-syriac dieresiscomb;
+  sub rish-syriac' lookup Seyame zlamadottedangular-syriac dieresiscomb;
+} SeyameChain;
+
+do let f = info("familyName");
+   if f.find("Idiqlat") != -1 or f.find("Purattu") != -1; {
+
+lookup LamAlaphLig_Alaph {
+# GSUB lookup 18, type 11 (Single)
+  lookupflag 0;
+    sub alaph-syriac by alaph-syriac.ccmp;
+} LamAlaphLig_Alaph;
+
+# Used in East Syriac, West Syriac, Estrangela
+lookup LamAlaphLig {
+# GSUB lookup 3, type 16 (Chaining Context)
+  lookupflag 0;
+    sub lamadh-syriac @TypeMark alaph-syriac' lookup LamAlaphLig_Alaph;
+    sub lamadh-syriac @TypeMark @TypeMark alaph-syriac' lookup LamAlaphLig_Alaph;
+    sub lamadh-syriac alaph-syriac' lookup LamAlaphLig_Alaph;
+} LamAlaphLig;
+}   #end do - Idiqlat|Purattu
+
+lookup AlaphChain {
+# GSUB lookup 19, type 11 (Single)
+  lookupflag 0;
+  ifinfo(familyName, "Idiqlat|Purattu") {
+    sub alaph-syriac.ccmp by alaph-syriac;
+  }
+} AlaphChain;
+
+lookup AlaphLigs {
+# GSUB lookup 4, type 16 (Chaining Context)
+  lookupflag 0;
+  ifinfo(familyName, "Idiqlat|Purattu") {
+    sub alaph-syriac.ccmp' lookup AlaphChain @TypeMark;
+    sub alaph-syriac.ccmp' lookup AlaphChain yudh-syriac ;
+    sub alaph-syriac.ccmp' lookup AlaphChain waw-syriac ;
+  }
+} AlaphLigs;
+
+do let f = info("familyName");
+   if f.find("Khabur") != -1; {
+
+lookup LamAlaphLig {
+# GSUB lookup 3, 
+  lookupflag IgnoreMarks;
+    sub lamadh-syriac alaph-syriac by lamadh_alaph-syriac;
+    sub lamadh-syriac alaph-syriac.fina by lamadh_alaph-syriac;
+    sub lamadh-syriac.medi alaph-syriac.fina by lamadh_alaph-syriac.fina;
+    sub lamadh-syriac.medi alaph-syriac.med2 by lamadh_alaph-syriac.fina;
+} LamAlaphLig;
+}
+
+# glyph for replacement seems poorly named except 073c and 0742 are similar
+lookup DalathRukkakha { # 0715 0742
+  lookupflag 0;
+  ifinfo(familyName, "Idiqlat|Purattu") {
+    sub dalath-syriac rukkakha-syriac by dalath_hbasaEsasadotted-syriac ;
+    sub dalath-syriac.fina rukkakha-syriac by dalath_hbasaEsasadotted-syriac.fina ;
+  }
+} DalathRukkakha ;
+
+# pe_brevebelowcomb-syriac.init
+lookup PeBreveBelow { # 0715 0742
+  lookupflag 0;
+  ifinfo(familyName, "Idiqlat|Purattu") {
+    sub pe-syriac brevebelowcomb by pe_brevebelowcomb-syriac ;
+    sub pe-syriac.init brevebelowcomb by pe_brevebelowcomb-syriac.init ;
+    sub pe-syriac.medi brevebelowcomb by pe_brevebelowcomb-syriac.medi ;
+    sub pe-syriac.fina brevebelowcomb by pe_brevebelowcomb-syriac.fina ;
+  }
+} PeBreveBelow ;
+
+# Used in East Syriac, West Syriac, Estrangela
+lookup RishSeyame { # 072A 0308
+    sub rish-syriac dieresiscomb by  rish_dieresiscomb-syriac ;
+    sub rish-syriac.fina dieresiscomb by  rish_dieresiscomb-syriac.fina ;
+} RishSeyame ;
+
+# Added this because we need a ligature before doing character variant
+# Used in East Syriac and Estrangela
+lookup TawAlaph { # 072C 0710
+  lookupflag IgnoreMarks ;
+  ifinfo(familyName, "Idiqlat|Purattu") {
+    sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina;
+    sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina;
+  }
+    sub taw-syriac alaph-syriac by taw_alaph-syriac;
+    sub taw-syriac alaph-syriac.fin2 by taw_alaph-syriac;
+} TawAlaph ;
+
+# HB PAUSE
+
+lookup ltrMediOlaph {
+  lookupflag IgnoreMarks ;
+    sub alaph-syriac  by  alaph-syriac.med2 ;
+} ltrMediOlaph ;
+
+lookup ltrFinaSerOlaph {
+  lookupflag IgnoreMarks ;
+    sub alaph-syriac  by  alaph-syriac.fin2 ;
+} ltrFinaSerOlaph ;
+
+lookup ltrFinaESyOlaph {
+  lookupflag IgnoreMarks ;
+    sub alaph-syriac  by  alaph-syriac.fin3 ;
+} ltrFinaESyOlaph ;
+
+lookup square1 {
+# GSUB lookup 18, type 11 (Single)
+  lookupflag RightToLeft;
+  sub rukkakha-syriac by rukkakha-syriac.square;
+} square1;
+
+lookup RukkakhaSquare {
+# GSUB lookup 14, type 16 (Chaining Context)
+  lookupflag RightToLeft;
+  sub @TakeRukkakhaSquare rukkakha-syriac' lookup square1;
+} RukkakhaSquare;
+
+# This is needed because of the isolate form not looking like a final form, and this is viewed as a final even since it's after a right joining character
+lookup cv_fina {
+  lookupflag RightToLeft;
+      sub kaph-syriac   by  kaph-syriac.cv15 ;
+      sub mim-syriac    by  mim-syriac.cv17 ;
+      sub nun-syriac    by  nun-syriac.cv18 ;
+} cv_fina ;
+
+lookup RightJoinFina {
+# GSUB lookup 14, type 16 (Chaining Context)
+  lookupflag IgnoreMarks ;
+  sub @RightJoining mim-syriac' lookup cv_fina;
+  sub @RightJoining nun-syriac' lookup cv_fina;
+  sub @RightJoining kaph-syriac' lookup cv_fina;
+} RightJoinFina;
+
+#---  calt feature  ---
+
+# Language-independent shaping
+
+# HB PAUSE
+
+#--- remaining subs features (salt, cvxx, liga) ---
+
+
+
+# Lookups for user-selectable features
+
+do let f = info("familyName");
+   if f.find("Idiqlat") != -1 or f.find("Purattu") != -1; {
+
+# Kaph U+071F cv15
+lookup KaphAlternate { # cv15 Apparently only used in outlines so no final is needed
+  lookupflag IgnoreMarks ;
+    sub kaph-syriac by kaph-syriac.cv15 ;
+} KaphAlternate ;
+
+# Mim U+0721 cv17
+lookup MimAlternate { # cv17 Apparently only used in outlines so no final is needed
+  lookupflag IgnoreMarks ;
+    sub mim-syriac by mim-syriac.cv17 ;
+} MimAlternate ;
+
+# Nun U+0722 cv18
+lookup NunAlternate { # cv18 Apparently only used in outlines so no final is needed
+  lookupflag IgnoreMarks ;
+    sub nun-syriac by nun-syriac.cv18 ;
+} NunAlternate ;
+
+# He Yudh U+0717 U+071D cv38 (marks position)
+# Used in East Syriac only
+lookup HeYudhLigature {
+  lookupflag IgnoreMarks ;
+    sub he-syriac yudh-syriac by he_yudh-syriac ;
+    sub he-syriac.fina yudh-syriac by he_yudh-syriac.fina ;
+} HeYudhLigature ;
+
+# Taw Yudh U+072C U+071D cv60=1 (ligature forms but mark is in wrong position)
+# Used in East Syriac only
+lookup TawYudhLigature {
+  lookupflag IgnoreMarks ;
+    sub taw-syriac yudh-syriac by taw_yudh-syriac;
+    sub taw-syriac.fina yudh-syriac by taw_yudh-syriac.fina;
+} TawYudhLigature ;
+
+lookup TawAlaphLigatures {
+  lookupflag IgnoreMarks ;
+    sub taw_alaph-syriac      from [ taw_alaph-syriac.triangle      taw_alaph-syriac.twined];
+    sub taw_alaph-syriac.fina from [ taw_alaph-syriac.fina.triangle taw_alaph-syriac.fina.twined];
+} TawAlaphLigatures ;
+
+} # End of Idiqlat|Purattu cv
+
+# Sadhe Nun U+0728 U+0722 cv55 (marks position)
+# Used in East Syriac, West Syriac, Estrangela
+lookup SadheNunLigature {
+  lookupflag IgnoreMarks ;
+    sub sadhe-syriac nun-syriac by sadhe_nun-syriac ;
+    sub sadhe-syriac.fina nun-syriac by sadhe_nun-syriac.fina ;
+} SadheNunLigature ;
+
+# Taw Alaph U+072C U+0710 cv59=2 (ligature does not form in presense of marks)
+# Used in East Syriac and Estrangela
+
+
+#NB: Lookup names ending in "TT" are used only by TypeTuner
+
+#**********************************
+#  GSUB FEATURES
+#**********************************
+
+# These are intended to be arranged in the order MS & HB engines execute.
+
+#---  rtlm feature (pass 2) ---
+
+# feature rtlm {  # Right-To-Left Mirrored Forms
+#     lookup Mirror;
+# } rtlm ;
+
+# HB PAUSE
+
+#---  ccmp feature (pass 3) ---
+
+feature ccmp {  # Glyph Composition/Decomposition
+    # Same for latin & syriac:
+        lookup FontCheck;
+    script latn;
+        lookup LatinPunctuation;
+    script syrc;
+        lookup GPreDecompose;
+        lookup SeyameChain;
+        lookup LamAlaphLig;
+        lookup AlaphLigs;
+        lookup RukkakhaSquare;
+        lookup RightJoinFina;
+} ccmp ;
+
+# HB PAUSE
+
+#---  locl feature (pass 3) not used ---
+
+# HB PAUSE
+
+#---  fina feature (pass 5) ---
+
+feature fina {  # Terminal Forms
+    script syrc;
+        lookup ltrFina;
+} fina ;
+
+# HB PAUSE
+
+#---  medi feature (pass 6) ---
+
+feature medi {  # Medial Forms
+    script syrc;
+        lookup ltrMedi;
+} medi ;
+
+# HB PAUSE
+
+#---  init feature (pass 7) ---
+
+feature init {  # Initial Forms
+    script syrc;
+        lookup ltrInit;
+} init ;
+
+# HB PAUSE
+# I don't know what to do with these 3 features
+
+feature fin2 {  # Terminal Forms
+    script syrc;
+        lookup ltrFinaSerOlaph;
+} fin2 ;
+
+feature fin3 {  # Terminal Forms
+    script syrc;
+        lookup ltrFinaESyOlaph;
+} fin3 ;
+
+feature med2 {  # Medial Forms
+    script syrc;
+        lookup ltrMediOlaph;
+} med2 ;
+
+# HB PAUSE
+
+#---  rlig feature (pass 8) ---
+
+feature rlig {  # Ligatures  -- we use this because liga is done in the same pass as cvXX
+    script syrc;
+        lookup RishSeyame;
+        lookup TawAlaph;
+        lookup PeBreveBelow;
+} rlig ;
+
+
+# feature rclt - nothing to do
+
+
+# HB PAUSE
+
+#---  calt feature (pass 9)  ---
+
+# These don't seem to be in this font
+
+# HB PAUSE
+
+#********************
+# all remaining substitution features (dlig,salt, ssxx, liga, aalt):
+#********************
+
+#---  liga feature (pass 10) ---
+
+feature liga {  # Ligatures  -- we use this because liga is done in the same pass as cvXX
+    script syrc;
+        lookup DalathRukkakha;
+} liga ;
+
+# HB PAUSE
+#---  dlig feature (pass 10) ---
+
+
+#--- Character Variants ---
+
+do let f = info("familyName");
+   if f.find("Idiqlat") != -1 or f.find("Purattu") != -1; {
+
+feature cv15 {  # Character Variant 15
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Kaph"    ; };
+
+        FeatUITooltipTextNameID {
+         name 3 1 0x0409 "Kaph alternate";  # English US
+        };
+      
+        SampleTextNameID {
+         name 3 1 0x0409 "ܟ";  # English US
+        };
+
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Historic" ; };
+    } ;
+    script syrc;  # Syriac
+        lookup KaphAlternate;
+      # Force other languages to include Syriac script lookups:
+      language SYRN ;
+} cv15 ;
+
+feature cv17 {  # Character Variant 17
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Mim"    ; };
+
+        FeatUITooltipTextNameID {
+         name 3 1 0x0409 "Mim alternate";  # English US
+        };
+      
+        SampleTextNameID {
+         name 3 1 0x0409 "ܡ";  # English US
+        };
+
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Historic" ; };
+    } ;
+    script syrc;  # Syriac
+        lookup MimAlternate;
+      # Force other languages to include Syriac script lookups:
+      language SYRN ;
+} cv17 ;
+
+feature cv18 {  # Character Variant 18
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Nun"    ; };
+
+        FeatUITooltipTextNameID {
+         name 3 1 0x0409 "Nun alternate";  # English US
+        };
+      
+        SampleTextNameID {
+         name 3 1 0x0409 "ܢ";  # English US
+        };
+
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Historic" ; };
+    } ;
+    script syrc;  # Syriac
+        lookup NunAlternate;
+      # Force other languages to include Syriac script lookups:
+      language SYRN ;
+} cv18 ;
+
+feature cv38 {  # Character Variant 38
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "He Yudh"    ; };
+
+        FeatUITooltipTextNameID {
+         name 3 1 0x0409 "He Yudh ligature";  # English US
+        };
+      
+        SampleTextNameID {
+         name 3 1 0x0409 "ܗܝ";  # English US
+        };
+
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Ligature" ; };
+    } ;
+    script syrc;  # Syriac
+        lookup HeYudhLigature;
+      # Force other languages to include Syriac script lookups:
+      language SYRN ;
+} cv38 ;
+
+}  #end do - Idiqlat|Purattu
+
+feature cv55 {  # Character Variant 55
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Sadhe Nun"    ; };
+
+        FeatUITooltipTextNameID {
+         name 3 1 0x0409 "Sadhe Nun ligature";  # English US
+        };
+      
+        SampleTextNameID {
+         name 3 1 0x0409 "ܨܢ";  # English US
+        };
+
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Ligature" ; };
+    } ;
+    script syrc;  # Syriac
+        lookup SadheNunLigature;
+} cv55 ;
+
+do let f = info("familyName");
+   if f.find("Idiqlat") != -1 or f.find("Purattu") != -1; {
+
+feature cv59 {  # Character Variant 59
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Taw Alaph"    ; };
+
+        FeatUITooltipTextNameID {
+         name 3 1 0x0409 "Taw Alaph ligatures";  # English US
+        };
+      
+        SampleTextNameID {
+         name 3 1 0x0409 "ܬܐ";  # English US
+        };
+
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Triangle" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Twined"   ; };
+    } ;
+    script syrc;  # Syriac
+        lookup TawAlaphLigatures;
+      # Force other languages to include Syriac script lookups:
+      language SYRN ;
+} cv59 ;
+}  #end do - Idiqlat|Purattu
+
+do let f = info("familyName");
+   if f.find("Idiqlat") != -1 or f.find("Purattu") != -1; {
+
+feature cv60 {  # Character Variant 60
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Taw Yudh"    ; };
+
+        FeatUITooltipTextNameID {
+         name 3 1 0x0409 "Taw Yudh ligature";  # English US
+        };
+      
+        SampleTextNameID {
+         name 3 1 0x0409 "ܬܝ";  # English US
+        };
+
+    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Ligature" ; };
+    } ;
+    script syrc;  # Syriac
+        lookup TawYudhLigature;
+      # Force other languages to include Syriac script lookups:
+      language SYRN ;
+} cv60 ;
+}  #end do - Idiqlat|Purattu
+
+#---  aalt feature (pass 10) ---
+
+feature aalt {
+# automatic
+feature ccmp;
+feature cv15; # Idiqlat|Purattu
+feature cv17; # Idiqlat|Purattu
+feature cv18; # Idiqlat|Purattu
+feature cv38; # Idiqlat|Purattu
+feature cv55;
+feature cv59; # Idiqlat|Purattu
+feature cv60; # Idiqlat|Purattu
+} aalt;
+

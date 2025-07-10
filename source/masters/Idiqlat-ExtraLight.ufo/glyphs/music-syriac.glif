@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="music-syriac" format="2">
+  <unicode hex="0749"/>
+  <anchor x="330" y="180" name="_above"/>
+  <anchor x="270" y="585" name="above"/>
+  <outline>
+    <contour>
+      <point x="8" y="36" type="line"/>
+      <point x="584" y="438" type="line"/>
+      <point x="584" y="520" type="line"/>
+      <point x="8" y="116" type="line"/>
+    </contour>
+  </outline>
+</glyph>

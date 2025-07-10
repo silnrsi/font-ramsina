@@ -1,0 +1,103 @@
+#**********************************
+#
+# Copyright (c) 1994-2025 SIL Global  (https://www.sil.org)
+# Released under the MIT License (https://opensource.org/licenses/MIT)
+#
+#**********************************
+
+# Three features are implemented: kern, mark, and mkmk. 
+#
+# As best we understand it, all shapers now work per the OT spec in regard to GPOS lookup order of 
+# execution, namely that lookups for all enabled features are executed in one pass in lookup order.
+#
+# Note that prior to around September 2024, HarfBuzz executed mark attachment in a separate
+# pass after all base adjustments, but this caused compatibility issues with CoreText and Uniscribe
+# (see https://github.com/harfbuzz/harfbuzz/issues/4596)
+
+# To make sure the newer Harfbuzz doesn't cause problems we now put all base-positioning lookups 
+# (kern and, if we had it, curs) before any mark positioning lookups (mark, mkmk).
+
+
+#**********************************
+# GPOS (Positioning) lookups
+#**********************************
+
+lookup kern_dalath_sadhe_nun { # FKern: {Dolath, Sodeh} {Nun}
+    # GPOS lookup 1, type 2 (Pair adjustment)
+    lookupflag RightToLeft IgnoreMarks;
+    pos dalath-syriac 0 nun-syriac 150;
+    pos sadhe-syriac 0 nun-syriac 250;
+    pos dalath-syriac.fina 0 nun-syriac 150;
+    pos sadhe-syriac.fina 0 nun-syriac 250;
+} kern_dalath_sadhe_nun;
+
+lookup  kern_nun_1 { # FKern: {Dolath, Sodeh} {Nun}
+    # GPOS lookup 8, type 1 (Single adjustment)
+    lookupflag RightToLeft;
+    pos nun-syriac 250;
+}  kern_nun_1;
+
+lookup kern_nun2 { # FKrern: Nun in VOLT
+    # GPOS lookup 4, type 8 (Chained Context positioning)
+    lookupflag RightToLeft;
+    pos [alaph-syriac alaph-syriac.med2 alaph-syriac.fina alaph-syriac.fin2 alaph-syriac.fin3] @kern_below nun-syriac' lookup kern_nun_1;
+} kern_nun2;
+
+lookup MarkToBase {
+	lookupflag 0;
+	pos base @above      mark @_above; 
+	pos base @aboveleft    mark @_aboveleft; 
+	pos base @belowleft    mark @_belowleft; 
+	pos base @below    mark @_below; 
+} MarkToBase;
+
+
+lookup MarkToLig {
+  lookupflag 0;
+    pos ligature @LigatureOptional            @above_1 mark @_above    @below_1 mark @_below
+              ligComponent              @above_2 mark @_above    @below_2 mark @_below;
+} MarkToLig;
+
+#********************
+# Mark-to-mark attachment
+
+@MarkFilter_top = [@above_MarkBase @_above];
+lookup MarkToMarkAbove {
+	lookupflag UseMarkFilteringSet @MarkFilter_top;
+	pos mark @above_MarkBase    mark @_above;
+} MarkToMarkAbove;
+
+@MarkFilter_bottom = [@_below  @below_MarkBase];
+lookup MarkToMarkBelow {
+	lookupflag UseMarkFilteringSet @MarkFilter_bottom;
+	pos mark @below_MarkBase mark @_below;
+} MarkToMarkBelow;
+
+
+
+
+#********************
+# Base positioning (kerning) 
+#**********************************
+
+feature kern {  # Kerning
+    lookup kern_dalath_sadhe_nun;
+    lookup kern_nun2;
+} kern ;
+
+#********************
+# Mark-to-base positioning
+
+# Attach marks last, so they get positioned correctly on glyphs that have been shifted up.
+
+feature mark {  # Mark to base Positioning
+    # Same for latin & syriac:
+      lookup MarkToBase;
+      lookup MarkToLig;
+} mark ;
+
+feature mkmk {  # Mark to mark Positioning
+    # Same for latin & syriac:
+      lookup MarkToMarkAbove;
+      lookup MarkToMarkBelow;
+} mkmk ;

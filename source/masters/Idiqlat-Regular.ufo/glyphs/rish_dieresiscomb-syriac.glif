@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rish_dieresiscomb-syriac" format="2">
+  <advance width="623"/>
+  <anchor x="285" y="1005" name="above"/>
+  <anchor x="50" y="1005" name="aboveleft"/>
+  <anchor x="310" y="-150" name="below"/>
+  <anchor x="50" y="-150" name="belowleft"/>
+  <outline>
+    <component base="_LrgSquareDot" xOffset="-166" yOffset="990"/>
+    <component base="dalathrishDotless-syriac"/>
+    <component base="_LrgSquareDot" xOffset="125" yOffset="990"/>
+  </outline>
+</glyph>
