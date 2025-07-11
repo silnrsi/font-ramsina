@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shin-syriac" format="2">
-  <advance width="1111"/>
+  <advance width="1091"/>
   <unicode hex="072B"/>
   <anchor x="615" y="780" name="above"/>
   <anchor x="50" y="780" name="aboveleft"/>

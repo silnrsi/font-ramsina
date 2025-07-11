@@ -36,8 +36,8 @@
       <point x="50" y="161"/>
       <point x="50" y="149" type="curve" smooth="yes"/>
       <point x="50" y="98"/>
-      <point x="64" y="0"/>
-      <point x="90" y="0" type="curve" smooth="yes"/>
+      <point x="53" y="0"/>
+      <point x="59" y="0" type="curve" smooth="yes"/>
     </contour>
   </outline>
 </glyph>
