@@ -749,7 +749,7 @@ lookup SeyameChain {
     # GSUB lookup 18, type 11 (Single)
     # Used in East Syriac, West Syriac, Estrangela
     # GSUB lookup 3, type 16 (Chaining Context)
-    #end do - Idiqlat|EastSyriacMarcusNew
+    #end do - Idiqlat|East Syriac Marcus New
     lookup LamAlaphLig_Alaph {
         lookupflag 0;
         sub alaph-syriac by alaph-syriac.ccmp;
@@ -880,7 +880,7 @@ lookup RightJoinFina {
     # Used in East Syriac only
     # Taw Yudh U+072C U+071D cv60=1 (ligature forms but mark is in wrong position)
     # Used in East Syriac only
-    # End of Idiqlat|EastSyriacMarcusNew cv
+    # End of Idiqlat|East Syriac Marcus New cv
     # Sadhe Nun U+0728 U+0722 cv55 (marks position)
     # Used in East Syriac, West Syriac, Estrangela
     lookup KaphAlternate {
@@ -1051,7 +1051,7 @@ feature liga {
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
     # Syriac
     # Force other languages to include Syriac script lookups:
-    #end do - Idiqlat|EastSyriacMarcusNew
+    #end do - Idiqlat|East Syriac Marcus New
         feature cv15 {
                 cvParameters {
                         FeatUILabelNameID {
@@ -1188,7 +1188,7 @@ feature cv55 {
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
     # Syriac
     # Force other languages to include Syriac script lookups:
-    #end do - Idiqlat|EastSyriacMarcusNew
+    #end do - Idiqlat|East Syriac Marcus New
         feature cv59 {
                 cvParameters {
                         FeatUILabelNameID {
@@ -1225,7 +1225,7 @@ feature cv55 {
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
     # Syriac
     # Force other languages to include Syriac script lookups:
-    #end do - Idiqlat|EastSyriacMarcusNew
+    #end do - Idiqlat|East Syriac Marcus New
     #---  aalt feature (pass 10) ---
         feature cv60 {
                 cvParameters {
@@ -1257,18 +1257,18 @@ feature aalt {
     # automatic
     feature ccmp;
     feature cv15;
-    # Idiqlat|EastSyriacMarcusNew
+    # Idiqlat|East Syriac Marcus New
     feature cv17;
-    # Idiqlat|EastSyriacMarcusNew
+    # Idiqlat|East Syriac Marcus New
     feature cv18;
-    # Idiqlat|EastSyriacMarcusNew
+    # Idiqlat|East Syriac Marcus New
     feature cv38;
-    # Idiqlat|EastSyriacMarcusNew
+    # Idiqlat|East Syriac Marcus New
     feature cv55;
     feature cv59;
-    # Idiqlat|EastSyriacMarcusNew
+    # Idiqlat|East Syriac Marcus New
     feature cv60;
-    # Idiqlat|EastSyriacMarcusNew
+    # Idiqlat|East Syriac Marcus New
 } aalt;
 
 #**********************************

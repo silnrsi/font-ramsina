@@ -20,7 +20,10 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="EastSyriacMarcusNew" filename="masters/EastSyriacMarcusNew-Regular.ufo" name="EastSyriacMarcusNew Regular" stylename="Regular">
+        <source name="EastSyriacMarcusNew-Regular"
+          familyname="East Syriac Marcus New" 
+            filename="masters/EastSyriacMarcusNew-Regular.ufo" 
+           stylename="Regular">
             <lib copy="1" />
             <groups copy="1" />
             <features copy="1" />
@@ -37,13 +40,13 @@
         <!-- stylemapstylename: use "regular" for all styles except B: use "bold" -->
 
         <!-- EastSyriacMarcusNew Regular -->
-        <instance       familyname="EastSyriacMarcusNew"
-                          filename="instances/EastSyriacMarcusNew-Regular.ufo"
-                              name="EastSyriacMarcusNew Regular"
-                stylemapfamilyname="EastSyriacMarcusNew"
-                 stylemapstylename="regular"
-                         stylename="Regular"
-                postscriptfontname="EastSyriacMarcusNew-Regular">
+        <instance  familyname="East Syriac Marcus New"
+                     filename="instances/EastSyriacMarcusNew-Regular.ufo"
+                         name="East Syriac Marcus New Regular"
+           stylemapfamilyname="East Syriac Marcus New"
+            stylemapstylename="regular"
+                    stylename="Regular"
+           postscriptfontname="EastSyriacMarcusNew-Regular">
             <location>
                 <dimension name="weight" xvalue="400.000000" />
                 <dimension name="width" xvalue="100.000000" />
