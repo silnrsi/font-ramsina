@@ -1,6 +1,6 @@
 ---
-title: EastSyriacMarcusNew - Resources
-fontversion: 1.101
+title: East Syriac Marcus New - Resources
+fontversion: 1.105
 ---
 
 ## Requirements
@@ -19,7 +19,9 @@ See [Character set support](charset.md) for details of the Unicode characters su
 
 ## Rendering and application support
 
-These fonts will work normally like any other fonts in most applications. If the writing system requires special diacritic positioning the application/OS will need to support OpenType.
+This font is designed to work with the OpenType advanced font technology. To take advantage of the advanced typographic capabilities of this font, you must be using applications that provide an adequate level of support for OpenType.
+
+Other suggestions are listed here: [Applications Support](https://software.sil.org/arabicfonts/support/application-support/) and here: [Using Font Features](https://software.sil.org/fonts/features/).
 
 If special font features are to be activated the application will need to provide a way to turn on the feature or choose the feature setting. Details of current application support, and specific techniques for activating features, are on the [Using Font Features](https://software.sil.org/fonts/features) help page.
 

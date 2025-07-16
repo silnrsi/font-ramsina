@@ -2,11 +2,12 @@
 <?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
 <ftml version="1.0">
   <head>
-    <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 17.0 or later; else light green: a character is new in this version of the font</comment>
-    <fontscale>200</fontscale>
-    <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
-    <fontsrc label="Reg">url(../results/EastSyriacMarcusNew-Regular.ttf)</fontsrc>
+    <comment>Background colors: light green: a character is new in this version of the font</comment>
+    <fontscale>300</fontscale>
+    <fontsrc label="East Syriac Marcus">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
+    <fontsrc label="East Syriac Marcus New">url(../results/EastSyriacMarcusNew-Regular.ttf)</fontsrc>
     <styles>
+      <style feats="'cv02' 1" name="cv02_1"/>
       <style feats="'cv15' 1" name="cv15_1"/>
       <style feats="'cv17' 1" name="cv17_1"/>
       <style feats="'cv18' 1" name="cv18_1"/>
@@ -42,7 +43,87 @@
     </test>
     <test label="U+002E">
       <comment>period</comment>
-      <string>. / 0 1 2 3 4 5 6 7 8 9 : ;</string>
+      <string>. / 0</string>
+    </test>
+    <test label="U+0030" stylename="cv02_1">
+      <comment>zero</comment>
+      <string>0</string>
+    </test>
+    <test label="U+0031">
+      <comment>one</comment>
+      <string>1</string>
+    </test>
+    <test label="U+0031" stylename="cv02_1">
+      <comment>one</comment>
+      <string>1</string>
+    </test>
+    <test label="U+0032">
+      <comment>two</comment>
+      <string>2</string>
+    </test>
+    <test label="U+0032" stylename="cv02_1">
+      <comment>two</comment>
+      <string>2</string>
+    </test>
+    <test label="U+0033">
+      <comment>three</comment>
+      <string>3</string>
+    </test>
+    <test label="U+0033" stylename="cv02_1">
+      <comment>three</comment>
+      <string>3</string>
+    </test>
+    <test label="U+0034">
+      <comment>four</comment>
+      <string>4</string>
+    </test>
+    <test label="U+0034" stylename="cv02_1">
+      <comment>four</comment>
+      <string>4</string>
+    </test>
+    <test label="U+0035">
+      <comment>five</comment>
+      <string>5</string>
+    </test>
+    <test label="U+0035" stylename="cv02_1">
+      <comment>five</comment>
+      <string>5</string>
+    </test>
+    <test label="U+0036">
+      <comment>six</comment>
+      <string>6</string>
+    </test>
+    <test label="U+0036" stylename="cv02_1">
+      <comment>six</comment>
+      <string>6</string>
+    </test>
+    <test label="U+0037">
+      <comment>seven</comment>
+      <string>7</string>
+    </test>
+    <test label="U+0037" stylename="cv02_1">
+      <comment>seven</comment>
+      <string>7</string>
+    </test>
+    <test label="U+0038">
+      <comment>eight</comment>
+      <string>8</string>
+    </test>
+    <test label="U+0038" stylename="cv02_1">
+      <comment>eight</comment>
+      <string>8</string>
+    </test>
+    <test label="U+0039">
+      <comment>nine</comment>
+      <string>9</string>
+    </test>
+    <test label="U+0039" stylename="cv02_1">
+      <comment>nine</comment>
+      <string>9</string>
+    </test>
+    <test label="U+003A">
+      <comment>colon</comment>
+      <string>: ;</string>
     </test>
     <test label="U+003C">
       <comment>less</comment>
@@ -577,6 +658,4 @@
       <string>\u00FFFC \u00FFFD</string>
     </test>
   </testgroup>
-  <testgroup label="Specials &amp; ligatures (other than lam-alef) from glyph_data"/>
-  <testgroup label="Lam-Alef"/>
 </ftml>

@@ -1,17 +1,17 @@
 ---
-title: EastSyriacMarcusNew - Design
-fontversion: 1.101
+title: East Syriac Marcus New - Design
+fontversion: 1.105
 ---
 
-EastSyriacMarcusNew is a font family for the East Syriac script. The font was designed as a revival, or facsimile, of 
+East Syriac Marcus New is a font family for the East Syriac script. The font was designed as a revival, or facsimile, of 
 metal type cut in India from around 1920.
 
 This font was initially designed by Esho Marcus and named East Syriac Marcus.
 
 The Latin glyphs were imported from Crimson Pro.
 
-One font from this typeface family is included in the *EastSyriacMarcusNew* release:
+One font from this typeface family is included in the *East Syriac Marcus New* release:
 
-* EastSyriacMarcusNew Regular
+* East Syriac Marcus New Regular
 
-SIL Global is the creator of the EastSyriacMarcusNew fonts, and is the owner of all proprietary rights therein.
+SIL Global is the creator of the East Syriac Marcus New fonts, and is the owner of all proprietary rights therein.

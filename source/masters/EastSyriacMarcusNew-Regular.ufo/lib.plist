@@ -138,16 +138,16 @@
     <string>seven</string>
     <string>eight</string>
     <string>nine</string>
-    <string>zero.latn</string>
-    <string>one.latn</string>
-    <string>two.latn</string>
-    <string>three.latn</string>
-    <string>four.latn</string>
-    <string>five.latn</string>
-    <string>six.latn</string>
-    <string>seven.latn</string>
-    <string>eight.latn</string>
-    <string>nine.latn</string>
+    <string>zero.cv02</string>
+    <string>one.cv02</string>
+    <string>two.cv02</string>
+    <string>three.cv02</string>
+    <string>four.cv02</string>
+    <string>five.cv02</string>
+    <string>six.cv02</string>
+    <string>seven.cv02</string>
+    <string>eight.cv02</string>
+    <string>nine.cv02</string>
     <string>colon</string>
     <string>semicolon</string>
     <string>less</string>

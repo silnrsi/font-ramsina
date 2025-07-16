@@ -1,11 +1,11 @@
 ---
-title: EastSyriacMarcusNew - Documentation
-fontversion: 1.101
+title: East Syriac Marcus New - Documentation
+fontversion: 1.105
 ---
 
-Thank you for your interest in the EastSyriacMarcusNew font. This font supports the East Syriac style of the Syriac script.  
+Thank you for your interest in the East Syriac Marcus New font. This font supports the East Syriac style of the Syriac script.  
 
-This documentation is a set of HTML pages that can be viewed in any modern web browser. PDF versions of these pages are also provided. This content, plus download links and a contact form, are available from the [EastSyriacMarcusNew site](https://github.com/silnrsi/font-east-syriac-marcus-new).
+This documentation is a set of HTML pages that can be viewed in any modern web browser. PDF versions of these pages are also provided. This content, plus download links and a contact form, are available from the [East Syriac Marcus New site](https://github.com/silnrsi/font-east-syriac-marcus-new).
 
 - [About](about.md) — Information about this project and SIL Global
 - [Resources](resources.md) — Help with installation and use

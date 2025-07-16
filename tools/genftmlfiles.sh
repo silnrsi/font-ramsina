@@ -33,9 +33,9 @@ commonParams=( \
 )
 
 echo "Rebuilding ftml files..."
-tools/psfgenftml.py -q -t 'AllChars (auto)'                      source/masters/EastSyriacMarcusNew-Regular.ufo  tests/AllChars-auto.ftml        -l tests/logs/AllChars.log         "${commonParams[@]}" -s 'url(../results/EastSyriacMarcusNew-Regular.ttf)|Reg' &
-tools/psfgenftml.py -q -t 'Diac Short (auto)'                    source/masters/EastSyriacMarcusNew-Regular.ufo  tests/Diac-short-auto.ftml      -l tests/logs/DiacTest1-short.log  "${commonParams[@]}" -s 'url(../results/EastSyriacMarcusNew-Regular.ttf)|Reg' &
-tools/psfgenftml.py -q -t 'Diac (auto)'                          source/masters/EastSyriacMarcusNew-Regular.ufo  tests/Diac-auto.ftml            -l tests/logs/DiacTest1.log        "${commonParams[@]}" -s 'url(../results/EastSyriacMarcusNew-Regular.ttf)|Reg' & 
+tools/psfgenftml.py -q -t 'AllChars (auto)'                      source/masters/EastSyriacMarcusNew-Regular.ufo  tests/AllChars-auto.ftml        -l tests/logs/AllChars.log         "${commonParams[@]}" -s 'url(../results/EastSyriacMarcusNew-Regular.ttf)|ESMN' &
+tools/psfgenftml.py -q -t 'Diac Short (auto)'                    source/masters/EastSyriacMarcusNew-Regular.ufo  tests/Diac-short-auto.ftml      -l tests/logs/DiacTest1-short.log  "${commonParams[@]}" -s 'url(../results/EastSyriacMarcusNew-Regular.ttf)|ESMN' &
+tools/psfgenftml.py -q -t 'Diac (auto)'                          source/masters/EastSyriacMarcusNew-Regular.ufo  tests/Diac-auto.ftml            -l tests/logs/DiacTest1.log        "${commonParams[@]}" -s 'url(../results/EastSyriacMarcusNew-Regular.ttf)|ESMN' & 
 
 
 wait

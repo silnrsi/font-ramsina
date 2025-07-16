@@ -1,6 +1,6 @@
 ---
-title: EastSyriacMarcusNew - Developer information
-fontversion: 1.101
+title: East Syriac Marcus New - Developer information
+fontversion: 1.105
 ---
 
 ## Welcome font developers!
@@ -13,9 +13,9 @@ SIL’s fonts are licensed according to the terms of the [SIL Open Font License]
 
 ## Building the fonts from source code
 
-The full source code for the EastSyriacMarcusNew font is available on Github:
+The full source code for the East Syriac Marcus New font is available on Github:
 
-- [EastSyriacMarcusNew Github repository](https://github.com/silnrsi/font-east-syriac-marcus-new
+- [East Syriac Marcus New Github repository](https://github.com/silnrsi/font-east-syriac-marcus-new)
 
 Font sources are in the [UFO3](https://unifiedfontobject.org/versions/ufo3/) format with font family structures defined using [designspace](https://github.com/fonttools/fonttools/tree/master/Doc/source/designspaceLib). OpenType source code is stored in the [.fea](https://adobe-type-tools.github.io/afdko/OpenTypeFeatureFileSpecification.html) format in the UFO (features.fea) but is maintained in a separate file using the more efficient and powerful [.feax](https://github.com/silnrsi/feax/blob/main/docs/feaextensions.md) format.
 

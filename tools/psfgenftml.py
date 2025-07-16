@@ -213,58 +213,7 @@ def doit(args):
                 ftml.clearLang()
         builder.diacBase = saveDiacBase
 
-        # Add specials and ligatures that were in the glyph_data:
-        ftml.startTestGroup('Specials & ligatures (other than lam-alef) from glyph_data')
-        for basename in sorted(builder.specials()):
-            special = builder.special(basename)
-            uids = special.uids
-            # Omit lam-alef ligatures as they are handled in the next section
-            if uids[0] in lamlist:
-                continue
-            setBackgroundColor(uids)
-            # At this point in time the only other specials in absGlyphList are mark ligatures,
-            # so prepare to test them in all character orders:
-            uidCombos = tuple(permutations(uids))
-            for featlist in builder.permuteFeatures(uids=uids, feats=special.feats):
-                ftml.setFeatures(featlist)
-                for uids2 in uidCombos:
-                    builder.render(uids2, ftml)
-                ftml.closeTest()
-            ftml.clearFeatures()
-            if len(special.langs):
-                for langID in builder.allLangs:
-                    ftml.setLang(langID)
-                    builder.render(uids, ftml)
-                    ftml.closeTest()
-                ftml.clearLang()
-
-        # Add Lam-Alef data manually
-        ftml.startTestGroup('Lam-Alef')
-
-        # for this test use beh to force final form:
-        saveJoiner = builder.joinBefore
-        builder.joinBefore = '\u0628'
-        for lam in lamlist:
-            for alef in aleflist:
-                # For the alef composites in Arabic Extended-B (U+0870 .. U+0882) we support
-                # lam-alef ligatures only with the plain lam U+0644
-                if lam != 0x0644 and 0x0870 <= alef <= 0x0882:
-                    continue
-                setBackgroundColor((lam, alef))
-                for featlist in builder.permuteFeatures(uids=(lam, alef)):
-                    ftml.setFeatures(featlist)
-                    builder.render((lam, alef), ftml)
-                    ftml.closeTest()
-                ftml.clearFeatures()
-                if lam == 0x0644 and 'cv02' in builder.features:
-                    # Also test lam with hamza above for warsh variants
-                    for featlist in builder.permuteFeatures(uids=(lam, 0x0654, alef), feats=('cv02',)):
-                        ftml.setFeatures(featlist)
-                        builder.render((lam, 0x0654, alef), ftml)
-                        ftml.closeTest()
-                    ftml.clearFeatures()
-        builder.joinBefore = saveJoiner
-
+        
 
 #--------------------------------
 # Arabic letters test, shape-sorted

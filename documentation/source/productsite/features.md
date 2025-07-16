@@ -1,13 +1,22 @@
 
-EastSyriacMarcusNew is an OpenType-enabled font family that supports the East Syriac style of the Syriac script. It includes a number of optional features that may be useful or required for particular uses or languages. This document lists all the available features.
+East Syriac Marcus New is an OpenType-enabled font family that supports the East Syriac style of the Syriac script. It includes a number of optional features that may be useful or required for particular uses or languages. This document lists all the available features.
 
 These OpenType features are primarily specified using four-letter tags (e.g. 'cv38'). For more information on how to access OpenType features in specific environments and applications, see [Using Font Features](https://software.sil.org/fonts/features).
 
-This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use EastSyriacMarcusNew as a web font see [EastSyriacMarcusNew Webfont Example](../web/EastSyriacMarcusNew-webfont-example.html). For detailed information see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts).
+This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use East Syriac Marcus New as a web font see [East Syriac Marcus New Webfont Example](../web/EastSyriacMarcusNew-webfont-example.html). For detailed information see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts).
 
 *If this document is not displaying correctly a PDF version is also provided in the documentation/pdf folder of the release package.*
 
 ## Character variants
+
+### Digit alternates
+
+<span class='affects'>Affects: U+0030..U+0039  (this feature is provided for those who prefer serif digits with Syriac script)</span>
+
+Feature | Sample                      | Feature setting
+------- | --------------------------- | -------
+Standard | <span class='esmn-R normal'>0123456789</span> | `cv02=0`
+Serif  | <span class='esmn-cv02-1-R normal'>0123456789</span> | `cv02=1`
 
 ### Kaph alternate
 
@@ -74,6 +83,7 @@ Standard | <span dir="rtl" class='esmn-R normal'>&#x072C;&#x071D; &#x200D;&#x072
 Ligature | <span dir="rtl" class='esmn-cv60-1-R normal'>&#x072C;&#x071D; &#x200D;&#x072C;&#x071D;</span> | `cv60=1`
 
 [font id='esmn' face='EastSyriacMarcusNew-Regular' size='150%' rtl=1]
+[font id='esmn-cv02-1' face='EastSyriacMarcusNew-Regular' size='150%' rtl=1 feats='cv02 1']
 [font id='esmn-cv15-1' face='EastSyriacMarcusNew-Regular' size='150%' rtl=1 feats='cv15 1']
 [font id='esmn-cv17-1' face='EastSyriacMarcusNew-Regular' size='150%' rtl=1 feats='cv17 1']
 [font id='esmn-cv18-1' face='EastSyriacMarcusNew-Regular' size='150%' rtl=1 feats='cv18 1']
