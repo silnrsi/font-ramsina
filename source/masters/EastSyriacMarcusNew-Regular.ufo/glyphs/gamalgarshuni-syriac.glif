@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gamalgarshuni-syriac" format="2">
-  <advance width="1133"/>
+  <advance width="1091"/>
   <unicode hex="0714"/>
-  <anchor x="962" y="795" name="above"/>
-  <anchor x="50" y="795" name="aboveleft"/>
-  <anchor x="685" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <anchor x="970" y="795" name="above"/>
+  <anchor x="58" y="795" name="aboveleft"/>
+  <anchor x="693" y="-150" name="below"/>
+  <anchor x="58" y="-150" name="belowleft"/>
   <outline>
-    <component base="gamal-syriac"/>
+    <component base="gamal-syriac" xOffset="8"/>
     <contour>
-      <point x="739" y="429" type="line"/>
-      <point x="694" y="511" type="line"/>
-      <point x="443" y="182" type="line"/>
-      <point x="548" y="182" type="line"/>
+      <point x="747" y="429" type="line"/>
+      <point x="702" y="511" type="line"/>
+      <point x="451" y="182" type="line"/>
+      <point x="556" y="182" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -8,10 +8,8 @@
   <outline>
     <component base="beth-syriac"/>
     <contour>
-      <point x="1049" y="195" type="line"/>
-      <point x="1049" y="65"/>
-      <point x="1083" y="0"/>
-      <point x="1148" y="0" type="curve" smooth="yes"/>
+      <point x="939" y="195" type="line"/>
+      <point x="1118" y="0" type="line"/>
       <point x="1189" y="0" type="line"/>
       <point x="1189" y="195" type="line"/>
     </contour>

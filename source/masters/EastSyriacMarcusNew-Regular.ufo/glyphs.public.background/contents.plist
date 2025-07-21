@@ -146,6 +146,8 @@
   <string>heth-syriac.medi.glif</string>
   <key>kaph-syriac</key>
   <string>kaph-syriac.glif</string>
+  <key>kaph-syriac.cv15</key>
+  <string>kaph-syriac.cv15.glif</string>
   <key>kaph-syriac.fina</key>
   <string>kaph-syriac.fina.glif</string>
   <key>kaph-syriac.init</key>
@@ -174,6 +176,8 @@
   <string>mim-syriac.init.glif</string>
   <key>nun-syriac</key>
   <string>nun-syriac.glif</string>
+  <key>nun-syriac.cv18</key>
+  <string>nun-syriac.cv18.glif</string>
   <key>nun-syriac.fina</key>
   <string>nun-syriac.fina.glif</string>
   <key>nun-syriac.init</key>
@@ -266,12 +270,16 @@
   <string>shadda-ar.glif</string>
   <key>shin-syriac</key>
   <string>shin-syriac.glif</string>
+  <key>shin-syriac.fina</key>
+  <string>shin-syriac.fina.glif</string>
   <key>shin-syriac.init</key>
   <string>shin-syriac.init.glif</string>
   <key>shin-syriac.medi</key>
   <string>shin-syriac.medi.glif</string>
   <key>taw-syriac</key>
   <string>taw-syriac.glif</string>
+  <key>taw-syriac.fina</key>
+  <string>taw-syriac.fina.glif</string>
   <key>taw_alaph-syriac</key>
   <string>taw_alaph-syriac.glif</string>
   <key>taw_alaph-syriac.fina</key>

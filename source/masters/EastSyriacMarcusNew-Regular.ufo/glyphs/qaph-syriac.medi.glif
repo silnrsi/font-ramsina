@@ -6,12 +6,10 @@
   <anchor x="540" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
-    <component base="_qaph" xOffset="100"/>
+    <component base="_qaph" xOffset="90"/>
     <contour>
-      <point x="749" y="195" type="line"/>
-      <point x="749" y="65"/>
-      <point x="783" y="0"/>
-      <point x="868" y="0" type="curve" smooth="yes"/>
+      <point x="729" y="195" type="line"/>
+      <point x="818" y="0" type="line"/>
       <point x="889" y="0" type="line"/>
       <point x="889" y="195" type="line"/>
     </contour>

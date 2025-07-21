@@ -6,7 +6,7 @@
   <anchor x="693" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
-    <component base="lamadh-syriac.medi" xOffset="222"/>
-    <component base="_LeftTail" xOffset="-50"/>
+    <component base="lamadh-syriac.medi" xOffset="262"/>
+    <component base="_LeftTail" xOffset="-37"/>
   </outline>
 </glyph>
