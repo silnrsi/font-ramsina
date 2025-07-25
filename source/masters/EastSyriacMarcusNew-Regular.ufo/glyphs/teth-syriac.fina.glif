@@ -7,6 +7,6 @@
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="teth-syriac.medi" xOffset="244"/>
-    <component base="_LeftTail" xOffset="-50"/>
+    <component base="_LeftTail" xOffset="-52"/>
   </outline>
 </glyph>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="taw_alaph-syriac.fina" format="2">
-  <advance width="1594"/>
+  <advance width="1600"/>
   <anchor x="923" y="975" name="above_1"/>
   <anchor x="341" y="975" name="above_2"/>
   <anchor x="983" y="-150" name="below_1"/>
   <anchor x="401" y="-285" name="below_2"/>
   <outline>
     <component base="alaph-syriac.fina"/>
-    <component base="taw-syriac.fina" xOffset="635"/>
+    <component base="taw-syriac.fina" xOffset="644"/>
   </outline>
 </glyph>

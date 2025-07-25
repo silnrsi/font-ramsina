@@ -8,6 +8,6 @@
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
     <component base="gamal-syriac.init" xOffset="257"/>
-    <component base="_LeftTail" xOffset="-60"/>
+    <component base="_LeftTail" xOffset="-52"/>
   </outline>
 </glyph>

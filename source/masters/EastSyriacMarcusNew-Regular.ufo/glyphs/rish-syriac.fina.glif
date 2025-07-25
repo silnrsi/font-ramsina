@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rish-syriac.fina" format="2">
-  <advance width="646"/>
-  <anchor x="282" y="1005" name="above"/>
-  <anchor x="47" y="1005" name="aboveleft"/>
-  <anchor x="307" y="-150" name="below"/>
-  <anchor x="47" y="-150" name="belowleft"/>
+  <advance width="653"/>
+  <anchor x="289" y="1005" name="above"/>
+  <anchor x="54" y="1005" name="aboveleft"/>
+  <anchor x="314" y="-150" name="below"/>
+  <anchor x="54" y="-150" name="belowleft"/>
   <outline>
-    <component base="dalathrishDotless-syriac.fina" xOffset="-7"/>
-    <component base="_LrgSquareDot" xOffset="-73" yOffset="990"/>
+    <component base="dalathrishDotless-syriac.fina"/>
+    <component base="_LrgSquareDot" xOffset="-66" yOffset="990"/>
     <contour>
-      <point x="523" y="195" type="line"/>
-      <point x="585" y="0" type="line"/>
-      <point x="666" y="0" type="line"/>
-      <point x="666" y="195" type="line"/>
+      <point x="530" y="195" type="line"/>
+      <point x="592" y="0" type="line"/>
+      <point x="673" y="0" type="line"/>
+      <point x="673" y="195" type="line"/>
     </contour>
   </outline>
   <lib>

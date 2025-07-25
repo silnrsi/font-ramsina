@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="semkathFinal-syriac.medi" format="2">
-  <advance width="1052"/>
+  <advance width="1040"/>
   <anchor x="630" y="780" name="above"/>
   <anchor x="50" y="780" name="aboveleft"/>
   <anchor x="540" y="-150" name="below"/>

@@ -57,10 +57,4 @@
       <point x="200" y="0" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>5If0</string>
-    </dict>
-  </lib>
 </glyph>

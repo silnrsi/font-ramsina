@@ -6,6 +6,6 @@
   <anchor x="327" y="-150" name="below"/>
   <anchor x="46" y="-150" name="belowleft"/>
   <outline>
-    <component base="alaph-syriac" xOffset="-4"/>
+    <component base="alaph-syriac"/>
   </outline>
 </glyph>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alaph-syriac.fin2" format="2">
   <advance width="553"/>
-  <anchor x="255" y="975" name="above"/>
-  <anchor x="46" y="975" name="aboveleft"/>
-  <anchor x="318" y="-360" name="below"/>
-  <anchor x="46" y="-360" name="belowleft"/>
+  <anchor x="259" y="975" name="above"/>
+  <anchor x="50" y="975" name="aboveleft"/>
+  <anchor x="322" y="-360" name="below"/>
+  <anchor x="50" y="-360" name="belowleft"/>
   <outline>
-    <component base="alaph-syriac" xOffset="-4"/>
+    <component base="alaph-syriac"/>
     <contour>
-      <point x="290" y="73" type="line"/>
-      <point x="106" y="149" type="line"/>
-      <point x="50" y="0" type="line"/>
-      <point x="116" y="-5"/>
-      <point x="150" y="-21"/>
-      <point x="205" y="-102" type="curve" smooth="yes"/>
-      <point x="249" y="-167"/>
-      <point x="261" y="-234"/>
-      <point x="279" y="-234" type="curve" smooth="yes"/>
-      <point x="285" y="-234"/>
-      <point x="290" y="-231"/>
-      <point x="290" y="-217" type="curve" smooth="yes"/>
+      <point x="294" y="73" type="line"/>
+      <point x="110" y="149" type="line"/>
+      <point x="54" y="0" type="line"/>
+      <point x="120" y="-5"/>
+      <point x="154" y="-21"/>
+      <point x="209" y="-102" type="curve" smooth="yes"/>
+      <point x="253" y="-167"/>
+      <point x="265" y="-234"/>
+      <point x="283" y="-234" type="curve" smooth="yes"/>
+      <point x="289" y="-234"/>
+      <point x="294" y="-231"/>
+      <point x="294" y="-217" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>

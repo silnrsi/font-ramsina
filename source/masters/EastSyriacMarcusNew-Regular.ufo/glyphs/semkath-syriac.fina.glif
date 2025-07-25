@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="semkath-syriac.fina" format="2">
-  <advance width="1206"/>
-  <anchor x="818" y="780" name="above"/>
-  <anchor x="50" y="780" name="aboveleft"/>
-  <anchor x="758" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <advance width="1154"/>
+  <anchor x="766" y="780" name="above"/>
+  <anchor x="-2" y="780" name="aboveleft"/>
+  <anchor x="706" y="-150" name="below"/>
+  <anchor x="-2" y="-150" name="belowleft"/>
   <outline>
-    <component base="semkath-syriac" xOffset="52"/>
+    <component base="semkath-syriac"/>
     <contour>
-      <point x="936" y="195" type="line"/>
-      <point x="1097" y="0" type="line"/>
-      <point x="1226" y="0" type="line"/>
-      <point x="1226" y="195" type="line"/>
+      <point x="884" y="195" type="line"/>
+      <point x="1045" y="0" type="line"/>
+      <point x="1174" y="0" type="line"/>
+      <point x="1174" y="195" type="line"/>
     </contour>
   </outline>
   <lib>
