@@ -52,7 +52,7 @@
 299-777-5-4-3</string>
     <string>/gamal-syriac/gamal-syriac.init/gamal-syriac.medi/gamal-syriac.fina/gamalgarshuni-syriac/gamalgarshuni-syriac.init/gamalgarshuni-syriac.medi/gamalgarshuni-syriac.fina/teth-syriac/teth-syriac.init/teth-syriac.medi/teth-syriac.fina/tethGarshuni-syriac/tethGarshuni-syriac.init/tethGarshuni-syriac.medi/tethGarshuni-syriac.fina 
 /kaph-syriac.fina/lamadh-syriac/lamadh-syriac.init/lamadh-syriac.medi/lamadh-syriac.fina/lamadh_alaph-syriac/lamadh_alaph-syriac.fina/mim-syriac/mim-syriac.init/mim-syriac.medi/e-syriac/e-syriac.init/e-syriac.medi/e-syriac.fina</string>
-    <string>/hbasabelow-syriac</string>
+    <string>/kaph-syriac.cv15/semkathFinal-syriac/space/rbasaabove-syriac/space/rbasabelow-syriac</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
