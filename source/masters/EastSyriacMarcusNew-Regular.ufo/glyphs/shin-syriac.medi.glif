@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="shin-syriac.medi" format="2">
-  <advance width="866"/>
+  <advance width="706"/>
   <anchor x="450" y="780" name="above"/>
   <anchor x="50" y="780" name="aboveleft"/>
   <anchor x="465" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
-    <component base="_shin" xOffset="-19"/>
+    <component base="_shin" xOffset="-100"/>
     <contour>
       <point x="172" y="0" type="line"/>
       <point x="172" y="195" type="line"/>
@@ -14,10 +14,10 @@
       <point x="-20" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="886" y="0" type="line"/>
-      <point x="886" y="195" type="line"/>
-      <point x="726" y="195" type="line"/>
       <point x="726" y="0" type="line"/>
+      <point x="726" y="195" type="line"/>
+      <point x="566" y="195" type="line"/>
+      <point x="566" y="0" type="line"/>
     </contour>
   </outline>
   <lib>

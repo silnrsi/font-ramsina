@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="beth-syriac.fina" format="2">
-  <advance width="1169"/>
+  <advance width="1069"/>
   <anchor x="665" y="795" name="above"/>
   <anchor x="50" y="795" name="aboveleft"/>
   <anchor x="705" y="-150" name="below"/>
@@ -8,10 +8,10 @@
   <outline>
     <component base="beth-syriac"/>
     <contour>
-      <point x="939" y="195" type="line"/>
-      <point x="1118" y="0" type="line"/>
-      <point x="1189" y="0" type="line"/>
-      <point x="1189" y="195" type="line"/>
+      <point x="839" y="195" type="line"/>
+      <point x="1018" y="0" type="line"/>
+      <point x="1089" y="0" type="line"/>
+      <point x="1089" y="195" type="line"/>
     </contour>
   </outline>
   <lib>
