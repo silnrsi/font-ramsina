@@ -1,50 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="he_yudh-syriac" format="2">
-  <advance width="1103"/>
-  <anchor x="670" y="765" name="above_1"/>
-  <anchor x="145" y="840" name="above_2"/>
-  <anchor x="655" y="-150" name="below_1"/>
-  <anchor x="175" y="-180" name="below_2"/>
+  <advance width="1153"/>
+  <anchor x="720" y="765" name="above_1"/>
+  <anchor x="195" y="840" name="above_2"/>
+  <anchor x="705" y="-150" name="below_1"/>
+  <anchor x="225" y="-180" name="below_2"/>
   <outline>
     <component base="he-syriac" xOffset="254"/>
     <contour>
-      <point x="454" y="346" type="curve"/>
-      <point x="348" y="439"/>
-      <point x="225" y="570"/>
-      <point x="194" y="570" type="curve" smooth="yes"/>
-      <point x="171" y="570"/>
-      <point x="147" y="556"/>
-      <point x="130" y="541" type="curve" smooth="yes"/>
-      <point x="63" y="481"/>
-      <point x="50" y="450"/>
-      <point x="50" y="424" type="curve" smooth="yes"/>
-      <point x="50" y="415"/>
-      <point x="57" y="403"/>
-      <point x="80" y="383" type="curve" smooth="yes"/>
-      <point x="123" y="346"/>
-      <point x="203" y="273"/>
-      <point x="298" y="186" type="curve"/>
-      <point x="290" y="255" type="line"/>
-      <point x="221" y="155"/>
-      <point x="112" y="53"/>
-      <point x="68" y="-9" type="curve" smooth="yes"/>
-      <point x="61" y="-18"/>
-      <point x="59" y="-28"/>
-      <point x="59" y="-37" type="curve" smooth="yes"/>
-      <point x="59" y="-61"/>
-      <point x="74" y="-75"/>
-      <point x="93" y="-75" type="curve" smooth="yes"/>
-      <point x="106" y="-75"/>
-      <point x="122" y="-68"/>
-      <point x="135" y="-53" type="curve" smooth="yes"/>
-      <point x="349" y="183"/>
-      <point x="443" y="321"/>
+      <point x="504" y="346" type="curve"/>
+      <point x="398" y="439"/>
+      <point x="275" y="570"/>
+      <point x="244" y="570" type="curve" smooth="yes"/>
+      <point x="221" y="570"/>
+      <point x="197" y="556"/>
+      <point x="180" y="541" type="curve" smooth="yes"/>
+      <point x="113" y="481"/>
+      <point x="100" y="450"/>
+      <point x="100" y="424" type="curve" smooth="yes"/>
+      <point x="100" y="415"/>
+      <point x="107" y="403"/>
+      <point x="130" y="383" type="curve" smooth="yes"/>
+      <point x="173" y="346"/>
+      <point x="253" y="273"/>
+      <point x="348" y="186" type="curve"/>
+      <point x="340" y="255" type="line"/>
+      <point x="271" y="155"/>
+      <point x="162" y="53"/>
+      <point x="118" y="-9" type="curve" smooth="yes"/>
+      <point x="111" y="-18"/>
+      <point x="109" y="-28"/>
+      <point x="109" y="-37" type="curve" smooth="yes"/>
+      <point x="109" y="-61"/>
+      <point x="124" y="-75"/>
+      <point x="143" y="-75" type="curve" smooth="yes"/>
+      <point x="156" y="-75"/>
+      <point x="172" y="-68"/>
+      <point x="185" y="-53" type="curve" smooth="yes"/>
+      <point x="399" y="183"/>
+      <point x="493" y="321"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
       <string>CP</string>
+      <key>public.markColor</key>
+      <string>0.604,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

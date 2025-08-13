@@ -107,6 +107,7 @@
     <string>hyphentwo</string>
     <string>hyphen</string>
     <string>period</string>
+    <string>period.latn</string>
     <string>slash</string>
     <string>zero</string>
     <string>one</string>
@@ -129,11 +130,13 @@
     <string>eight.cv02</string>
     <string>nine.cv02</string>
     <string>colon</string>
+    <string>colon.latn</string>
     <string>semicolon</string>
     <string>less</string>
     <string>equal</string>
     <string>greater</string>
     <string>question</string>
+    <string>question.latn</string>
     <string>at</string>
     <string>A</string>
     <string>B</string>

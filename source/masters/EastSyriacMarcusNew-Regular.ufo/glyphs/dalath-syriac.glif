@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalath-syriac" format="2">
-  <advance width="631"/>
+  <advance width="681"/>
   <unicode hex="0715"/>
-  <anchor x="282" y="720" name="above"/>
-  <anchor x="50" y="720" name="aboveleft"/>
-  <anchor x="282" y="-390" name="below"/>
-  <anchor x="50" y="-390" name="belowleft"/>
+  <anchor x="332" y="720" name="above"/>
+  <anchor x="100" y="720" name="aboveleft"/>
+  <anchor x="332" y="-390" name="below"/>
+  <anchor x="100" y="-390" name="belowleft"/>
   <outline>
     <component base="dalathrishDotless-syriac"/>
-    <component base="_LrgSquareDot" xOffset="-51"/>
+    <component base="_LrgSquareDot" xOffset="-1"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.604,0.6,1,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -13,6 +13,9 @@
 @Digits = [one two three four five six seven eight nine zero];
 @Digits_cv02 = [one.cv02 two.cv02 three.cv02 four.cv02 five.cv02 six.cv02 seven.cv02 eight.cv02 nine.cv02 zero.cv02];
 
+@Punct = [period colon question];
+@Punct_latn = [period.latn colon.latn question.latn];
+
 # Next 4 should have 18 glyphs
 
 # was called @DualJoiningXn

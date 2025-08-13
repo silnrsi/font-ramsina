@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zain-syriac.fina" format="2">
-  <advance width="541"/>
-  <anchor x="221" y="705" name="above"/>
-  <anchor x="50" y="705" name="aboveleft"/>
-  <anchor x="356" y="-330" name="below"/>
-  <anchor x="50" y="-330" name="belowleft"/>
+  <advance width="591"/>
+  <anchor x="271" y="705" name="above"/>
+  <anchor x="100" y="705" name="aboveleft"/>
+  <anchor x="406" y="-330" name="below"/>
+  <anchor x="100" y="-330" name="belowleft"/>
   <outline>
     <component base="zain-syriac"/>
     <contour>
-      <point x="281" y="194" type="line"/>
-      <point x="281" y="64"/>
-      <point x="315" y="-1"/>
-      <point x="330" y="-1" type="curve"/>
-      <point x="561" y="-1" type="line"/>
-      <point x="561" y="194" type="line"/>
+      <point x="331" y="194" type="line"/>
+      <point x="331" y="64"/>
+      <point x="365" y="-1"/>
+      <point x="380" y="-1" type="curve"/>
+      <point x="611" y="-1" type="line"/>
+      <point x="611" y="194" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
       <string>CP</string>
+      <key>public.markColor</key>
+      <string>0.604,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

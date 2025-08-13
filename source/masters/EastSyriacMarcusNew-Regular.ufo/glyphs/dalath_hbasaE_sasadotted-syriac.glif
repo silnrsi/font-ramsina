@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalath_hbasaEsasadotted-syriac" format="2">
-  <advance width="631"/>
-  <anchor x="282" y="720" name="above"/>
-  <anchor x="50" y="720" name="aboveleft"/>
-  <anchor x="282" y="-390" name="below"/>
-  <anchor x="50" y="-390" name="belowleft"/>
+  <advance width="681"/>
+  <anchor x="332" y="720" name="above"/>
+  <anchor x="100" y="720" name="aboveleft"/>
+  <anchor x="332" y="-390" name="below"/>
+  <anchor x="100" y="-390" name="belowleft"/>
   <outline>
-    <component base="_LrgSquareDot" xOffset="-90"/>
+    <component base="_LrgSquareDot" xOffset="-40"/>
     <component base="dalathrishDotless-syriac"/>
-    <component base="rwaha-syriac" xOffset="377" yOffset="-335"/>
+    <component base="rwaha-syriac" xOffset="427" yOffset="-335"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.604,0.6,1,1</string>
+    </dict>
+  </lib>
 </glyph>

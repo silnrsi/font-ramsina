@@ -340,6 +340,8 @@
   <string>circumflexbelowcomb.glif</string>
   <key>colon</key>
   <string>colon.glif</string>
+  <key>colon.latn</key>
+  <string>colon.latn.glif</string>
   <key>colonHorizontal-syriac</key>
   <string>colonH_orizontal-syriac.glif</string>
   <key>colonSkewedleft-syriac</key>
@@ -796,6 +798,8 @@
   <string>percent.glif</string>
   <key>period</key>
   <string>period.glif</string>
+  <key>period.latn</key>
+  <string>period.latn.glif</string>
   <key>periodcentered</key>
   <string>periodcentered.glif</string>
   <key>perthousand</key>
@@ -834,6 +838,8 @@
   <string>question.glif</string>
   <key>question-ar</key>
   <string>question-ar.glif</string>
+  <key>question.latn</key>
+  <string>question.latn.glif</string>
   <key>questiondown</key>
   <string>questiondown.glif</string>
   <key>quotedbl</key>

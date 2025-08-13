@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alaph-syriac.fin3" format="2">
-  <advance width="553"/>
-  <anchor x="255" y="975" name="above"/>
-  <anchor x="46" y="975" name="aboveleft"/>
-  <anchor x="327" y="-150" name="below"/>
-  <anchor x="46" y="-150" name="belowleft"/>
+  <advance width="623"/>
+  <anchor x="305" y="975" name="above"/>
+  <anchor x="96" y="975" name="aboveleft"/>
+  <anchor x="377" y="-150" name="below"/>
+  <anchor x="96" y="-150" name="belowleft"/>
   <outline>
     <component base="alaph-syriac"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.604,0.6,1,1</string>
+    </dict>
+  </lib>
 </glyph>

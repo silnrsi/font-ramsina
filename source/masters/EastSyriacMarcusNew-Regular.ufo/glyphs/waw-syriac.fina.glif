@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="waw-syriac.fina" format="2">
-  <advance width="719"/>
-  <anchor x="359" y="735" name="above"/>
-  <anchor x="50" y="735" name="aboveleft"/>
-  <anchor x="359" y="-150" name="below"/>
-  <anchor x="50" y="-150" name="belowleft"/>
+  <advance width="769"/>
+  <anchor x="409" y="735" name="above"/>
+  <anchor x="100" y="735" name="aboveleft"/>
+  <anchor x="409" y="-150" name="below"/>
+  <anchor x="100" y="-150" name="belowleft"/>
   <outline>
     <component base="waw-syriac"/>
     <contour>
-      <point x="602" y="195" type="line"/>
-      <point x="684" y="0" type="line"/>
-      <point x="739" y="0" type="line"/>
-      <point x="739" y="195" type="line"/>
+      <point x="652" y="195" type="line"/>
+      <point x="734" y="0" type="line"/>
+      <point x="789" y="0" type="line"/>
+      <point x="789" y="195" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
       <string>CP</string>
+      <key>public.markColor</key>
+      <string>0.604,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

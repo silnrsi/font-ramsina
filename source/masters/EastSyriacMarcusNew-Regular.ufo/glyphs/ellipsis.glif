@@ -6,18 +6,14 @@
 ellipsis
 </note>
   <outline>
-    <component base="period" xOffset="360"/>
-    <component base="period" xOffset="720"/>
-    <component base="period"/>
+    <component base="period.latn" xOffset="360"/>
+    <component base="period.latn" xOffset="720"/>
+    <component base="period.latn"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>period</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>period</string>
       <key>public.markColor</key>
-      <string>0.75,0.75,0.75,1</string>
+      <string>0.604,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>
