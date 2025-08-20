@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sadhe_nun-syriac.fina" format="2">
   <advance width="1149"/>
+  <anchor x="720" y="420" name="above_1"/>
+  <anchor x="225" y="270" name="above_2"/>
+  <anchor x="810" y="-675" name="below_1"/>
+  <anchor x="330" y="-675" name="below_2"/>
   <outline>
     <component base="sadhe_nun-syriac"/>
     <contour>

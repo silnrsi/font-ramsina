@@ -4,11 +4,6 @@
   <anchor x="110" y="0" name="_above"/>
   <anchor x="110" y="315" name="above"/>
   <outline>
-    <contour>
-      <point x="20" y="2" type="line"/>
-      <point x="185" y="2" type="line"/>
-      <point x="185" y="167" type="line"/>
-      <point x="20" y="167" type="line"/>
-    </contour>
+    <component base="_LrgSquareDot" xOffset="-208" yOffset="278"/>
   </outline>
 </glyph>

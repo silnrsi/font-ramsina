@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="taw_alaph-syriac.triangle" format="2">
   <advance width="861"/>
-  <anchor x="591" y="915" name="above_1"/>
+  <anchor x="541" y="915" name="above_1"/>
   <anchor x="291" y="975" name="above_2"/>
-  <anchor x="651" y="-210" name="below_1"/>
-  <anchor x="156" y="-210" name="below_2"/>
+  <anchor x="601" y="-210" name="below_1"/>
+  <anchor x="126" y="-210" name="below_2"/>
   <outline>
     <contour>
       <point x="67" y="-97" type="curve" smooth="yes"/>

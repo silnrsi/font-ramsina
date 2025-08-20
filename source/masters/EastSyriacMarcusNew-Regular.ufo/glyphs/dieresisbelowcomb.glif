@@ -4,6 +4,7 @@
   <anchor x="250" y="-30" name="_below"/>
   <anchor x="250" y="-330" name="below"/>
   <outline>
-    <component base="dieresiscomb" xOffset="5" yOffset="-196"/>
+    <component base="_LrgSquareDot" xOffset="85"/>
+    <component base="_LrgSquareDot" xOffset="-206"/>
   </outline>
 </glyph>

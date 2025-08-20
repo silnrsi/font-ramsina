@@ -3,8 +3,8 @@
   <advance width="1214"/>
   <anchor x="933" y="825" name="above_1"/>
   <anchor x="498" y="990" name="above_2"/>
-  <anchor x="993" y="-150" name="below_1"/>
-  <anchor x="573" y="-150" name="below_2"/>
+  <anchor x="743" y="-150" name="below_1"/>
+  <anchor x="3233" y="-150" name="below_2"/>
   <outline>
     <component base="taw_alaph-syriac.twined"/>
     <contour>

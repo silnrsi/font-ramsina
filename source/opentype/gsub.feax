@@ -130,10 +130,15 @@ lookup Seyame {
 
 lookup SeyameChain {
 # GSUB lookup 2, type 16 (Chaining Context)
-  sub rish-syriac' lookup Seyame dieresiscomb zlamadottedhorizontal-syriac;
-  sub rish-syriac' lookup Seyame dieresiscomb zlamadottedangular-syriac;
-  sub rish-syriac' lookup Seyame zlamadottedhorizontal-syriac dieresiscomb;
-  sub rish-syriac' lookup Seyame zlamadottedangular-syriac dieresiscomb;
+  sub rish-syriac' lookup Seyame dieresiscomb @MarkBelowCanChain;
+  sub rish-syriac' lookup Seyame dieresiscomb @MarkBelowCanChain;
+  sub rish-syriac' lookup Seyame @MarkBelowCanChain dieresiscomb;
+  sub rish-syriac' lookup Seyame @MarkBelowCanChain dieresiscomb;
+# Added the following also
+  sub rish-syriac' lookup Seyame dieresiscomb @MarkAboveCanChain;
+  sub rish-syriac' lookup Seyame dieresiscomb @MarkAboveCanChain;
+  sub rish-syriac' lookup Seyame @MarkAboveCanChain dieresiscomb;
+  sub rish-syriac' lookup Seyame @MarkAboveCanChain dieresiscomb;
 } SeyameChain;
 
 do let f = info("familyName");
