@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="taw_alaph-syriac.fina.triangle" format="2">
-  <advance width="840"/>
-  <anchor x="535" y="915" name="above_1"/>
-  <anchor x="305" y="975" name="above_2"/>
-  <anchor x="610" y="-210" name="below_1"/>
-  <anchor x="185" y="-210" name="below_2"/>
+  <advance width="890"/>
+  <anchor x="585" y="915" name="above_1"/>
+  <anchor x="355" y="975" name="above_2"/>
+  <anchor x="660" y="-210" name="below_1"/>
+  <anchor x="235" y="-210" name="below_2"/>
   <outline>
     <component base="taw_alaph-syriac.triangle"/>
     <contour>
-      <point x="757" y="195" type="line"/>
-      <point x="661" y="101" type="line"/>
-      <point x="682" y="70"/>
-      <point x="803" y="0"/>
-      <point x="808" y="0" type="curve" smooth="yes"/>
-      <point x="860" y="0" type="line"/>
-      <point x="860" y="195" type="line"/>
+      <point x="807" y="195" type="line"/>
+      <point x="711" y="101" type="line"/>
+      <point x="732" y="70"/>
+      <point x="853" y="0"/>
+      <point x="858" y="0" type="curve" smooth="yes"/>
+      <point x="910" y="0" type="line"/>
+      <point x="910" y="195" type="line"/>
     </contour>
   </outline>
   <lib>

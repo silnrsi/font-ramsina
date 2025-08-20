@@ -23,7 +23,8 @@
     tags (e.g. 'cv38'). For more information on how to access OpenType
     features in specific environments and applications, see <a
     href="https://software.sil.org/fonts/features">Using Font
-    Features</a>.</p>
+    Features</a>. Some of the ligatures are also available if an
+    application supports "Discretionary Ligatures".</p>
     <p>This page uses web fonts (WOFF2) to demonstrate font features and
     should display correctly in all modern browsers. For a more concise
     example of how to use East Syriac Marcus New as a web font see <a
@@ -34,6 +35,40 @@
     <p><em>If this document is not displaying correctly a PDF version is
     also provided in the documentation/pdf folder of the release
     package.</em></p>
+    <h2 id="stylistic-sets">Stylistic sets</h2>
+    <p><em>Some of the character variants below are also implemented as
+    Stylistic sets.</em></p>
+    <h3 id="kaph-mim-nun-alternates">Kaph Mim Nun alternates</h3>
+    <p><span class="affects">Affects: U+071F U+0721 U+0722 (this feature
+    is primarily for outlines and only affects the isolate
+    form)</span></p>
+    <table>
+    <colgroup>
+    <col style="width: 17%" />
+    <col style="width: 65%" />
+    <col style="width: 17%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Feature</th>
+    <th>Sample</th>
+    <th>Feature setting</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>Standard</td>
+    <td><span class="esmn-R normal">ܟ ܡ ܢ</span></td>
+    <td><code>ss01=0</code></td>
+    </tr>
+    <tr class="even">
+    <td>Alternate</td>
+    <td><span class="esmn-R normal"
+    style="font-feature-settings: &quot;ss01&quot; 1">ܟ ܡ ܢ</span></td>
+    <td><code>ss01=1</code></td>
+    </tr>
+    </tbody>
+    </table>
     <h2 id="character-variants">Character variants</h2>
     <h3 id="digit-alternates">Digit alternates</h3>
     <p><span class="affects">Affects: U+0030..U+0039 (this feature is
@@ -157,6 +192,8 @@
     </tbody>
     </table>
     <h3 id="he-yudh-ligature">He Yudh ligature</h3>
+    <p>This ligature is also available as a "Discretionary
+    Ligature".</p>
     <p><span class="affects">Affects: U+0717 U+071D</span></p>
     <table>
     <colgroup>
@@ -181,11 +218,13 @@
     <td>Ligature</td>
     <td><span class="esmn-R normal"
     style="font-feature-settings: &quot;cv38&quot; 1">ܗܝ ‍ܗܝ</span></td>
-    <td><code>cv38=1</code></td>
+    <td><code>cv38=1</code> or <code>ss16</code></td>
     </tr>
     </tbody>
     </table>
     <h3 id="sadhe-nun-ligature">Sadhe Nun ligature</h3>
+    <p>This ligature is also available as a "Discretionary
+    Ligature".</p>
     <p><span class="affects">Affects: U+0728 U+0722</span></p>
     <table>
     <colgroup>
@@ -210,11 +249,13 @@
     <td>Ligature</td>
     <td><span class="esmn-R normal"
     style="font-feature-settings: &quot;cv55&quot; 1">ܨܢ ‍ܨܢ</span></td>
-    <td><code>cv55=1</code></td>
+    <td><code>cv55=1</code> or <code>ss17</code></td>
     </tr>
     </tbody>
     </table>
     <h3 id="taw-alaph-ligature">Taw Alaph ligature</h3>
+    <p>The first ligature is also available as a "Discretionary
+    Ligature".</p>
     <p><span class="affects">Affects: U+072C U+0710</span></p>
     <table>
     <colgroup>
@@ -239,17 +280,19 @@
     <td>Triangle</td>
     <td><span class="esmn-R normal"
     style="font-feature-settings: &quot;cv59&quot; 1">ܬܐ ‍ܬܐ</span></td>
-    <td><code>cv59=1</code></td>
+    <td><code>cv59=1</code> or <code>ss18</code></td>
     </tr>
     <tr class="odd">
     <td>Intertwined</td>
     <td><span class="esmn-R normal"
     style="font-feature-settings: &quot;cv59&quot; 2">ܬܐ ‍ܬܐ</span></td>
-    <td><code>cv59=2</code></td>
+    <td><code>cv59=2</code> or <code>ss19</code></td>
     </tr>
     </tbody>
     </table>
     <h3 id="taw-yudh-ligature">Taw Yudh ligature</h3>
+    <p>This ligature is also available as a "Discretionary
+    Ligature".</p>
     <p><span class="affects">Affects: U+072C U+071D</span></p>
     <table>
     <colgroup>
@@ -274,7 +317,7 @@
     <td>Ligature</td>
     <td><span class="esmn-R normal" dir="rtl"
     style="font-feature-settings: &quot;cv60&quot; 1">ܬܝ ‍ܬܝ</span></td>
-    <td><code>cv60=1</code></td>
+    <td><code>cv60=1</code> or <code>ss20</code></td>
     </tr>
     </tbody>
     </table>
@@ -282,7 +325,7 @@
     [font id='esmn' face='EastSyriacMarcusNew-Regular' size='150%' rtl=1]
     -->
     <footer class="footer">
-        <p>This guide is from the <a href="https://github.com/silnrsi/font-east-syriac-marcus-new" title="" class="active">East Syriac Marcus New project</a> version 1.105 and is copyright © 2025 SIL Global.</p>
+        <p>This guide is from the <a href="https://github.com/silnrsi/font-east-syriac-marcus-new" title="" class="active">East Syriac Marcus New project</a> version 1.106 and is copyright © 2025 SIL Global.</p>
     </footer>
 </article>
 </div>

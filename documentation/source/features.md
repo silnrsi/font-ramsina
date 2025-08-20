@@ -13,6 +13,8 @@ This page uses web fonts (WOFF2) to demonstrate font features and should display
 
 ## Stylistic sets
 
+_Some of the character variants below are also implemented as Stylistic sets._
+
 ### Kaph Mim Nun alternates
 
 <span class='affects'>Affects: U+071F U+0721 U+0722  (this feature is primarily for outlines and only affects the isolate form)</span>
@@ -69,7 +71,7 @@ This ligature is also available as a "Discretionary Ligature".
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
 Standard | <span class='esmn-R normal'>&#x0717;&#x071D; &#x200D;&#x0717;&#x071D;</span> | `cv38=0`
-Ligature | <span class='esmn-R normal' style='font-feature-settings: "cv38" 1'>&#x0717;&#x071D; &#x200D;&#x0717;&#x071D;</span> | `cv38=1`
+Ligature | <span class='esmn-R normal' style='font-feature-settings: "cv38" 1'>&#x0717;&#x071D; &#x200D;&#x0717;&#x071D;</span> | `cv38=1` or `ss16`
 
 ### Sadhe Nun ligature
 
@@ -80,7 +82,7 @@ This ligature is also available as a "Discretionary Ligature".
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
 Standard | <span class='esmn-R normal'>&#x0728;&#x0722; &#x200D;&#x0728;&#x0722;</span> | `cv55=0`
-Ligature | <span class='esmn-R normal' style='font-feature-settings: "cv55" 1'>&#x0728;&#x0722; &#x200D;&#x0728;&#x0722;</span> | `cv55=1`
+Ligature | <span class='esmn-R normal' style='font-feature-settings: "cv55" 1'>&#x0728;&#x0722; &#x200D;&#x0728;&#x0722;</span> | `cv55=1` or `ss17`
 
 ### Taw Alaph ligature
 
@@ -91,8 +93,8 @@ The first ligature is also available as a "Discretionary Ligature".
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
 Standard    | <span class='esmn-R normal'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `cv59=0`
-Triangle    | <span class='esmn-R normal' style='font-feature-settings: "cv59" 1'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `cv59=1`
-Intertwined | <span class='esmn-R normal' style='font-feature-settings: "cv59" 2'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `cv59=2`
+Triangle    | <span class='esmn-R normal' style='font-feature-settings: "cv59" 1'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `cv59=1` or `ss18`
+Intertwined | <span class='esmn-R normal' style='font-feature-settings: "cv59" 2'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `cv59=2` or `ss19`
 
 ### Taw Yudh ligature
 
@@ -103,7 +105,7 @@ This ligature is also available as a "Discretionary Ligature".
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
 Standard | <span dir="rtl" class='esmn-R normal'>&#x072C;&#x071D; &#x200D;&#x072C;&#x071D;</span> | `cv60=0`
-Ligature | <span dir="rtl" class='esmn-R normal' style='font-feature-settings: "cv60" 1'>&#x072C;&#x071D; &#x200D;&#x072C;&#x071D;</span> | `cv60=1`
+Ligature | <span dir="rtl" class='esmn-R normal' style='font-feature-settings: "cv60" 1'>&#x072C;&#x071D; &#x200D;&#x072C;&#x071D;</span> | `cv60=1` or `ss20`
 
 <!-- PRODUCT SITE ONLY
 [font id='esmn' face='EastSyriacMarcusNew-Regular' size='150%' rtl=1]

@@ -155,8 +155,8 @@
 # baseClass rish_dieresiscomb-syriac <anchor 335 1005> @above;
 # baseClass rish_dieresiscomb-syriac.fina <anchor 333 1005> @above;
 # baseClass s <anchor 296 618> @above;
-# baseClass sadhe-syriac <anchor 295 420> @above;
-# baseClass sadhe-syriac.fina <anchor 312 420> @above;
+# baseClass sadhe-syriac <anchor 345 420> @above;
+# baseClass sadhe-syriac.fina <anchor 362 420> @above;
 # baseClass semkath-syriac <anchor 768 810> @above;
 # baseClass semkath-syriac.fina <anchor 766 780> @above;
 # baseClass semkath-syriac.init <anchor 615 780> @above;
@@ -313,8 +313,8 @@
 # baseClass rish-syriac.fina <anchor 364 -150> @below;
 # baseClass rish_dieresiscomb-syriac.fina <anchor 363 -150> @below;
 # baseClass s <anchor 292 0> @below;
-# baseClass sadhe-syriac <anchor 370 -615> @below;
-# baseClass sadhe-syriac.fina <anchor 432 -585> @below;
+# baseClass sadhe-syriac <anchor 420 -615> @below;
+# baseClass sadhe-syriac.fina <anchor 482 -585> @below;
 # baseClass semkath-syriac.fina <anchor 706 -150> @below;
 # baseClass semkath-syriac.medi <anchor 528 -150> @below;
 # baseClass semkathFinal-syriac <anchor 676 -210> @below;
@@ -455,8 +455,8 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass [rish-syriac rish_dieresiscomb-syriac] <anchor 100 1005> @aboveleft;
 # baseClass rish-syriac.fina <anchor 104 1005> @aboveleft;
 # baseClass rish_dieresiscomb-syriac.fina <anchor 103 1005> @aboveleft;
-# baseClass sadhe-syriac <anchor 71 420> @aboveleft;
-# baseClass sadhe-syriac.fina <anchor 28 420> @aboveleft;
+# baseClass sadhe-syriac <anchor 121 420> @aboveleft;
+# baseClass sadhe-syriac.fina <anchor 78 420> @aboveleft;
 # baseClass semkath-syriac <anchor 52 810> @aboveleft;
 # baseClass semkath-syriac.fina <anchor -2 780> @aboveleft;
 # baseClass semkath-syriac.medi <anchor 38 780> @aboveleft;
@@ -498,8 +498,8 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass qaph-syriac.fina <anchor 58 -150> @belowleft;
 # baseClass rish-syriac.fina <anchor 104 -150> @belowleft;
 # baseClass rish_dieresiscomb-syriac.fina <anchor 103 -150> @belowleft;
-# baseClass sadhe-syriac <anchor 71 -615> @belowleft;
-# baseClass sadhe-syriac.fina <anchor 28 -585> @belowleft;
+# baseClass sadhe-syriac <anchor 121 -615> @belowleft;
+# baseClass sadhe-syriac.fina <anchor 78 -585> @belowleft;
 # baseClass semkath-syriac.fina <anchor -2 -150> @belowleft;
 # baseClass semkath-syriac.medi <anchor 38 -150> @belowleft;
 # baseClass semkathFinal-syriac <anchor 48 -210> @belowleft;
@@ -572,9 +572,9 @@ markClass dotbelowleftcomb <anchor 220 240> @_belowleft;
 # baseClass [sadhe_nun-syriac sadhe_nun-syriac.fina] <anchor 720 420> @above_1;
 # baseClass taw_alaph-syriac <anchor 943 975> @above_1;
 # baseClass taw_alaph-syriac.fina <anchor 986 975> @above_1;
-# baseClass taw_alaph-syriac.fina.triangle <anchor 535 915> @above_1;
+# baseClass taw_alaph-syriac.fina.triangle <anchor 585 915> @above_1;
 # baseClass taw_alaph-syriac.fina.twined <anchor 933 825> @above_1;
-# baseClass taw_alaph-syriac.triangle <anchor 541 915> @above_1;
+# baseClass taw_alaph-syriac.triangle <anchor 591 915> @above_1;
 # baseClass taw_alaph-syriac.twined <anchor 939 825> @above_1;
 # baseClass taw_yudh-syriac <anchor 922 975> @above_1;
 # baseClass taw_yudh-syriac.fina <anchor 923 975> @above_1;
@@ -588,9 +588,9 @@ markClass dotbelowleftcomb <anchor 220 240> @_belowleft;
 # baseClass [sadhe_nun-syriac sadhe_nun-syriac.fina] <anchor 225 270> @above_2;
 # baseClass taw_alaph-syriac <anchor 351 975> @above_2;
 # baseClass taw_alaph-syriac.fina <anchor 391 975> @above_2;
-# baseClass taw_alaph-syriac.fina.triangle <anchor 305 975> @above_2;
+# baseClass taw_alaph-syriac.fina.triangle <anchor 355 975> @above_2;
 # baseClass taw_alaph-syriac.fina.twined <anchor 498 990> @above_2;
-# baseClass taw_alaph-syriac.triangle <anchor 291 975> @above_2;
+# baseClass taw_alaph-syriac.triangle <anchor 341 975> @above_2;
 # baseClass taw_alaph-syriac.twined <anchor 504 990> @above_2;
 # baseClass taw_yudh-syriac <anchor 367 570> @above_2;
 # baseClass taw_yudh-syriac.fina <anchor 368 570> @above_2;
@@ -604,9 +604,9 @@ markClass dotbelowleftcomb <anchor 220 240> @_belowleft;
 # baseClass [sadhe_nun-syriac sadhe_nun-syriac.fina] <anchor 810 -675> @below_1;
 # baseClass taw_alaph-syriac <anchor 1003 -150> @below_1;
 # baseClass taw_alaph-syriac.fina <anchor 1046 -150> @below_1;
-# baseClass taw_alaph-syriac.fina.triangle <anchor 610 -210> @below_1;
+# baseClass taw_alaph-syriac.fina.triangle <anchor 660 -210> @below_1;
 # baseClass taw_alaph-syriac.fina.twined <anchor 743 -150> @below_1;
-# baseClass taw_alaph-syriac.triangle <anchor 601 -210> @below_1;
+# baseClass taw_alaph-syriac.triangle <anchor 651 -210> @below_1;
 # baseClass taw_alaph-syriac.twined <anchor 689 -150> @below_1;
 # baseClass taw_yudh-syriac <anchor 952 -150> @below_1;
 # baseClass taw_yudh-syriac.fina <anchor 953 -150> @below_1;
@@ -620,9 +620,9 @@ markClass dotbelowleftcomb <anchor 220 240> @_belowleft;
 # baseClass [sadhe_nun-syriac sadhe_nun-syriac.fina] <anchor 330 -675> @below_2;
 # baseClass taw_alaph-syriac <anchor 411 -285> @below_2;
 # baseClass taw_alaph-syriac.fina <anchor 451 -285> @below_2;
-# baseClass taw_alaph-syriac.fina.triangle <anchor 185 -210> @below_2;
+# baseClass taw_alaph-syriac.fina.triangle <anchor 235 -210> @below_2;
 # baseClass taw_alaph-syriac.fina.twined <anchor 3233 -150> @below_2;
-# baseClass taw_alaph-syriac.triangle <anchor 126 -210> @below_2;
+# baseClass taw_alaph-syriac.triangle <anchor 176 -210> @below_2;
 # baseClass taw_alaph-syriac.twined <anchor 269 -150> @below_2;
 # baseClass taw_yudh-syriac <anchor 397 -150> @below_2;
 # baseClass taw_yudh-syriac.fina <anchor 398 -150> @below_2;
@@ -852,42 +852,6 @@ lookup SeyameChain {
     sub rish-syriac' lookup Seyame @MarkAboveCanChain dieresiscomb;
 } SeyameChain;
 
-    # GSUB lookup 18, type 11 (Single)
-    # Used in East Syriac, West Syriac, Estrangela
-    # GSUB lookup 3, type 16 (Chaining Context)
-    #end do - Idiqlat|East Syriac Marcus New
-    lookup LamAlaphLig_Alaph {
-        lookupflag 0;
-        sub alaph-syriac by alaph-syriac.ccmp;
-    } LamAlaphLig_Alaph;
-
-    lookup LamAlaphLig {
-        lookupflag 0;
-        sub lamadh-syriac @TypeMark alaph-syriac' lookup LamAlaphLig_Alaph;
-        sub lamadh-syriac @TypeMark @TypeMark alaph-syriac' lookup LamAlaphLig_Alaph;
-        sub lamadh-syriac alaph-syriac' lookup LamAlaphLig_Alaph;
-    } LamAlaphLig;
-
-
-lookup AlaphChain {
-    # GSUB lookup 19, type 11 (Single)
-    lookupflag 0;
-            sub alaph-syriac.ccmp by alaph-syriac;
-
-} AlaphChain;
-
-lookup AlaphLigs {
-    # GSUB lookup 4, type 16 (Chaining Context)
-    lookupflag 0;
-            sub alaph-syriac.ccmp' lookup AlaphChain @TypeMark;
-        sub alaph-syriac.ccmp' lookup AlaphChain yudh-syriac;
-        sub alaph-syriac.ccmp' lookup AlaphChain waw-syriac;
-
-} AlaphLigs;
-
-    
-
-# GSUB lookup 3, 
 # glyph for replacement seems poorly named except 073c and 0742 are similar
 lookup DalathRukkakha {
     # 0715 0742
@@ -925,7 +889,7 @@ lookup RishSeyame {
 # Added this because we need a ligature before doing character variant
 # Used in East Syriac and Estrangela
 lookup TawAlaph {
-    # 072C 0710
+    # 072C 0710 
     lookupflag IgnoreMarks;
             sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina;
         sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina;
@@ -936,19 +900,64 @@ lookup TawAlaph {
 
 # HB PAUSE
 lookup ltrMediOlaph {
+    # used when preceded by right-joing characters
     lookupflag IgnoreMarks;
     sub alaph-syriac by alaph-syriac.med2;
 } ltrMediOlaph;
 
-lookup ltrFinaSerOlaph {
-    lookupflag IgnoreMarks;
-    sub alaph-syriac by alaph-syriac.fin2;
-} ltrFinaSerOlaph;
-
+# =======================
+# Rule 1
 lookup ltrFinaESyOlaph {
     lookupflag IgnoreMarks;
     sub alaph-syriac by alaph-syriac.fin3;
 } ltrFinaESyOlaph;
+
+# =======================
+# Rule 2
+    # corresponds to "Rule 2" and "Rule 6"
+    # GSUB lookup 18, type 11 (Single)
+    # Used in East Syriac, West Syriac, Estrangela
+    # corresponds to "Rule 2" and "Rule 6"
+    # GSUB lookup 3, type 16 (Chaining Context)
+    #end do - Idiqlat|East Syriac Marcus New
+    lookup LamAlaphLig_Alaph {
+        lookupflag 0;
+        sub alaph-syriac by alaph-syriac.ccmp;
+    } LamAlaphLig_Alaph;
+
+    lookup LamAlaphLig {
+        lookupflag 0;
+        sub lamadh-syriac @TypeMark alaph-syriac' lookup LamAlaphLig_Alaph;
+        sub lamadh-syriac @TypeMark @TypeMark alaph-syriac' lookup LamAlaphLig_Alaph;
+        sub lamadh-syriac alaph-syriac' lookup LamAlaphLig_Alaph;
+    } LamAlaphLig;
+
+
+    
+
+# GSUB lookup 3, 
+lookup AlaphChain {
+    # GSUB lookup 19, type 11 (Single)
+    lookupflag 0;
+            sub alaph-syriac.ccmp by alaph-syriac;
+
+} AlaphChain;
+
+lookup AlaphLigs {
+    # GSUB lookup 4, type 16 (Chaining Context)
+    lookupflag 0;
+            sub alaph-syriac.ccmp' lookup AlaphChain @TypeMark;
+        sub alaph-syriac.ccmp' lookup AlaphChain yudh-syriac;
+        sub alaph-syriac.ccmp' lookup AlaphChain waw-syriac;
+
+} AlaphLigs;
+
+# =======================
+# Rule ?
+lookup ltrFinaSerOlaph {
+    lookupflag IgnoreMarks;
+    sub alaph-syriac by alaph-syriac.fin2;
+} ltrFinaSerOlaph;
 
 lookup square1 {
     # GSUB lookup 18, type 11 (Single)
@@ -1062,9 +1071,11 @@ lookup SadheNunLigature {
 #**********************************
 # These are intended to be arranged in the order MS & HB engines execute.
 #---  rtlm feature (pass 2) ---
-# feature rtlm {  # Right-To-Left Mirrored Forms
-#     lookup Mirror;
-# } rtlm ;
+feature rtlm {
+    # Right-To-Left Mirrored Forms
+    lookup Mirror;
+} rtlm;
+
 # HB PAUSE
 #---  ccmp feature (pass 3) ---
 feature ccmp {
@@ -1186,6 +1197,66 @@ feature liga {
         } ss01_lkp;
 
     } ss01;
+
+        feature ss16 {
+                featureNames {
+            name "He Yudh ligature";
+        };
+
+        lookup ss16_lkp {
+            lookupflag RightToLeft;
+            lookup HeYudhLigature;
+        } ss16_lkp;
+
+    } ss16;
+
+        feature ss17 {
+                featureNames {
+            name "Sadhe Nun ligature";
+        };
+
+        lookup ss17_lkp {
+            lookupflag RightToLeft;
+            lookup SadheNunLigature;
+        } ss17_lkp;
+
+    } ss17;
+
+        feature ss18 {
+                featureNames {
+            name "Taw Alaph triangle ligature";
+        };
+
+        lookup ss18_lkp {
+            lookupflag RightToLeft;
+            lookup TawAlaphTriangleLigatures;
+        } ss18_lkp;
+
+    } ss18;
+
+        feature ss19 {
+                featureNames {
+            name "Taw Alaph twined ligature";
+        };
+
+        lookup ss19_lkp {
+            lookupflag RightToLeft;
+            lookup TawAlaphTwinedLigatures;
+        } ss19_lkp;
+
+    } ss19;
+
+        feature ss20 {
+                featureNames {
+            name "Taw Yudh ligature";
+        };
+
+        lookup ss20_lkp {
+            lookupflag RightToLeft;
+            lookup TawYudhLigature;
+        } ss20_lkp;
+
+    } ss20;
 
 
 feature cv02 {
@@ -1462,6 +1533,16 @@ feature aalt {
     # Idiqlat|East Syriac Marcus New
     feature ss01;
     # Idiqlat|East Syriac Marcus New
+    feature ss16;
+    # Idiqlat|East Syriac Marcus New
+    feature ss17;
+    # Idiqlat|East Syriac Marcus New
+    feature ss18;
+    # Idiqlat|East Syriac Marcus New
+    feature ss19;
+    # Idiqlat|East Syriac Marcus New
+    feature ss20;
+    # Idiqlat|East Syriac Marcus New
     feature calt;
 } aalt;
 
@@ -1631,8 +1712,8 @@ lookup MarkToBase {
     pos base rish_dieresiscomb-syriac <anchor 335 1005> mark @_above;
     pos base rish_dieresiscomb-syriac.fina <anchor 333 1005> mark @_above;
     pos base s <anchor 296 618> mark @_above;
-    pos base sadhe-syriac <anchor 295 420> mark @_above;
-    pos base sadhe-syriac.fina <anchor 312 420> mark @_above;
+    pos base sadhe-syriac <anchor 345 420> mark @_above;
+    pos base sadhe-syriac.fina <anchor 362 420> mark @_above;
     pos base semkath-syriac <anchor 768 810> mark @_above;
     pos base semkath-syriac.fina <anchor 766 780> mark @_above;
     pos base semkath-syriac.init <anchor 615 780> mark @_above;
@@ -1703,8 +1784,8 @@ lookup MarkToBase {
     pos base [rish-syriac rish_dieresiscomb-syriac] <anchor 100 1005> mark @_aboveleft;
     pos base rish-syriac.fina <anchor 104 1005> mark @_aboveleft;
     pos base rish_dieresiscomb-syriac.fina <anchor 103 1005> mark @_aboveleft;
-    pos base sadhe-syriac <anchor 71 420> mark @_aboveleft;
-    pos base sadhe-syriac.fina <anchor 28 420> mark @_aboveleft;
+    pos base sadhe-syriac <anchor 121 420> mark @_aboveleft;
+    pos base sadhe-syriac.fina <anchor 78 420> mark @_aboveleft;
     pos base semkath-syriac <anchor 52 810> mark @_aboveleft;
     pos base semkath-syriac.fina <anchor -2 780> mark @_aboveleft;
     pos base semkath-syriac.medi <anchor 38 780> mark @_aboveleft;
@@ -1743,8 +1824,8 @@ lookup MarkToBase {
     pos base qaph-syriac.fina <anchor 58 -150> mark @_belowleft;
     pos base rish-syriac.fina <anchor 104 -150> mark @_belowleft;
     pos base rish_dieresiscomb-syriac.fina <anchor 103 -150> mark @_belowleft;
-    pos base sadhe-syriac <anchor 71 -615> mark @_belowleft;
-    pos base sadhe-syriac.fina <anchor 28 -585> mark @_belowleft;
+    pos base sadhe-syriac <anchor 121 -615> mark @_belowleft;
+    pos base sadhe-syriac.fina <anchor 78 -585> mark @_belowleft;
     pos base semkath-syriac.fina <anchor -2 -150> mark @_belowleft;
     pos base semkath-syriac.medi <anchor 38 -150> mark @_belowleft;
     pos base semkathFinal-syriac <anchor 48 -210> mark @_belowleft;
@@ -1854,8 +1935,8 @@ lookup MarkToBase {
     pos base rish-syriac.fina <anchor 364 -150> mark @_below;
     pos base rish_dieresiscomb-syriac.fina <anchor 363 -150> mark @_below;
     pos base s <anchor 292 0> mark @_below;
-    pos base sadhe-syriac <anchor 370 -615> mark @_below;
-    pos base sadhe-syriac.fina <anchor 432 -585> mark @_below;
+    pos base sadhe-syriac <anchor 420 -615> mark @_below;
+    pos base sadhe-syriac.fina <anchor 482 -585> mark @_below;
     pos base semkath-syriac.fina <anchor 706 -150> mark @_below;
     pos base semkath-syriac.medi <anchor 528 -150> mark @_below;
     pos base semkathFinal-syriac <anchor 676 -210> mark @_below;
@@ -1899,10 +1980,10 @@ lookup MarkToLig {
         ligComponent <anchor 367 570> mark @_above <anchor 397 -150> mark @_below;
     pos ligature taw_yudh-syriac.fina <anchor 923 975> mark @_above <anchor 953 -150> mark @_below
         ligComponent <anchor 368 570> mark @_above <anchor 398 -150> mark @_below;
-    pos ligature taw_alaph-syriac.triangle <anchor 541 915> mark @_above <anchor 601 -210> mark @_below
-        ligComponent <anchor 291 975> mark @_above <anchor 126 -210> mark @_below;
-    pos ligature taw_alaph-syriac.fina.triangle <anchor 535 915> mark @_above <anchor 610 -210> mark @_below
-        ligComponent <anchor 305 975> mark @_above <anchor 185 -210> mark @_below;
+    pos ligature taw_alaph-syriac.triangle <anchor 591 915> mark @_above <anchor 651 -210> mark @_below
+        ligComponent <anchor 341 975> mark @_above <anchor 176 -210> mark @_below;
+    pos ligature taw_alaph-syriac.fina.triangle <anchor 585 915> mark @_above <anchor 660 -210> mark @_below
+        ligComponent <anchor 355 975> mark @_above <anchor 235 -210> mark @_below;
     pos ligature taw_alaph-syriac.twined <anchor 939 825> mark @_above <anchor 689 -150> mark @_below
         ligComponent <anchor 504 990> mark @_above <anchor 269 -150> mark @_below;
     pos ligature taw_alaph-syriac.fina.twined <anchor 933 825> mark @_above <anchor 743 -150> mark @_below
