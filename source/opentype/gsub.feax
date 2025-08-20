@@ -200,6 +200,14 @@ lookup DalathRukkakha { # 0715 0742
   }
 } DalathRukkakha ;
 
+# Shadda+kasra handling - see notes with liga feature
+
+lookup MusicLigatures {
+  lookupflag MarkAttachmentType @MusicLigatureParts ;
+    sub music-syriac music-syriac  by  music2-syriac ;
+    sub music-syriac music-syriac music-syriac by  music3-syriac ;
+} MusicLigatures ;
+
 # pe_brevebelowcomb-syriac.init
 lookup PeBreveBelow { # 0715 0742
   lookupflag 0;
@@ -335,6 +343,18 @@ lookup TawAlaphLigatures {
     sub taw_alaph-syriac      from [ taw_alaph-syriac.triangle      taw_alaph-syriac.twined];
     sub taw_alaph-syriac.fina from [ taw_alaph-syriac.fina.triangle taw_alaph-syriac.fina.twined];
 } TawAlaphLigatures ;
+
+lookup TawAlaphTriangleLigatures {
+  lookupflag IgnoreMarks ;
+    sub taw_alaph-syriac      by taw_alaph-syriac.triangle;
+    sub taw_alaph-syriac.fina by taw_alaph-syriac.fina.triangle;
+} TawAlaphTriangleLigatures ;
+
+lookup TawAlaphTwinedLigatures {
+  lookupflag IgnoreMarks ;
+    sub taw_alaph-syriac  by taw_alaph-syriac.twined;
+    sub taw_alaph-syriac.fina by taw_alaph-syriac.fina.twined;
+} TawAlaphTwinedLigatures ;
 
 } # End of Idiqlat|East Syriac Marcus New cv
 
@@ -473,7 +493,8 @@ feature calt {
 feature dlig {  # Discretionary Ligatures  -- we use this because dlig is done in the same pass as cvXX
     script syrc;
         lookup SadheNunLigature;
-        lookup TawAlaphLigatures;
+        lookup TawAlaphTriangleLigatures;
+        lookup TawAlaphTwinedLigatures;
         lookup TawYudhLigature;
         lookup HeYudhLigature;
 } dlig ;
@@ -483,6 +504,7 @@ feature dlig {  # Discretionary Ligatures  -- we use this because dlig is done i
 feature liga {  # Ligatures  -- we use this because liga is done in the same pass as cvXX
     script syrc;
         lookup DalathRukkakha;
+        lookup MusicLigatures;
 } liga ;
 
 # HB PAUSE

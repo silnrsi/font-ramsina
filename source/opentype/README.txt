@@ -38,3 +38,17 @@ Bejan's practice, who seemed to have published the most manuscripts in printed f
 Notes: 
 Rule 2 is the default if users don't use any diacritics at all (preceded by lamadh).
 Rule 4 is the default if users don't use any diacritics at all (when not preceded by lamadh).
+
+Changed alaph rules for U+0710
+==========
+Glyph 1: alaph-syriac.med2 (no descender)
+Glyph 2: alaph-syriac.fina (descender)
+Glyph 3: alaph-syriac.ccmp (comma shape)
+
+1)	 0715 SYRIAC LETTER DALATH followed by 0710 SYRIAC LETTER ALAPH 
+OR
+ 072A SYRIAC LETTER RISH followed by  0710 SYRIAC LETTER ALAPH
+Obligatory: 0710 is rendered as Glyph 1 
+2)	0720 SYRIAC LETTER LAMADH followed by 0710 SYRIAC LETTER ALAPH and they end the word, then 0710 is rendered as Glyph 3. It can be a ligature with connecting and non-connecting form and be used universally.
+6)	Glyph 3 is only used with 0720
+7)	All other contexts of 0710, follow the general rule of shaping, i.e. initial, middle, and end forms. 
