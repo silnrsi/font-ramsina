@@ -2,10 +2,10 @@
 <?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
 <ftml version="1.0">
   <head>
-    <comment>Background colors: light green: a character is new in this version of the font</comment>
-    <fontscale>300</fontscale>
-    <fontsrc label="East Syriac Marcus">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
-    <fontsrc label="East Syriac Marcus New">url(../results/EastSyriacMarcusNew-Regular.ttf)</fontsrc>
+    <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 17.0 or later; else light green: a character is new in this version of the font</comment>
+    <fontscale>200</fontscale>
+    <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
+    <fontsrc label="ESMN">url(../results/EastSyriacMarcusNew-Regular.ttf)</fontsrc>
     <styles>
       <style feats="'cv02' 1" name="cv02_1"/>
       <style feats="'cv15' 1" name="cv15_1"/>

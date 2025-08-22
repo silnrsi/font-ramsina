@@ -21,6 +21,12 @@
       <point x="344" y="-231"/>
       <point x="344" y="-217" type="curve" smooth="yes"/>
     </contour>
+    <contour>
+      <point x="547" y="195" type="line"/>
+      <point x="547" y="0" type="line"/>
+      <point x="643" y="0" type="line"/>
+      <point x="643" y="195" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
