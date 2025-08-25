@@ -205,12 +205,10 @@ lookup RukkakhaSquare {
 # Used in East Syriac and Estrangela
 lookup TawAlaph { # 072C 0710 
   lookupflag IgnoreMarks ;
-  ifinfo(familyName, "Idiqlat|East Syriac Marcus New") {
+    sub taw-syriac.fina alaph-syriac.fina by taw_alaph-syriac.fina; # ???
     sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina;
-    sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina;
-  }
-    sub taw-syriac alaph-syriac by taw_alaph-syriac;
-    sub taw-syriac alaph-syriac.fin2 by taw_alaph-syriac;
+#    sub taw-syriac alaph-syriac by taw_alaph-syriac; # ()
+    sub taw-syriac alaph-syriac.fin2 by taw_alaph-syriac ;  # isolate (4)
 } TawAlaph ;
 
 # HB PAUSE
@@ -221,18 +219,21 @@ lookup TawAlaph { # 072C 0710
 # alaph-syriac.fina - tail final (glyph 2) used word final when connected dual joining character
 # alaph-syriac.fin2 - tail final (glyph 2) used word final when following right joining character
 # alaph-syriac.ccmp - comma shape (glyph 3) only used following lamadh in isolate or final position
+
 # =======================
 # Rule 1
 
-lookup ltrMediOlaph { # used when preceded by right-joining characters
+lookup ltrFinaSerOlaph { # use when the preceding base character cannot be joined to, and that preceding base character is not a 'Dalath', 'Rish', or dotless 'Dalath-Rish'
+  lookupflag IgnoreMarks ;
+    sub alaph-syriac  by  alaph-syriac.fin2 ;
+} ltrFinaSerOlaph ;
+
+lookup ltrMediOlaph { # used in the middle of Syriac words when the preceding base character can be joined to it.
   lookupflag IgnoreMarks ;
     sub alaph-syriac  by  alaph-syriac.med2 ;
 } ltrMediOlaph ;
 
-# =======================
-# Rule 1
-
-lookup ltrFinaESyOlaph {
+lookup ltrFinaESyOlaph { # used when the preceding base character is a 'Dalath', 'Rish', or dotless 'Dalath-Rish'.
   lookupflag IgnoreMarks ;
     sub alaph-syriac  by  alaph-syriac.fin3 ;
 } ltrFinaESyOlaph ;
@@ -299,13 +300,6 @@ lookup AlaphLigs {
   }
 } AlaphLigs;
 
-# =======================
-# Rule ?
-
-lookup ltrFinaSerOlaph { 
-  lookupflag IgnoreMarks ;
-    sub alaph-syriac  by  alaph-syriac.fin2 ;
-} ltrFinaSerOlaph ;
 
 
 
@@ -381,22 +375,43 @@ lookup TawYudhLigature {
     sub taw-syriac.fina yudh-syriac by taw_yudh-syriac.fina;
 } TawYudhLigature ;
 
-lookup TawAlaphLigatures {
+
+lookup TawAlaphTriangleChain { # needed for ss19
+# GSUB lookup 19, type 11 (Single)
+  lookupflag 0;
+  ifinfo(familyName, "Idiqlat|East Syriac Marcus New") {
+    sub taw_alaph-syriac by taw_alaph-syriac.triangle;
+    sub taw_alaph-syriac.fina by taw_alaph-syriac.fina.triangle;
+  }
+} TawAlaphTriangleChain;
+
+lookup TawAlaphTwinedChain { # needed for ss19
+# GSUB lookup 19, type 11 (Single)
+  lookupflag 0;
+  ifinfo(familyName, "Idiqlat|East Syriac Marcus New") {
+    sub taw_alaph-syriac by taw_alaph-syriac.twined;
+    sub taw_alaph-syriac.fina by taw_alaph-syriac.fina.twined;
+  }
+} TawAlaphTwinedChain;
+
+lookup TawAlaphLigatures { # needed for cv59
   lookupflag IgnoreMarks ;
     sub taw_alaph-syriac      from [ taw_alaph-syriac.triangle      taw_alaph-syriac.twined];
     sub taw_alaph-syriac.fina from [ taw_alaph-syriac.fina.triangle taw_alaph-syriac.fina.twined];
 } TawAlaphLigatures ;
 
-lookup TawAlaphTriangleLigatures {
+lookup TawAlaphTriangleLigatures { # needed for ss19
   lookupflag IgnoreMarks ;
-    sub taw_alaph-syriac      by taw_alaph-syriac.triangle;
-    sub taw_alaph-syriac.fina by taw_alaph-syriac.fina.triangle;
+    sub taw_alaph-syriac' lookup TawAlaphTriangleChain  ;
+    sub taw_alaph-syriac.fina' lookup TawAlaphTriangleChain ;
+
 } TawAlaphTriangleLigatures ;
 
-lookup TawAlaphTwinedLigatures {
+
+lookup TawAlaphTwinedLigatures { # needed for ss19
   lookupflag IgnoreMarks ;
-    sub taw_alaph-syriac  by taw_alaph-syriac.twined;
-    sub taw_alaph-syriac.fina by taw_alaph-syriac.fina.twined;
+    sub taw_alaph-syriac'  lookup TawAlaphTwinedChain;
+    sub taw_alaph-syriac.fina' lookup TawAlaphTwinedChain;
 } TawAlaphTwinedLigatures ;
 
 } # End of Idiqlat|East Syriac Marcus New cv
