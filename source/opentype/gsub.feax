@@ -426,7 +426,7 @@ lookup SadheNunLigature {
     sub sadhe-syriac.fina nun-syriac.cv18 by sadhe_nun-syriac.fina ;
 } SadheNunLigature ;
 
-# Taw Alaph U+072C U+0710 cv59=2 (ligature does not form in presense of marks)
+# Taw Alaph U+072C U+0710 cv59=2 (ligature does not form in presence of marks)
 # Used in East Syriac and Estrangela
 
 
