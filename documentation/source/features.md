@@ -1,13 +1,13 @@
 ---
-title: East Syriac Marcus New - Font Features
+title: Ramsina - Font Features
 fontversion: 1.106
 ---
 
-East Syriac Marcus New is an OpenType-enabled font family that supports the East Syriac style of the Syriac script. It includes a number of optional features that may be useful or required for particular uses or languages. This document lists all the available features.
+Ramsina is an OpenType-enabled font family that supports the East Syriac style of the Syriac script. It includes a number of optional features that may be useful or required for particular uses or languages. This document lists all the available features.
 
 These OpenType features are primarily specified using four-letter tags (e.g. 'ss01' or 'cv38'). For more information on how to access OpenType features in specific environments and applications, see [Using Font Features](https://software.sil.org/fonts/features). Some of the ligatures are also available if an application supports "Discretionary Ligatures".
 
-This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use East Syriac Marcus New as a web font see [East Syriac Marcus New Webfont Example](../web/EastSyriacMarcusNew-webfont-example.html). For detailed information see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts).
+This page uses web fonts (WOFF2) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Ramsina as a web font see [Ramsina Webfont Example](../web/Ramsina-webfont-example.html). For detailed information see [Using SIL Fonts on Web Pages](https://software.sil.org/fonts/webfonts).
 
 *If this document is not displaying correctly a PDF version is also provided in the documentation/pdf folder of the release package.*
 
@@ -21,8 +21,8 @@ _Since Chariacter variants are not widely supported, some of the Stylistic sets 
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span class='esmn-R normal'>&#x071F; &#x0721; &#x0722;</span> | `ss01=0`
-Alternate  | <span class='esmn-R normal' style='font-feature-settings: "ss01" 1'>&#x071F; &#x0721; &#x0722;</span> | `ss01=1`
+Standard | <span class='ramsina-R normal'>&#x071F; &#x0721; &#x0722;</span> | `ss01=0`
+Alternate  | <span class='ramsina-R normal' style='font-feature-settings: "ss01" 1'>&#x071F; &#x0721; &#x0722;</span> | `ss01=1`
 
 ### He Yudh ligature
 
@@ -30,8 +30,8 @@ Alternate  | <span class='esmn-R normal' style='font-feature-settings: "ss01" 1'
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span class='esmn-R normal'>&#x0717;&#x071D; &#x200D;&#x0717;&#x071D;</span> | `ss16=0`
-Ligature | <span class='esmn-R normal' style='font-feature-settings: "ss16" 1'>&#x0717;&#x071D; &#x200D;&#x0717;&#x071D;</span> | `ss16=1`
+Standard | <span class='ramsina-R normal'>&#x0717;&#x071D; &#x200D;&#x0717;&#x071D;</span> | `ss16=0`
+Ligature | <span class='ramsina-R normal' style='font-feature-settings: "ss16" 1'>&#x0717;&#x071D; &#x200D;&#x0717;&#x071D;</span> | `ss16=1`
 
 ### Sadhe Nun ligature
 
@@ -39,8 +39,8 @@ Ligature | <span class='esmn-R normal' style='font-feature-settings: "ss16" 1'>&
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span class='esmn-R normal'>&#x0728;&#x0722; &#x200D;&#x0728;&#x0722;</span> | `ss17=0`
-Ligature | <span class='esmn-R normal' style='font-feature-settings: "ss17" 1'>&#x0728;&#x0722; &#x200D;&#x0728;&#x0722;</span> | `ss17=1`
+Standard | <span class='ramsina-R normal'>&#x0728;&#x0722; &#x200D;&#x0728;&#x0722;</span> | `ss17=0`
+Ligature | <span class='ramsina-R normal' style='font-feature-settings: "ss17" 1'>&#x0728;&#x0722; &#x200D;&#x0728;&#x0722;</span> | `ss17=1`
 
 ### Taw Alaph triangle ligature
 
@@ -48,8 +48,8 @@ Ligature | <span class='esmn-R normal' style='font-feature-settings: "ss17" 1'>&
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard    | <span class='esmn-R normal'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `ss18=0`
-Triangle    | <span class='esmn-R normal' style='font-feature-settings: "ss18" 1'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `ss18=1`
+Standard    | <span class='ramsina-R normal'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `ss18=0`
+Triangle    | <span class='ramsina-R normal' style='font-feature-settings: "ss18" 1'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `ss18=1`
 
 ### Taw Alaph intertwined ligature
 
@@ -57,8 +57,8 @@ Triangle    | <span class='esmn-R normal' style='font-feature-settings: "ss18" 1
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard    | <span class='esmn-R normal'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `ss19=0`
-Intertwined | <span class='esmn-R normal' style='font-feature-settings: "ss19" 1'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `ss19=1`
+Standard    | <span class='ramsina-R normal'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `ss19=0`
+Intertwined | <span class='ramsina-R normal' style='font-feature-settings: "ss19" 1'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `ss19=1`
 
 ### Taw Yudh ligature
 
@@ -66,8 +66,8 @@ Intertwined | <span class='esmn-R normal' style='font-feature-settings: "ss19" 1
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span dir="rtl" class='esmn-R normal'>&#x072C;&#x071D; &#x200D;&#x072C;&#x071D;</span> | `ss20=0`
-Ligature | <span dir="rtl" class='esmn-R normal' style='font-feature-settings: "ss20" 1'>&#x072C;&#x071D; &#x200D;&#x072C;&#x071D;</span> | `ss20=1`
+Standard | <span dir="rtl" class='ramsina-R normal'>&#x072C;&#x071D; &#x200D;&#x072C;&#x071D;</span> | `ss20=0`
+Ligature | <span dir="rtl" class='ramsina-R normal' style='font-feature-settings: "ss20" 1'>&#x072C;&#x071D; &#x200D;&#x072C;&#x071D;</span> | `ss20=1`
 
 ## Character variants
 
@@ -77,8 +77,8 @@ Ligature | <span dir="rtl" class='esmn-R normal' style='font-feature-settings: "
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span class='esmn-R normal'>0123456789</span> | `cv02=0`
-Serif  | <span class='esmn-R normal' style='font-feature-settings: "cv02" 1'>0123456789</span> | `cv02=1`
+Standard | <span class='ramsina-R normal'>0123456789</span> | `cv02=0`
+Serif  | <span class='ramsina-R normal' style='font-feature-settings: "cv02" 1'>0123456789</span> | `cv02=1`
 
 ### Kaph alternate
 
@@ -86,8 +86,8 @@ Serif  | <span class='esmn-R normal' style='font-feature-settings: "cv02" 1'>012
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span class='esmn-R normal'>&#x071F;</span> | `cv15=0`
-Historic  | <span class='esmn-R normal' style='font-feature-settings: "cv15" 1'>&#x071F;</span> | `cv15=1`
+Standard | <span class='ramsina-R normal'>&#x071F;</span> | `cv15=0`
+Historic  | <span class='ramsina-R normal' style='font-feature-settings: "cv15" 1'>&#x071F;</span> | `cv15=1`
 
 ### Mim alternate
 
@@ -95,8 +95,8 @@ Historic  | <span class='esmn-R normal' style='font-feature-settings: "cv15" 1'>
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span class='esmn-R normal'>&#x0721;</span> | `cv17=0`
-Historic  | <span class='esmn-R normal' style='font-feature-settings: "cv17" 1'>&#x0721;</span> | `cv17=1`
+Standard | <span class='ramsina-R normal'>&#x0721;</span> | `cv17=0`
+Historic  | <span class='ramsina-R normal' style='font-feature-settings: "cv17" 1'>&#x0721;</span> | `cv17=1`
 
 ### Nun alternate
 
@@ -104,8 +104,8 @@ Historic  | <span class='esmn-R normal' style='font-feature-settings: "cv17" 1'>
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span class='esmn-R normal'>&#x0722;</span> | `cv18=0`
-Historic  | <span class='esmn-R normal' style='font-feature-settings: "cv18" 1'>&#x0722;</span> | `cv18=1`
+Standard | <span class='ramsina-R normal'>&#x0722;</span> | `cv18=0`
+Historic  | <span class='ramsina-R normal' style='font-feature-settings: "cv18" 1'>&#x0722;</span> | `cv18=1`
 
 ### He Yudh ligature
 
@@ -113,8 +113,8 @@ Historic  | <span class='esmn-R normal' style='font-feature-settings: "cv18" 1'>
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span class='esmn-R normal'>&#x0717;&#x071D; &#x200D;&#x0717;&#x071D;</span> | `cv38=0`
-Ligature | <span class='esmn-R normal' style='font-feature-settings: "cv38" 1'>&#x0717;&#x071D; &#x200D;&#x0717;&#x071D;</span> | `cv38=1`
+Standard | <span class='ramsina-R normal'>&#x0717;&#x071D; &#x200D;&#x0717;&#x071D;</span> | `cv38=0`
+Ligature | <span class='ramsina-R normal' style='font-feature-settings: "cv38" 1'>&#x0717;&#x071D; &#x200D;&#x0717;&#x071D;</span> | `cv38=1`
 
 ### Sadhe Nun ligature
 
@@ -122,8 +122,8 @@ Ligature | <span class='esmn-R normal' style='font-feature-settings: "cv38" 1'>&
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span class='esmn-R normal'>&#x0728;&#x0722; &#x200D;&#x0728;&#x0722;</span> | `cv55=0`
-Ligature | <span class='esmn-R normal' style='font-feature-settings: "cv55" 1'>&#x0728;&#x0722; &#x200D;&#x0728;&#x0722;</span> | `cv55=1`
+Standard | <span class='ramsina-R normal'>&#x0728;&#x0722; &#x200D;&#x0728;&#x0722;</span> | `cv55=0`
+Ligature | <span class='ramsina-R normal' style='font-feature-settings: "cv55" 1'>&#x0728;&#x0722; &#x200D;&#x0728;&#x0722;</span> | `cv55=1`
 
 ### Taw Alaph ligature
 
@@ -131,9 +131,9 @@ Ligature | <span class='esmn-R normal' style='font-feature-settings: "cv55" 1'>&
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard    | <span class='esmn-R normal'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `cv59=0`
-Triangle    | <span class='esmn-R normal' style='font-feature-settings: "cv59" 1'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `cv59=1`
-Intertwined | <span class='esmn-R normal' style='font-feature-settings: "cv59" 2'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `cv59=2`
+Standard    | <span class='ramsina-R normal'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `cv59=0`
+Triangle    | <span class='ramsina-R normal' style='font-feature-settings: "cv59" 1'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `cv59=1`
+Intertwined | <span class='ramsina-R normal' style='font-feature-settings: "cv59" 2'>&#x072C;&#x0710; &#x200D;&#x072C;&#x0710;</span> | `cv59=2`
 
 ### Taw Yudh ligature
 
@@ -141,9 +141,9 @@ Intertwined | <span class='esmn-R normal' style='font-feature-settings: "cv59" 2
 
 Feature | Sample                      | Feature setting
 ------- | --------------------------- | -------
-Standard | <span dir="rtl" class='esmn-R normal'>&#x072C;&#x071D; &#x200D;&#x072C;&#x071D;</span> | `cv60=0`
-Ligature | <span dir="rtl" class='esmn-R normal' style='font-feature-settings: "cv60" 1'>&#x072C;&#x071D; &#x200D;&#x072C;&#x071D;</span> | `cv60=1`
+Standard | <span dir="rtl" class='ramsina-R normal'>&#x072C;&#x071D; &#x200D;&#x072C;&#x071D;</span> | `cv60=0`
+Ligature | <span dir="rtl" class='ramsina-R normal' style='font-feature-settings: "cv60" 1'>&#x072C;&#x071D; &#x200D;&#x072C;&#x071D;</span> | `cv60=1`
 
 <!-- PRODUCT SITE ONLY
-[font id='esmn' face='EastSyriacMarcusNew-Regular' size='150%' rtl=1]
+[font id='ramsina' face='Ramsina-Regular' size='150%' rtl=1]
 -->

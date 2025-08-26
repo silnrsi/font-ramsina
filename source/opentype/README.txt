@@ -1,14 +1,14 @@
 sources/opentype/README.txt
 ==================
 
-This file describes the fea source files included with the EastSyriacMarcusNew
+This file describes the fea source files included with the Ramsina
 font family. This information should be distributed along with the 
-EastSyriacMarcusNew fonts and any derivative works.
+Ramsina fonts and any derivative works.
 
-These files are part of the EastSyriacMarcusNew font family 
-(https://github.com/silnrsi/font-east-syriac-marcus-new) and are 
+These files are part of the Ramsina font family 
+(https://github.com/silnrsi/font-ramsina) and are 
 Copyright (c) SIL Global (https://www.sil.org/),
-with Reserved Font Name "SIL".
+with Reserved Font Names "Ramsina" and "SIL".
 
 This Font Software is licensed under the SIL Open Font License,
 Version 1.1.

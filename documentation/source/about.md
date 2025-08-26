@@ -1,5 +1,5 @@
 ---
-title: East Syriac Marcus New - About
+title: Ramsina - About
 fontversion: 1.105
 ---
 
@@ -18,7 +18,7 @@ The highest priorities for future additions and enhancements are mainly driven b
 - New additions to [The Unicode Standard](https://unicode.org/)
 - Requests from language communities using the fonts
 
-Please send us your requests using the [issue tracker on the font website](https://github.com/silnrsi/font-east-syriac-marcus-new). If you are interested in helping us make the fonts better see the [Developer](developer.md) page.
+Please send us your requests using the [issue tracker on the font website](https://github.com/silnrsi/font-ramsina). If you are interested in helping us make the fonts better see the [Developer](developer.md) page.
 
 ## Announcement list
 

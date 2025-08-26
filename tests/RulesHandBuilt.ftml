@@ -4,7 +4,7 @@
   <head>
     <fontscale>200</fontscale>
     <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
-    <fontsrc label="ESMN">url(../results/EastSyriacMarcusNew-Regular.ttf)</fontsrc>
+    <fontsrc label="Ramsina">url(../results/Ramsina-Regular.ttf)</fontsrc>
     <styles>
       <style feats="'ss18' 1" name="ss18_1"/>
       <style feats="'ss19' 1" name="ss19_1"/>

@@ -627,7 +627,7 @@ markClass dotbelowleftcomb <anchor 220 240> @_belowleft;
 # baseClass taw_yudh-syriac <anchor 397 -150> @below_2;
 # baseClass taw_yudh-syriac.fina <anchor 398 -150> @below_2;
 #**********************************
-# This file is part of EastSyriacMarcusNew font family (https://github.com/silnrsi/font-east-syriac-marcus-new) 
+# This file is part of Ramsina font family (https://github.com/silnrsi/font-ramsina) 
 # and is Copyright (c) 2025 SIL Global (https://www.sil.org/),
 # with Reserved Font Name "SIL".
 #
@@ -666,7 +666,7 @@ markClass dotbelowleftcomb <anchor 220 240> @_belowleft;
 #**********************************
 @RightJoiningFina = [alaph-syriac.fina dalath-syriac.fina dalathrishDotless-syriac.fina he-syriac.fina waw-syriac.fina zain-syriac.fina yudhhe-syriac.fina sadhe-syriac.fina rish-syriac.fina taw-syriac.fina dalath_hbasaEsasadotted-syriac.fina];
 @RightJoiningIsol = [alaph-syriac dalath-syriac dalathrishDotless-syriac he-syriac waw-syriac zain-syriac yudhhe-syriac sadhe-syriac rish-syriac taw-syriac dalath_hbasaEsasadotted-syriac];
-@RightJoining = [@RightJoiningIsol @RightJoiningFina alaph-syriac.fin3 alaph-syriac.med2 alaph-syriac.fin2];
+@RightJoining = [@RightJoiningIsol @RightJoiningFina alaph-syriac.fin3 alaph-syriac.med2 alaph-syriac.fin2 taw_alaph-syriac taw_alaph-syriac.fina];
 @AllBase = [@DualJoining @RightJoining];
 # Removed glyphs not in font: fathatan-ar dammatan-ar fatha-ar damma-ar sukun-ar madda-ar hamzaabove-ar alefbelow-ar
 @MarkAboveCanChain = [tildecomb macroncomb dotaccentcomb dieresiscomb shadda-ar alaphSuperscript-syriac pthahaabove-syriac zqaphaabove-syriac zqaphadotted-syriac rbasaabove-syriac hbasaabove-syriac esasaabove-syriac rwaha-syriac twodotsverticalabove-syriac threedotsabove-syriac obliquelineabove-syriac music-syriac music2-syriac music3-syriac barrekh-syriac];
@@ -800,7 +800,7 @@ lookup FontCheck {
 } FontCheck;
 
 # Replace Syriac punctuation glyphs with Latin ones:
-    #end do - East Syriac Marcus New
+    #end do - Ramsina
     # HB PAUSE
     #---  fina feature  ---
     lookup LatinPunctuation {
@@ -912,11 +912,12 @@ lookup RukkakhaSquare {
 lookup TawAlaph {
     # 072C 0710 
     lookupflag IgnoreMarks;
-            sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina;
-        sub taw-syriac.fina alaph-syriac by taw_alaph-syriac.fina;
-
-    sub taw-syriac alaph-syriac by taw_alaph-syriac;
+    sub taw-syriac.fina alaph-syriac.fina by taw_alaph-syriac.fina;
+    # ???
+    sub taw-syriac.fina alaph-syriac.fin2 by taw_alaph-syriac.fina;
+    #    sub taw-syriac alaph-syriac by taw_alaph-syriac; # ()
     sub taw-syriac alaph-syriac.fin2 by taw_alaph-syriac;
+    # isolate (4)
 } TawAlaph;
 
 # HB PAUSE
@@ -928,15 +929,20 @@ lookup TawAlaph {
 # alaph-syriac.ccmp - comma shape (glyph 3) only used following lamadh in isolate or final position
 # =======================
 # Rule 1
+lookup ltrFinaSerOlaph {
+    # use when the preceding base character cannot be joined to, and that preceding base character is not a 'Dalath', 'Rish', or dotless 'Dalath-Rish'
+    lookupflag IgnoreMarks;
+    sub alaph-syriac by alaph-syriac.fin2;
+} ltrFinaSerOlaph;
+
 lookup ltrMediOlaph {
-    # used when preceded by right-joining characters
+    # used in the middle of Syriac words when the preceding base character can be joined to it.
     lookupflag IgnoreMarks;
     sub alaph-syriac by alaph-syriac.med2;
 } ltrMediOlaph;
 
-# =======================
-# Rule 1
 lookup ltrFinaESyOlaph {
+    # used when the preceding base character is a 'Dalath', 'Rish', or dotless 'Dalath-Rish'.
     lookupflag IgnoreMarks;
     sub alaph-syriac by alaph-syriac.fin3;
 } ltrFinaESyOlaph;
@@ -948,7 +954,7 @@ lookup ltrFinaESyOlaph {
     # Used in East Syriac, West Syriac, Estrangela
     # corresponds to "Rule 2" and "Rule 6"
     # GSUB lookup 3, type 16 (Chaining Context)
-    #end do - Idiqlat|East Syriac Marcus New
+    #end do - Idiqlat|Ramsina
     lookup LamAlaphLig_Alaph {
         lookupflag 0;
         sub alaph-syriac by alaph-syriac.ccmp;
@@ -989,13 +995,6 @@ lookup AlaphLigs {
 
 } AlaphLigs;
 
-# =======================
-# Rule ?
-lookup ltrFinaSerOlaph {
-    lookupflag IgnoreMarks;
-    sub alaph-syriac by alaph-syriac.fin2;
-} ltrFinaSerOlaph;
-
 # This is needed because of the isolate form not looking like a final form, and this is viewed as a final even since it's after a right joining character
 lookup cv_fina {
     lookupflag RightToLeft IgnoreMarks;
@@ -1031,7 +1030,14 @@ lookup RightJoinFina {
     # Used in East Syriac only
     # Taw Yudh U+072C U+071D cv60=1 (ligature forms but mark is in wrong position)
     # Used in East Syriac only
-    # End of Idiqlat|East Syriac Marcus New cv
+    # needed for ss19
+    # GSUB lookup 19, type 11 (Single)
+    # needed for ss19
+    # GSUB lookup 19, type 11 (Single)
+    # needed for cv59
+    # needed for ss19
+    # needed for ss19
+    # End of Idiqlat|Ramsina cv
     # Sadhe Nun U+0728 U+0722 cv55 (marks position)
     # Used in East Syriac, West Syriac, Estrangela
     lookup KaphAlternate {
@@ -1061,6 +1067,20 @@ lookup RightJoinFina {
         sub taw-syriac.fina yudh-syriac by taw_yudh-syriac.fina;
     } TawYudhLigature;
 
+    lookup TawAlaphTriangleChain {
+        lookupflag 0;
+                    sub taw_alaph-syriac by taw_alaph-syriac.triangle;
+            sub taw_alaph-syriac.fina by taw_alaph-syriac.fina.triangle;
+
+    } TawAlaphTriangleChain;
+
+    lookup TawAlaphTwinedChain {
+        lookupflag 0;
+                    sub taw_alaph-syriac by taw_alaph-syriac.twined;
+            sub taw_alaph-syriac.fina by taw_alaph-syriac.fina.twined;
+
+    } TawAlaphTwinedChain;
+
     lookup TawAlaphLigatures {
         lookupflag IgnoreMarks;
         sub taw_alaph-syriac from [taw_alaph-syriac.triangle taw_alaph-syriac.twined];
@@ -1069,14 +1089,14 @@ lookup RightJoinFina {
 
     lookup TawAlaphTriangleLigatures {
         lookupflag IgnoreMarks;
-        sub taw_alaph-syriac by taw_alaph-syriac.triangle;
-        sub taw_alaph-syriac.fina by taw_alaph-syriac.fina.triangle;
+        sub taw_alaph-syriac' lookup TawAlaphTriangleChain;
+        sub taw_alaph-syriac.fina' lookup TawAlaphTriangleChain;
     } TawAlaphTriangleLigatures;
 
     lookup TawAlaphTwinedLigatures {
         lookupflag IgnoreMarks;
-        sub taw_alaph-syriac by taw_alaph-syriac.twined;
-        sub taw_alaph-syriac.fina by taw_alaph-syriac.fina.twined;
+        sub taw_alaph-syriac' lookup TawAlaphTwinedChain;
+        sub taw_alaph-syriac.fina' lookup TawAlaphTwinedChain;
     } TawAlaphTwinedLigatures;
 
 
@@ -1332,7 +1352,7 @@ feature cv02 {
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
     # Syriac
     # Force other languages to include Syriac script lookups:
-    #end do - Idiqlat|East Syriac Marcus New
+    #end do - Idiqlat|Ramsina
         feature cv15 {
                 cvParameters {
                         FeatUILabelNameID {
@@ -1469,7 +1489,7 @@ feature cv55 {
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
     # Syriac
     # Force other languages to include Syriac script lookups:
-    #end do - Idiqlat|East Syriac Marcus New
+    #end do - Idiqlat|Ramsina
         feature cv59 {
                 cvParameters {
                         FeatUILabelNameID {
@@ -1506,7 +1526,7 @@ feature cv55 {
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
     # Syriac
     # Force other languages to include Syriac script lookups:
-    #end do - Idiqlat|East Syriac Marcus New
+    #end do - Idiqlat|Ramsina
     #---  aalt feature (pass 10) ---
         feature cv60 {
                 cvParameters {
@@ -1538,34 +1558,34 @@ feature aalt {
     # automatic
     feature ccmp;
     feature dlig;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature cv02;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature cv15;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature cv17;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature cv18;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature cv38;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature cv55;
     feature cv59;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature cv60;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature ss01;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature ss16;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature ss17;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature ss18;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature ss19;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature ss20;
-    # Idiqlat|East Syriac Marcus New
+    # Idiqlat|Ramsina
     feature calt;
 } aalt;
 

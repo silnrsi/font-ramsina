@@ -1,14 +1,14 @@
 #!/usr/bin/python
 # encoding: utf8
 
-# Smith configuration file for EastSyriacMarcusNew
+# Smith configuration file for Ramsina
 
 # set the default output folders
 DOCDIR = ["documentation", "web"]
 genout = "generated/"
 
 # set the font name and description
-APPNAME = 'EastSyriacMarcusNew'
+APPNAME = 'Ramsina'
 FAMILY = APPNAME
 DESC_SHORT = "Font for the East Syriac script"
 
@@ -21,11 +21,12 @@ ftmlTest('tools/ftml-smith.xsl')
 # APs to omit:
 omitaps = '--omitaps "L,O,R"'
 
-designspace('source/EastSyriacMarcusNew.designspace',
+designspace('source/Ramsina.designspace',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}'),
         cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}']),
     ),
+    params = '--decomposeComponents --removeOverlaps',
     version=VERSION,  # Needed to ensure dev information on version string
     opentype = fea("generated/${DS:FILENAME_BASE}.fea", 
         mapfile = genout + "${DS:FILENAME_BASE}.map",
@@ -37,3 +38,7 @@ designspace('source/EastSyriacMarcusNew.designspace',
         metadata=f'../source/{FAMILY}-WOFF-metadata.xml',
         ),
     )
+
+def configure(ctx):
+    ctx.find_program('ttfautohint')
+    

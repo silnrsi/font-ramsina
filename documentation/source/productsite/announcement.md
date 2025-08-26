@@ -1,5 +1,5 @@
 
-We are very pleased to announce the release of East Syriac Marcus New, a new font for the East Syriac style of the Syriac script.
+We are very pleased to announce the release of Ramsina, a new font for the East Syriac style of the Syriac script.
 
 ### Changes
 

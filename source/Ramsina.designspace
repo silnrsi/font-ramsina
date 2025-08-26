@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!--
-    Axis-based designpsace for SIL's EastSyriacMarcusNew font family
+    Axis-based designpsace for SIL's Ramsina font family
 
 -->
 <designspace format="3">
@@ -20,9 +20,9 @@
         </axis>
     </axes>
     <sources>
-        <source name="EastSyriacMarcusNew-Regular"
-          familyname="East Syriac Marcus New" 
-            filename="masters/EastSyriacMarcusNew-Regular.ufo" 
+        <source name="Ramsina-Regular"
+          familyname="Ramsina" 
+            filename="masters/Ramsina-Regular.ufo" 
            stylename="Regular">
             <lib copy="1" />
             <groups copy="1" />
@@ -39,14 +39,14 @@
         <!-- stylemapfamilyname: use <familyname> for Regular, else use <familyname>+" "+<stylename> -->
         <!-- stylemapstylename: use "regular" for all styles except B: use "bold" -->
 
-        <!-- EastSyriacMarcusNew Regular -->
-        <instance  familyname="East Syriac Marcus New"
-                     filename="instances/EastSyriacMarcusNew-Regular.ufo"
-                         name="East Syriac Marcus New Regular"
-           stylemapfamilyname="East Syriac Marcus New"
+        <!-- Ramsina Regular -->
+        <instance  familyname="Ramsina"
+                     filename="instances/Ramsina-Regular.ufo"
+                         name="Ramsina Regular"
+           stylemapfamilyname="Ramsina"
             stylemapstylename="regular"
                     stylename="Regular"
-           postscriptfontname="EastSyriacMarcusNew-Regular">
+           postscriptfontname="Ramsina-Regular">
             <location>
                 <dimension name="weight" xvalue="400.000000" />
                 <dimension name="width" xvalue="100.000000" />

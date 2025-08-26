@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.EastSyriacMarcusNew.1.107" />
+  <uniqueid id="org.sil.fonts.Ramsina.1.107" />
   <vendor name="SIL Global" url="https://www.sil.org/" />
   <credits>
     <credit
       name="Becca Spalinger"
-      url="https://github.com/silnrsi/font-east-syriac-marcus-new"
+      url="https://github.com/silnrsi/font-ramsina"
       role="Font design"
     />
     <credit
       name="Lorna Evans"
-      url="https://github.com/silnrsi/font-east-syriac-marcus-new"
+      url="https://github.com/silnrsi/font-ramsina"
       role="Font production"
     />
     <credit
@@ -24,9 +24,9 @@
       role="Opentype design"
     />
   </credits>
-  <description url="https://github.com/silnrsi/font-east-syriac-marcus-new">
+  <description url="https://github.com/silnrsi/font-ramsina">
     <text lang="en">
-      East Syriac Marcus New is a font family for the East Syriac script.
+      Ramsina is a font family for the East Syriac script.
     </text>
   </description>
   <license url="https://openfontlicense.org" id="org.openfontlicense.1.1">

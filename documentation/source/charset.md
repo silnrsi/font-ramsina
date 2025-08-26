@@ -1,5 +1,5 @@
 ---
-title: East Syriac Marcus New - Character Set Support
+title: Ramsina - Character Set Support
 fontversion: 1.105
 ---
 
@@ -9,7 +9,7 @@ This font supports supports most of the characters in the Syriac block.
 
 The following character ranges are supported by this font:
 
-Unicode block | East Syriac Marcus New support
+Unicode block | Ramsina support
 ------------- | ---------------
 Arabic | only includes 060C, 061B, 061F, 0640, 0651 
 Syriac 	| ✓ (does not include 0727 as that character is only used in the Christian Palestinian Aramaic style)

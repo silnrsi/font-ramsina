@@ -11,6 +11,6 @@ For person-to-person support visit the [SIL Language Software Community](https:/
 
 ## Reporting bugs and feature requests
 
-If you have a bug to report or a suggestion for how we could improve the fonts please create an issue in the [Github East Syriac Marcus New project](https://github.com/silnrsi/font-east-syriac-marcus-new/issues) or contact us directly.
+If you have a bug to report or a suggestion for how we could improve the fonts please create an issue in the [Github Ramsina project](https://github.com/silnrsi/font-ramsina/issues) or contact us directly.
 
 

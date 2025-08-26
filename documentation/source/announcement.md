@@ -1,9 +1,9 @@
 ---
-title: East Syriac Marcus New - Announcement
+title: Ramsina - Announcement
 fontversion: 1.105
 ---
 
-We are very pleased to announce the release of East Syriac Marcus New, a new font for the East Syriac style of the Syriac script.
+We are very pleased to announce the release of Ramsina, a new font for the East Syriac style of the Syriac script.
 
 ### Changes
 

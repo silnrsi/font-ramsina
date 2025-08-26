@@ -14,7 +14,7 @@ Many questions can be answered by consulting the following FAQ pages. Here are a
     - *If I use the font on a web page do I have to include an acknowledgement?*
     - The full OFL-FAQ.txt is also included in the font package.
 
-Here are a few of the most frequently asked questions specifically regarding East Syriac Marcus New:
+Here are a few of the most frequently asked questions specifically regarding Ramsina:
 
 #### *How is this font different from East Syriac Marcus?*
 
