@@ -1,6 +1,6 @@
 ---
 title: Ramsina - Design
-fontversion: 1.105
+fontversion: 1.108
 ---
 
 Ramsina is a font family for the East Syriac script. The font was designed as a revival, or facsimile, of metal type cut in India from around 1920.

@@ -1,6 +1,6 @@
 ---
 title: Ramsina - Developer information
-fontversion: 1.105
+fontversion: 1.108
 ---
 
 ## Welcome font developers!

@@ -21,7 +21,7 @@ ftmlTest('tools/ftml-smith.xsl')
 # APs to omit:
 omitaps = '--omitaps "L,O,R"'
 
-designspace('source/Ramsina.designspace',
+designspace('source/RamsinaTestA.designspace',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}'),
         cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}']),

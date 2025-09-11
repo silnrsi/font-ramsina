@@ -5,12 +5,10 @@
     <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 17.0 or later; else light green: a character is new in this version of the font</comment>
     <fontscale>200</fontscale>
     <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
-    <fontsrc label="Ramsina">url(../results/Ramsina-Regular.ttf)</fontsrc>
+    <fontsrc label="RamsinaTestA">url(../results/RamsinaTestA-Regular.ttf)</fontsrc>
     <styles>
       <style feats="'cv02' 1" name="cv02_1"/>
-      <style feats="'cv15' 1" name="cv15_1"/>
-      <style feats="'cv17' 1" name="cv17_1"/>
-      <style feats="'cv18' 1" name="cv18_1"/>
+      <style feats="'ss01' 1" name="ss01_1"/>
     </styles>
     <title>AllChars (auto)</title>
     <widths string="38%"/>
@@ -401,7 +399,7 @@
       <comment>kaph-syriac</comment>
       <string>\u00071F \u00071F\u00200D \u00200D\u00071F\u00200D \u00200D\u00071F \u00071F\u00071F\u00071F </string>
     </test>
-    <test label="U+071F" stylename="cv15_1">
+    <test label="U+071F" stylename="ss01_1">
       <comment>kaph-syriac</comment>
       <string>\u00071F \u00071F\u00200D \u00200D\u00071F\u00200D \u00200D\u00071F \u00071F\u00071F\u00071F </string>
     </test>
@@ -413,7 +411,7 @@
       <comment>mim-syriac</comment>
       <string>\u000721 \u000721\u00200D \u00200D\u000721\u00200D \u00200D\u000721 \u000721\u000721\u000721 </string>
     </test>
-    <test label="U+0721" stylename="cv17_1">
+    <test label="U+0721" stylename="ss01_1">
       <comment>mim-syriac</comment>
       <string>\u000721 \u000721\u00200D \u00200D\u000721\u00200D \u00200D\u000721 \u000721\u000721\u000721 </string>
     </test>
@@ -421,7 +419,7 @@
       <comment>nun-syriac</comment>
       <string>\u000722 \u000722\u00200D \u00200D\u000722\u00200D \u00200D\u000722 \u000722\u000722\u000722 </string>
     </test>
-    <test label="U+0722" stylename="cv18_1">
+    <test label="U+0722" stylename="ss01_1">
       <comment>nun-syriac</comment>
       <string>\u000722 \u000722\u00200D \u00200D\u000722\u00200D \u00200D\u000722 \u000722\u000722\u000722 </string>
     </test>

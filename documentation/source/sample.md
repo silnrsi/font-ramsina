@@ -1,6 +1,6 @@
 ---
 title: Ramsina - Type Sample
-fontversion: 1.105
+fontversion: 1.108
 ---
 
 This document demonstrates all of the characters in the font. It is organized by Unicode block. Alternate glyphs that are available through features are demonstrated in the [Features](features.md) document. At the end is a sample demonstrating Syriac shaping and another example of running text.

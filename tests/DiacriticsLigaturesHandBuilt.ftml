@@ -4,8 +4,12 @@
   <head>
     <fontscale>400</fontscale>
     <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
-    <fontsrc label="Ramsina">url(../results/Ramsina-Regular.ttf)</fontsrc>
+    <fontsrc label="RamsinaTestA">url(../results/RamsinaTestA-Regular.ttf)</fontsrc>
     <styles>
+      <style feats="'ss01' 1" name="ss01_1"/>
+      <style feats="'ss18' 1" name="ss18_1"/>
+      <style feats="'ss19' 1" name="ss19_1"/>
+      <style feats="'cv02' 1" name="cv02_1"/>
       <style feats="'cv15' 1" name="cv15_1"/>
       <style feats="'cv17' 1" name="cv17_1"/>
       <style feats="'cv18' 1" name="cv18_1"/>
@@ -16,13 +20,58 @@
       <style feats="'cv60' 1" name="cv60_1"/>
     </styles>
     <title>Diacritics and Ligatures</title>
-    <widths string="25%"/>
+    <widths string="20%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">
       <string>RenderingUnknown</string>
     </test>
   </testgroup>
+
+    <testgroup label="Alaph">
+    <test label="0715 0739 0710 0721 0735 072A 0735 0710" rtl="True">
+      <comment>Rule 1 (glyph 1)</comment>
+      <string>\u0715\u0739\u0710\u0721\u0735\u072A\u0735\u0710</string>
+    </test>
+    <test label="072A 0739 0710 0721 0735 072A 0735 0710" rtl="True">
+      <comment>Rule 1 (glyph 1)</comment>
+      <string>\u072A\u0739\u0710\u0721\u0735\u072A\u0735\u0710</string>
+    </test>
+    <test label="0717 0739 0710 0721 0735 072A 0735 0710" rtl="True">
+      <comment>Rule 1 and 7 (glyph 1)</comment>
+      <string>\u0717\u0739\u0710\u0721\u0735\u072A\u0735\u0710</string>
+    </test>
+     <test label="0720 0735 0710" rtl="True">
+      <comment>Rule 2 and 6 (glyph 3)</comment>
+      <string>\u0720\u0735\u0710 - - \u0712\u0720\u0735\u0710</string>
+     </test>
+    <test label="0720 0738 072B 0729 0735 0720 0735 0710" rtl="True">
+      <comment>Rule 2 (glyph 3)</comment>
+      <string>\u0720\u0738\u072B\u0729\u0735\u0720\u0735\u0710</string>
+    </test>
+    <test label="0717 0732 0728 0720 0735 0710" rtl="True">
+      <comment>Rule 2 (glyph 3)</comment>
+      <string>\u0720\u0738\u072B\u0729\u0735\u0720\u0735\u0710</string>
+    </test>
+     <test label="0720 0735 0710 0735" rtl="True">
+      <comment>Rule 3 (glyph 1) (removed, follow rule 7)</comment>
+      <string>\u0720\u0735\u0710\u0735 - - \u0712\u0720\u0735\u0710\u0735</string>
+     </test>
+     <test label="0712 0735 0710 0713" rtl="True">
+      <comment>Rule 4 (glyph 2) (removed, follow rule 7)</comment>
+      <string>\u0712\u0735\u0710 \u0712\u0735\u0710\u0713</string>
+     </test>
+     <test label="0712 0735 0710 0735 0713" rtl="True">
+      <comment>Rule 5 (glyph 1) (removed, follow rule 7)</comment>
+      <string>\u0712\u0735\u0710\u0735 \u0712\u0735\u0710\u0735\u0713</string>
+     </test>
+     <test label="0721 0732 0720 0732 0710 071F 0742 0735 0710" rtl="True">
+      <comment>Rule 7</comment>
+      <string>\u0721\u0732\u0720\u0732\u0710\u071F\u0742\u0735\u0710</string>
+    </test>
+  </testgroup>
+
+
   <testgroup label="Valid diacritic combinations">
      <test label="0710 0308" rtl="True">
       <comment>Right joining</comment>

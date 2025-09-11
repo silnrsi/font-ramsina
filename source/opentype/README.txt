@@ -28,7 +28,7 @@ These are conventions, and there is no documented hard rules of how the shape/fo
 Bejan's practice, who seemed to have published the most manuscripts in printed form in Paris, more than 100 years ago.
 
 1. 0715 SYRIAC LETTER DALATH (or 072A SYRIAC LETTER RISH) followed by 0710 SYRIAC LETTER ALAPH rendered as Glyph 1 (obligatory) 
-2. 0720 SYRIAC LETTER LAMADH followed by 0710 SYRIAC LETTER ALAPH and NO diacritic on 0710 is renderdered as Glyph 3. This is obligatory regardless of whether 0710 is in the middle or at the end of a word.
+2. 0720 SYRIAC LETTER LAMADH followed by 0710 SYRIAC LETTER ALAPH and NO diacritic on 0710 is rendered as Glyph 3. This is obligatory regardless of whether 0710 is in the middle or at the end of a word.
 3. (removed) 0720 SYRIAC LETTER LAMADH followed by 0710 SYRIAC LETTER ALAPH and there is a diacritic on 0710, then 0710 is rendered as Glyph 1.
 4. (removed) Any character, except 0720 SYRIAC LETTER LAMADH (which is covered by rules 2 & 3) followed by 0710 SYRIAC LETTER ALAPH and NO diacritic on 0710, then 0710 is rendered as Glyph 2. This is obligatory regardless of whether 0710 is in the middle or at the end of a word. 
 5. (removed) Any character, except 0720 SYRIAC LETTER LAMADH (which is covered by rules 2 & 3), followed by 0710 SYRIAC LETTER ALAPH AND there is a diacritic on 0710, then 0710 is rendered as Glyph 1.

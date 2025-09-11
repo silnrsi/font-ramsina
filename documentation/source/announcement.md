@@ -1,6 +1,6 @@
 ---
 title: Ramsina - Announcement
-fontversion: 1.105
+fontversion: 1.108
 ---
 
 We are very pleased to announce the release of Ramsina, a new font for the East Syriac style of the Syriac script.
