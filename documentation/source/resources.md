@@ -1,6 +1,6 @@
 ---
 title: Ramsina - Resources
-fontversion: 1.108
+fontversion: 1.109
 ---
 
 ## Requirements

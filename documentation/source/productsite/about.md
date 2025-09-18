@@ -3,6 +3,8 @@
 
 This project is intended to provide a free and open font family for all current languages and writing systems that use the East Syriac script. It supports the complete range of Unicode characters required for the East Syriac style of the Syriac script. The East Syriac style is used primarily by the Assyrians (Church of the East) and Chaldeans. It is also used by the Syrian Orthodox in headings of texts.
 
+The font name, Ramsina, is a pure Assyrian name for females adored by many. The emphasis is on the second syllable: rahm-SEE-nah.
+
 For more information on the visual characteristics of the font family see [Design](design).
 
 ## Future plans
@@ -36,7 +38,7 @@ These fonts are provided at no cost; however, they are expensive to produce and 
 
 [SIL Global](https://www.sil.org/) is a global, faith-based nonprofit that works with local communities around the world to develop language solutions that expand possibilities for a better life. 
 
-We are involved in approximately 1,350 active language projects in 104 countries. These projects impact more than 1.1 billion people within 1,600 local communities. SIL’s work brings together more than 4,300 staff from 89 countries who work alongside thousands more local partners and community volunteers worldwide. Our services are available without regard to religious belief, political ideology, gender, race or ethnic background.
+As of 2024, we are involved in approximately 1,530 active language projects in 107 countries. These projects impact more than 950+ million people. SIL’s work brings together more than 4,373 staff from 86 countries who work alongside thousands more local partners and community volunteers worldwide. Our services are available without regard to religious belief, political ideology, gender, race or ethnic background.
 
 Our Vision: We long to see people flourishing in community using the languages they value most. 
 

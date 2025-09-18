@@ -9,7 +9,7 @@ This page uses web fonts (WOFF2) to demonstrate font features and should display
 
 ## Stylistic sets
 
-_Since Chariacter variants are not widely supported, some of the Stylistic sets are also implemented as character variants._
+_Some of the Stylistic sets are also implemented as character variants._
 
 ### Kaph Mim Nun alternates
 

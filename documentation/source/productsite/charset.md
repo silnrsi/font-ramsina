@@ -8,7 +8,7 @@ The following character ranges are supported by this font:
 Unicode block | Ramsina support
 ------------- | ---------------
 Arabic | only includes 060C, 061B, 061F, 0640, 0651 
-Syriac 	| ✓ (does not include 0727 as that character is only used in the Christian Palestinian Aramaic style)
+Syriac 	| ✓ (does not include 0727 as that character is only used in the Christian Palestinian Aramaic style. It also does not include 072D..072F and 074D..074F)
 Syriac Supplement | ✗
 Combining Diacritical Marks | only includes 0303..0304, 0307..0308, 030A, 0320, 0323..0325, 032D..032E, 0330..0331
 Combining Diacritical Marks Supplement | only includes 1DF8, 1DFA

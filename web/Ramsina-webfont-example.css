@@ -21,10 +21,13 @@ body {
 }
 
 h1 {
-  font-family: Ramsina, sans-serif; text-align: left; font-size: 230%;
+  font-family: Ramsina, sans-serif; text-align: left; font-size: 230%; color: #1434A4;
 }
 h2 {
-  font-family: Ramsina, sans-serif; text-align: left;font-size: 220%;
+  font-family: Ramsina, sans-serif; text-align: left;font-size: 220%; color: #1434A4;
+}
+h3 {
+  font-family: Ramsina, sans-serif; text-align: left;font-size: 200%; color: #1434A4;
 }
 .rtl {
   font-family: Ramsina, sans-serif; font-size: 200%; direction: rtl; text-align: right;

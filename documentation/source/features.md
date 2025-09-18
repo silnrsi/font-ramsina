@@ -1,6 +1,6 @@
 ---
 title: Ramsina - Font Features
-fontversion: 1.108
+fontversion: 1.109
 ---
 
 Ramsina is an OpenType-enabled font family that supports the East Syriac style of the Syriac script. It includes a number of optional features that may be useful or required for particular uses or languages. This document lists all the available features.
@@ -13,7 +13,7 @@ This page uses web fonts (WOFF2) to demonstrate font features and should display
 
 ## Stylistic sets
 
-_Since Chariacter variants are not widely supported, some of the Stylistic sets are also implemented as character variants._
+_Some of the Stylistic sets are also implemented as character variants._
 
 ### Kaph Mim Nun alternates
 
