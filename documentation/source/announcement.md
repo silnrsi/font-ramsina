@@ -9,5 +9,5 @@ The font was designed as a revival, or facsimile, of metal type cut in India fro
 
 This font was initially designed by Esho Marcus and named East Syriac Marcus. The font is used according to the terms of the [SIL Open Font License](https://openfontlicense.org/).
 
-Both desktop and web fonts are provided in a single, all-platforms package on the [Download page](https://software.sil.org/scheherazade/download).
+Both desktop and web fonts are provided in a single, all-platforms package on the [Download page](https://github.com/silnrsi/font-ramsina/releases).
 

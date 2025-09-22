@@ -7,6 +7,7 @@
   <anchor x="100" y="-360" name="belowleft"/>
   <outline>
     <component base="alaph-syriac"/>
+    <component base="kashida-ar.quarter" xOffset="533"/>
     <contour>
       <point x="344" y="73" type="line"/>
       <point x="160" y="149" type="line"/>
@@ -21,12 +22,6 @@
       <point x="344" y="-231"/>
       <point x="344" y="-217" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="547" y="195" type="line"/>
-      <point x="547" y="0" type="line"/>
-      <point x="643" y="0" type="line"/>
-      <point x="643" y="195" type="line"/>
-    </contour>
   </outline>
   <lib>
     <dict>
@@ -34,6 +29,26 @@
       <string>CPP</string>
       <key>public.markColor</key>
       <string>0.604,0.6,1,1</string>
+      <key>public.postscript.hints</key>
+      <dict>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem -213 -21</string>
+              <string>hstem 0 195</string>
+              <string>hstem 864 -20</string>
+              <string>vstem 158 293</string>
+              <string>vstem 364 87</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>w623m344,73l160,149l104,0c170,-5 204,-21 259,-102c303,-167 315,-234 333,-234c339,-234 344,-231 344,-217</string>
+      </dict>
     </dict>
   </lib>
 </glyph>

@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
   <key>ascender</key>
-  <integer>1560</integer>
+  <integer>1136</integer>
   <key>capHeight</key>
-  <integer>1433</integer>
+  <integer>864</integer>
   <key>copyright</key>
   <string>Original fonts copyright (c) 1997-2025, Sparksoft Systems,
 with Reserved Font Names "Marcus" and "Nohadra".
@@ -13,15 +13,15 @@ with Reserved Font Names "Marcus" and "Nohadra".
 Additions and modifications copyright (c) 2025, SIL Global
 (https://www.sil.org/), with Reserved Font Names "Ramsina" and "SIL".</string>
   <key>descender</key>
-  <integer>-898</integer>
+  <integer>-683</integer>
   <key>familyName</key>
   <string>Ramsina</string>
   <key>openTypeHeadCreated</key>
-  <string>2025/09/11 16:44:06</string>
+  <string>2025/09/22 16:57:57</string>
   <key>openTypeHheaAscender</key>
-  <integer>1560</integer>
+  <integer>1136</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-898</integer>
+  <integer>-683</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
@@ -124,9 +124,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2Type</key>
   <array/>
   <key>openTypeOS2TypoAscender</key>
-  <integer>1560</integer>
+  <integer>1136</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-898</integer>
+  <integer>-683</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>0</integer>
   <key>openTypeOS2UnicodeRanges</key>
@@ -168,6 +168,16 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <string>Ramsina-Regular</string>
   <key>postscriptFullName</key>
   <string>Ramsina Regular</string>
+  <key>postscriptStemSnapH</key>
+  <array>
+    <integer>195</integer>
+    <integer>195</integer>
+  </array>
+  <key>postscriptStemSnapV</key>
+  <array>
+    <integer>195</integer>
+    <integer>195</integer>
+  </array>
   <key>postscriptUnderlinePosition</key>
   <integer>-150</integer>
   <key>postscriptUnderlineThickness</key>
@@ -238,6 +248,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <string>https://github.com/silnrsi/font-ramsina</string>
   </dict>
   <key>xHeight</key>
-  <integer>1024</integer>
+  <integer>612</integer>
 </dict>
 </plist>

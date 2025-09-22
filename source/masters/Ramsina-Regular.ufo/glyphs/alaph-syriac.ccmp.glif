@@ -2,11 +2,12 @@
 <glyph name="alaph-syriac.ccmp" format="2">
   <advance width="537"/>
   <outline>
+    <component base="kashida-ar.quarter" xOffset="447"/>
     <contour>
       <point x="277" y="195" type="line"/>
       <point x="129" y="0" type="line"/>
-      <point x="557" y="0" type="line"/>
-      <point x="557" y="195" type="line"/>
+      <point x="537" y="0" type="line"/>
+      <point x="537" y="195" type="line"/>
     </contour>
     <contour>
       <point x="18" y="-158" type="curve" smooth="yes"/>

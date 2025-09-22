@@ -10,8 +10,13 @@
     <contour>
       <point x="652" y="195" type="line"/>
       <point x="734" y="0" type="line"/>
-      <point x="789" y="0" type="line"/>
-      <point x="789" y="195" type="line"/>
+      <point x="769" y="0" type="line" smooth="yes"/>
+      <point x="827" y="0"/>
+      <point x="827" y="53"/>
+      <point x="827" y="98" type="curve" smooth="yes"/>
+      <point x="827" y="143"/>
+      <point x="827" y="195"/>
+      <point x="769" y="195" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>

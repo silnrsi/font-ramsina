@@ -6,6 +6,7 @@
   <anchor x="540" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
+    <component base="kashida-ar.quarter"/>
     <contour>
       <point x="695" y="0" type="curve" smooth="yes"/>
       <point x="887" y="0"/>
@@ -21,8 +22,6 @@
       <point x="514" y="0"/>
     </contour>
     <contour>
-      <point x="818" y="235"/>
-      <point x="783" y="179"/>
       <point x="717" y="179" type="curve" smooth="yes"/>
       <point x="640" y="179"/>
       <point x="598" y="256"/>
@@ -33,11 +32,13 @@
       <point x="756" y="431"/>
       <point x="818" y="377"/>
       <point x="818" y="297" type="curve" smooth="yes"/>
+      <point x="818" y="235"/>
+      <point x="783" y="179"/>
     </contour>
     <contour>
       <point x="499" y="195" type="curve"/>
-      <point x="-20" y="195" type="line"/>
-      <point x="-20" y="0" type="line"/>
+      <point x="0" y="195" type="line"/>
+      <point x="0" y="0" type="line"/>
       <point x="366" y="0" type="line" smooth="yes"/>
       <point x="451" y="0"/>
       <point x="504" y="65"/>
@@ -46,7 +47,7 @@
       <point x="217" y="635" type="curve"/>
       <point x="217" y="678"/>
       <point x="230" y="714"/>
-      <point x="227" y="727" type="curve" smooth="yes"/>
+      <point x="227" y="727" type="curve"/>
       <point x="226" y="735"/>
       <point x="221" y="737"/>
       <point x="215" y="736" type="curve" smooth="yes"/>

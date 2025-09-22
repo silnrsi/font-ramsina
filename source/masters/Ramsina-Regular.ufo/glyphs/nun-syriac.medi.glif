@@ -6,12 +6,13 @@
   <anchor x="390" y="-150" name="below"/>
   <anchor x="50" y="-150" name="belowleft"/>
   <outline>
+    <component base="kashida-ar.quarter"/>
     <contour>
       <point x="480" y="473" type="curve"/>
       <point x="356" y="455" type="line"/>
       <point x="356" y="195" type="line"/>
-      <point x="-20" y="195" type="line"/>
-      <point x="-20" y="0" type="line"/>
+      <point x="0" y="195" type="line"/>
+      <point x="0" y="0" type="line"/>
       <point x="296" y="0" type="line" smooth="yes"/>
       <point x="354" y="0"/>
       <point x="387" y="31"/>
