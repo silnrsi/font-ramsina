@@ -91,7 +91,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL Global: Ramsina Regular: 2025</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.108</string>
+  <string>Version 1.109</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -195,7 +195,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>108</integer>
+  <integer>109</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>
