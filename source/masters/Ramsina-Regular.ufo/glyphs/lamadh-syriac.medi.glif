@@ -49,4 +49,10 @@
       <point x="309" y="937"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CCPP</string>
+    </dict>
+  </lib>
 </glyph>

@@ -15,4 +15,10 @@
       <point x="1054" y="195" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CCP</string>
+    </dict>
+  </lib>
 </glyph>

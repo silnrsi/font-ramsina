@@ -25,28 +25,10 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CCP</string>
       <key>public.markColor</key>
-      <string>0.604,0.6,1,1</string>
-      <key>public.postscript.hints</key>
-      <dict>
-        <key>formatVersion</key>
-        <string>1</string>
-        <key>hintSetList</key>
-        <array>
-          <dict>
-            <key>stems</key>
-            <array>
-              <string>hstem -213 -21</string>
-              <string>hstem 0 195</string>
-              <string>hstem 864 -20</string>
-              <string>vstem 158 293</string>
-              <string>vstem 364 87</string>
-            </array>
-          </dict>
-        </array>
-        <key>id</key>
-        <string>w623m344,73l160,149l104,0c170,-5 204,-21 259,-102c303,-167 315,-234 333,-234c339,-234 344,-231 344,-217</string>
-      </dict>
+      <string>0.604,0.600,1,1</string>
     </dict>
   </lib>
 </glyph>

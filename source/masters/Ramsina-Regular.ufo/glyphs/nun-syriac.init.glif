@@ -43,23 +43,8 @@
   </outline>
   <lib>
     <dict>
-      <key>public.postscript.hints</key>
-      <dict>
-        <key>formatVersion</key>
-        <string>1</string>
-        <key>hintSetList</key>
-        <array>
-          <dict>
-            <key>stems</key>
-            <array>
-              <string>hstem 0 195</string>
-              <string>hstem 405 195</string>
-            </array>
-          </dict>
-        </array>
-        <key>id</key>
-        <string>babbc5f7fc9807d8cc27218fe5e914d665eacd8653633f23e2015779b93ac4609bf54570056d06bc0e7ffdb61ab5d9a02c77f4d6ba61f700c601cd331d26eafe</string>
-      </dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CPP</string>
     </dict>
   </lib>
 </glyph>
