@@ -9,10 +9,4 @@
     <component base="mim-syriac.cv17"/>
     <component base="kashida-ar.quarter" xOffset="889"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CP</string>
-    </dict>
-  </lib>
 </glyph>
