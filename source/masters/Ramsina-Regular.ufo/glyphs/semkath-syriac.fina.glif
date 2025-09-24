@@ -8,15 +8,10 @@
   <outline>
     <component base="semkath-syriac"/>
     <contour>
-      <point x="892" y="195" type="line"/>
+      <point x="884" y="195" type="line"/>
       <point x="1045" y="0" type="line"/>
-      <point x="1154" y="0" type="line" smooth="yes"/>
-      <point x="1212" y="0"/>
-      <point x="1212" y="53"/>
-      <point x="1212" y="98" type="curve" smooth="yes"/>
-      <point x="1212" y="143"/>
-      <point x="1212" y="195"/>
-      <point x="1154" y="195" type="curve" smooth="yes"/>
+      <point x="1174" y="0" type="line"/>
+      <point x="1174" y="195" type="line"/>
     </contour>
   </outline>
   <lib>

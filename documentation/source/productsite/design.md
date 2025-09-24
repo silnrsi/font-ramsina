@@ -14,7 +14,7 @@ One font from this typeface family is included in the *Ramsina* release:
 Type samples showing some of the inventory of glyphs can be found here: 
 [Ramsina Type Sample](sample).
 
-<img class='fullsize' alt='Ramsina Sample - Genesis 11' src='https://software.sil.org/ramsina/wp-content/uploads/sites/29/2016/03/ScheherazadeGen11.png' />
+<img class='fullsize' alt='Ramsina Sample - Genesis 11' src='https://software.sil.org/ramsina/wp-content/uploads/sites/29/2016/03/RamsinaGen11.png' />
 [caption]<em>Ramsina Sample - Genesis 11</em>[/caption]
 
 SIL Global is the creator of the Ramsina fonts, and is the owner of all proprietary rights therein.

@@ -8,12 +8,6 @@
   <outline>
     <component base="dalathrishDotless-syriac.fina"/>
     <component base="_LrgSquareDot" xOffset="-16" yOffset="990"/>
-    <contour>
-      <point x="580" y="195" type="line"/>
-      <point x="642" y="0" type="line"/>
-      <point x="723" y="0" type="line"/>
-      <point x="723" y="195" type="line"/>
-    </contour>
   </outline>
   <lib>
     <dict>
