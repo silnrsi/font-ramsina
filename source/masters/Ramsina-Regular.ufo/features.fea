@@ -534,13 +534,13 @@ markClass circumflexbelowcomb <anchor 0 0> @_below;
 markClass dieresisbelowcomb <anchor 250 -80> @_below;
 markClass dotbelowcomb <anchor 145 -72> @_below;
 markClass [esasabelow-syriac rbasabelow-syriac] <anchor 195 0> @_below;
-markClass hbasaEsasadotted-syriac <anchor 80 -30> @_below;
+markClass hbasaEsasadotted-syriac <anchor 80 -66> @_below;
 markClass hbasabelow-syriac <anchor 160 0> @_below;
 markClass [macronbelowcomb minusbelowcomb] <anchor 263 0> @_below;
 markClass obliquelinebelow-syriac <anchor -15 -60> @_below;
 markClass pthahabelow-syriac <anchor 240 -45> @_below;
 markClass ringbelowcomb <anchor 118 30> @_below;
-markClass rukkakha-syriac <anchor 75 -15> @_below;
+markClass rukkakha-syriac <anchor 75 -51> @_below;
 markClass rukkakha-syriac.square <anchor 105 -15> @_below;
 markClass threedotsbelow-syriac <anchor 165 0> @_below;
 markClass tildebelowcomb <anchor 255 165> @_below;
@@ -788,6 +788,8 @@ table GDEF {
 languagesystem DFLT dflt;
 languagesystem syrc dflt;
 # Syriac default
+languagesystem syrc SYR;
+# Eastern Syriac
 languagesystem syrc SYRN;
 # Eastern Syriac
 languagesystem latn dflt;
@@ -833,14 +835,19 @@ lookup FontCheck {
 
 # Replace Syriac punctuation glyphs with Latin ones:
     #end do - Ramsina
-    # HB PAUSE
-    #---  fina feature  ---
+    # Replace Syriac punctuation glyphs with Latin ones:
     lookup LatinPunctuation {
         lookupflag 0;
         sub @Punct by @Punct_latn;
     } LatinPunctuation;
 
 
+    
+
+#    sub @Punct by @Punct_latn ;
+#end do - Idiqlat
+# HB PAUSE
+#---  fina feature  ---
 lookup ltrFina {
     lookupflag IgnoreMarks;
     sub @DualLinkIsol by @DualLinkFina;
@@ -1162,9 +1169,8 @@ feature ccmp {
     # Glyph Composition/Decomposition
     # Same for latin & syriac:
     lookup FontCheck;
-            script latn;
-        lookup LatinPunctuation;
-
+    script latn;
+    lookup LatinPunctuation;
     script syrc;
     lookup DecomposePthahadotted;
     lookup SeyameChain;
@@ -1283,11 +1289,7 @@ feature liga {
             name "He Yudh ligature";
         };
 
-        lookup ss16_lkp {
-            lookupflag RightToLeft;
-            lookup HeYudhLigature;
-        } ss16_lkp;
-
+        lookup HeYudhLigature;
     } ss16;
 
         feature ss17 {
@@ -1295,11 +1297,7 @@ feature liga {
             name "Sadhe Nun ligature";
         };
 
-        lookup ss17_lkp {
-            lookupflag RightToLeft;
-            lookup SadheNunLigature;
-        } ss17_lkp;
-
+        lookup SadheNunLigature;
     } ss17;
 
         feature ss18 {
@@ -1307,11 +1305,7 @@ feature liga {
             name "Taw Alaph triangle ligature";
         };
 
-        lookup ss18_lkp {
-            lookupflag RightToLeft;
-            lookup TawAlaphTriangleLigatures;
-        } ss18_lkp;
-
+        lookup TawAlaphTriangleLigatures;
     } ss18;
 
         feature ss19 {
@@ -1319,11 +1313,7 @@ feature liga {
             name "Taw Alaph twined ligature";
         };
 
-        lookup ss19_lkp {
-            lookupflag RightToLeft;
-            lookup TawAlaphTwinedLigatures;
-        } ss19_lkp;
-
+        lookup TawAlaphTwinedLigatures;
     } ss19;
 
         feature ss20 {
@@ -1331,11 +1321,7 @@ feature liga {
             name "Taw Yudh ligature";
         };
 
-        lookup ss20_lkp {
-            lookupflag RightToLeft;
-            lookup TawYudhLigature;
-        } ss20_lkp;
-
+        lookup TawYudhLigature;
     } ss20;
 
 
@@ -1368,27 +1354,24 @@ feature cv02 {
     # Character Variant 15
     # English US
     # English US
+    # English US
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-    # Syriac
-    # Force other languages to include Syriac script lookups:
+    # English US
     # Character Variant 17
     # English US
     # English US
-    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-    # Syriac
-    # Force other languages to include Syriac script lookups:
+    # English US
+    # English US
     # Character Variant 18
     # English US
     # English US
-    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-    # Syriac
-    # Force other languages to include Syriac script lookups:
+    # English US
+    # English US
     # Character Variant 38
     # English US
     # English US
-    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-    # Syriac
-    # Force other languages to include Syriac script lookups:
+    # English US
+    # English US
     #end do - Idiqlat|Ramsina
         feature cv15 {
                 cvParameters {
@@ -1410,9 +1393,7 @@ feature cv02 {
 
         };
 
-        script syrc;
         lookup KaphAlternate;
-        language SYRN;
     } cv15;
 
         feature cv17 {
@@ -1435,9 +1416,7 @@ feature cv02 {
 
         };
 
-        script syrc;
         lookup MimAlternate;
-        language SYRN;
     } cv17;
 
         feature cv18 {
@@ -1460,9 +1439,7 @@ feature cv02 {
 
         };
 
-        script syrc;
         lookup NunAlternate;
-        language SYRN;
     } cv18;
 
         feature cv38 {
@@ -1485,9 +1462,7 @@ feature cv02 {
 
         };
 
-        script syrc;
         lookup HeYudhLigature;
-        language SYRN;
     } cv38;
 
 
@@ -1496,6 +1471,7 @@ feature cv55 {
         cvParameters {
                 FeatUILabelNameID {
             name "Sadhe Nun";
+            # English US
         };
 
                 FeatUITooltipTextNameID {
@@ -1508,24 +1484,22 @@ feature cv55 {
             # English US
         };
 
-        ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
                 ParamUILabelNameID {
             name "Ligature";
+            # English US
         };
 
     };
 
-    script syrc;
-    # Syriac
     lookup SadheNunLigature;
 } cv55;
 
     # Character Variant 59
     # English US
     # English US
-    ### ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
-    # Syriac
-    # Force other languages to include Syriac script lookups:
+    # English US
+    # English US
+    # English US
     #end do - Idiqlat|Ramsina
         feature cv59 {
                 cvParameters {
@@ -1551,18 +1525,15 @@ feature cv55 {
 
         };
 
-        script syrc;
         lookup TawAlaphLigatures;
-        language SYRN;
     } cv59;
 
 
     # Character Variant 60
     # English US
     # English US
-    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-    # Syriac
-    # Force other languages to include Syriac script lookups:
+    # English US
+    # English US
     #end do - Idiqlat|Ramsina
     #---  aalt feature (pass 10) ---
         feature cv60 {
@@ -1585,68 +1556,65 @@ feature cv55 {
 
         };
 
-        script syrc;
         lookup TawYudhLigature;
-        language SYRN;
     } cv60;
 
 
-    # automatic
+feature aalt {
+    feature ccmp;
+    feature dlig;
     # Idiqlat|Ramsina
+    feature cv02;
     # Idiqlat|Ramsina
+    feature cv15;
     # Idiqlat|Ramsina
+    feature cv17;
     # Idiqlat|Ramsina
+    feature cv18;
     # Idiqlat|Ramsina
+    feature cv38;
     # Idiqlat|Ramsina
+    feature cv55;
     # Idiqlat|Ramsina
+    feature cv59;
     # Idiqlat|Ramsina
+    feature cv60;
     # Idiqlat|Ramsina
+    feature ss01;
     # Idiqlat|Ramsina
+    feature ss16;
     # Idiqlat|Ramsina
+    feature ss17;
     # Idiqlat|Ramsina
+    feature ss18;
     # Idiqlat|Ramsina
+    feature ss19;
     # Idiqlat|Ramsina
-    #**********************************
-    #
-    # Copyright (c) 1994-2025 SIL Global  (https://www.sil.org)
-    # Released under the MIT License (https://opensource.org/licenses/MIT)
-    #
-    #**********************************
-    # Three features are implemented: kern, mark, and mkmk. 
-    #
-    # As best we understand it, all shapers now work per the OT spec in regard to GPOS lookup order of 
-    # execution, namely that lookups for all enabled features are executed in one pass in lookup order.
-    #
-    # Note that prior to around September 2024, HarfBuzz executed mark attachment in a separate
-    # pass after all base adjustments, but this caused compatibility issues with CoreText and Uniscribe
-    # (see https://github.com/harfbuzz/harfbuzz/issues/4596)
-    # To make sure the newer Harfbuzz doesn't cause problems we now put all base-positioning lookups 
-    # (kern and, if we had it, curs) before any mark positioning lookups (mark, mkmk).
-    #**********************************
-    # GPOS (Positioning) lookups
-    #**********************************
-    # changed nun-syriac to nun-syriac.cv18 since it's post processed
-        feature aalt {
-        feature ccmp;
-        feature dlig;
-        feature cv02;
-        feature cv15;
-        feature cv17;
-        feature cv18;
-        feature cv38;
-        feature cv55;
-        feature cv59;
-        feature cv60;
-        feature ss01;
-        feature ss16;
-        feature ss17;
-        feature ss18;
-        feature ss19;
-        feature ss20;
-        feature calt;
-    } aalt;
+    feature ss20;
+    # Idiqlat|Ramsina
+    feature calt;
+} aalt;
 
-
+#**********************************
+#
+# Copyright (c) 1994-2025 SIL Global  (https://www.sil.org)
+# Released under the MIT License (https://opensource.org/licenses/MIT)
+#
+#**********************************
+# Three features are implemented: kern, mark, and mkmk. 
+#
+# As best we understand it, all shapers now work per the OT spec in regard to GPOS lookup order of 
+# execution, namely that lookups for all enabled features are executed in one pass in lookup order.
+#
+# Note that prior to around September 2024, HarfBuzz executed mark attachment in a separate
+# pass after all base adjustments, but this caused compatibility issues with CoreText and Uniscribe
+# (see https://github.com/harfbuzz/harfbuzz/issues/4596)
+# To make sure the newer Harfbuzz doesn't cause problems we now put all base-positioning lookups 
+# (kern and, if we had it, curs) before any mark positioning lookups (mark, mkmk).
+#**********************************
+# GPOS (Positioning) lookups
+#**********************************
+# changed nun-syriac to nun-syriac.cv18 since it's post processed
 lookup kern_dalath_sadhe_nun {
     # FKern: {Dolath, Sodeh} {Nun}
     # GPOS lookup 1, type 2 (Pair adjustment)
