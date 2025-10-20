@@ -7,12 +7,10 @@
   <anchor x="20" y="-150" name="belowleft"/>
   <outline>
     <component base="_LrgSquareDot" xOffset="472" yOffset="-211"/>
-    <component base="kashida-ar.quarter" xOffset="787"/>
-    <component base="kashida-ar.quarter"/>
     <contour>
       <point x="649" y="195" type="curve"/>
-      <point x="0" y="195" type="line"/>
-      <point x="0" y="0" type="line"/>
+      <point x="-20" y="195" type="line"/>
+      <point x="-20" y="0" type="line"/>
       <point x="530" y="0" type="line" smooth="yes"/>
       <point x="615" y="0"/>
       <point x="649" y="65"/>
@@ -41,8 +39,8 @@
       <point x="656" y="28"/>
       <point x="710" y="0"/>
       <point x="773" y="0" type="curve" smooth="yes"/>
-      <point x="877" y="0" type="line"/>
-      <point x="877" y="195" type="line"/>
+      <point x="897" y="0" type="line"/>
+      <point x="897" y="195" type="line"/>
       <point x="773" y="195" type="line" smooth="yes"/>
       <point x="705" y="195"/>
       <point x="672" y="213"/>

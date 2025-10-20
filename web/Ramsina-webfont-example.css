@@ -1,8 +1,8 @@
 /*
 Ramsina-webfont-example.css
-This file is part of Ramsina font family (https://software.sil.org/syrc)
+This file is part of Ramsina font family 
 and is Copyright (c) 2025 SIL Global (https://www.sil.org/),
-with Reserved Font Name "SIL". This Font Software is licensed
+with Reserved Font Names "Ramsina" and "SIL". This Font Software is licensed
 under the SIL Open Font License, Version 1.1. You should have received a copy
 of the license along with this Font Software. If this is not the case, go to
 (https://openfontlicense.org/) for all the details including a FAQ.
@@ -16,7 +16,7 @@ of the license along with this Font Software. If this is not the case, go to
 
 /* set body to use Ramsina in .woff format */
 body {
-  font-family: Ramsina, sans-serif; text-align: left;
+  font-family: Ramsina, sans-serif; text-align: left; font-size: 200%;
     /* fall back to sans serif so that it's really obvious if the fonts don't load */
 }
 

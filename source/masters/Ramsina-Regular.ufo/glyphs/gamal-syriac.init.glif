@@ -7,12 +7,11 @@
   <anchor x="-10" y="-150" name="belowleft"/>
   <outline>
     <component base="_LrgSquareDot" xOffset="679" yOffset="-208"/>
-    <component base="kashida-ar.quarter"/>
     <contour>
       <point x="754" y="0" type="line"/>
       <point x="606" y="195" type="line"/>
-      <point x="0" y="195" type="line"/>
-      <point x="0" y="0" type="line"/>
+      <point x="-20" y="195" type="line"/>
+      <point x="-20" y="0" type="line"/>
     </contour>
     <contour>
       <point x="360" y="860" type="curve" smooth="yes"/>

@@ -18,7 +18,7 @@ echo "Updating woff metadata files..."
 psfmakewoffmetadata -q -n  Ramsina        -i org.sil.fonts source/masters/*-Regular.ufo  -o "source/Ramsina-WOFF-metadata.xml"
 
 echo "Building internal fea..."
-makefea -o source/masters/Ramsina-Regular.ufo/features.fea -l source/logs/Ramsina-Regular-psfmakefea.log -i source/opentype/main.feax --ignoreglyphs --omitaps "R, O, L" source/masters/Ramsina-Regular.ufo &
+makefea -o source/masters/Ramsina-Regular.ufo/features.fea -l source/logs/Ramsina-Regular-makefea.log -i source/opentype/main.feax --ignoreglyphs --omitaps "R, O, L" source/masters/Ramsina-Regular.ufo &
 
 wait
 

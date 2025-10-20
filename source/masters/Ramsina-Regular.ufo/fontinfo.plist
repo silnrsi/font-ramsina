@@ -17,7 +17,7 @@ Additions and modifications copyright (c) 2025, SIL Global
   <key>familyName</key>
   <string>Ramsina</string>
   <key>openTypeHeadCreated</key>
-  <string>2025/10/16 10:57:03</string>
+  <string>2025/10/20 15:16:56</string>
   <key>openTypeHheaAscender</key>
   <integer>1560</integer>
   <key>openTypeHheaDescender</key>
@@ -29,7 +29,7 @@ Additions and modifications copyright (c) 2025, SIL Global
   <key>openTypeNameDesigner</key>
   <string>Esho Marcus and Becca Spalinger</string>
   <key>openTypeNameDesignerURL</key>
-  <string>https://software.sil.org/</string>
+  <string>https://github.com/silnrsi/font-ramsina/</string>
   <key>openTypeNameLicense</key>
   <string>Original fonts copyright (c) 1997-2025, Sparksoft Systems,
 with Reserved Font Names "Marcus" and "Nohadra".
@@ -83,7 +83,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameManufacturer</key>
   <string>SIL Global</string>
   <key>openTypeNameManufacturerURL</key>
-  <string>https://www.sil.org/</string>
+  <string>https://software.sil.org/wstech</string>
   <key>openTypeNamePreferredFamilyName</key>
   <string>Ramsina</string>
   <key>openTypeNamePreferredSubfamilyName</key>
