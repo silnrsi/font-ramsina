@@ -530,7 +530,7 @@ markClass zqaphadotted-syriac <anchor 230 45> @_above;
 
 # AP: _below
 markClass brevebelowcomb <anchor 287 -95> @_below;
-markClass circumflexbelowcomb <anchor 0 0> @_below;
+markClass circumflexbelowcomb <anchor 0 -94> @_below;
 markClass dieresisbelowcomb <anchor 250 -80> @_below;
 markClass dotbelowcomb <anchor 145 -72> @_below;
 markClass [esasabelow-syriac rbasabelow-syriac] <anchor 195 0> @_below;

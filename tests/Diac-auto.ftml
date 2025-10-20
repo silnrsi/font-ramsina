@@ -5,7 +5,7 @@
     <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 17.0 or later; else light green: a character is new in this version of the font</comment>
     <fontscale>200</fontscale>
     <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
-    <fontsrc label="RamsinaTestA">url(../results/RamsinaTesta-Regular.ttf)</fontsrc>
+    <fontsrc label="RamsinaTestA">url(../results/RamsinaTestA-Regular.ttf)</fontsrc>
     <styles>
       <style feats="'ss01' 1" name="ss01_1"/>
     </styles>

@@ -35,7 +35,7 @@ commonParams=( \
 echo "Rebuilding ftml files..."
 tools/psfgenftml.py -q -t 'AllChars (auto)'                      source/masters/Ramsina-Regular.ufo  tests/AllChars-auto.ftml        -l tests/logs/AllChars.log         "${commonParams[@]}" -s 'url(../results/RamsinaTestA-Regular.ttf)|RamsinaTestA' &
 tools/psfgenftml.py -q -t 'Diac Short (auto)'                    source/masters/Ramsina-Regular.ufo  tests/Diac-short-auto.ftml      -l tests/logs/DiacTest1-short.log  "${commonParams[@]}" -s 'url(../results/RamsinaTestA-Regular.ttf)|RamsinaTestA' &
-tools/psfgenftml.py -q -t 'Diac (auto)'                          source/masters/Ramsina-Regular.ufo  tests/Diac-auto.ftml            -l tests/logs/DiacTest1.log        "${commonParams[@]}" -s 'url(../results/RamsinaTesta-Regular.ttf)|RamsinaTestA' & 
+tools/psfgenftml.py -q -t 'Diac (auto)'                          source/masters/Ramsina-Regular.ufo  tests/Diac-auto.ftml            -l tests/logs/DiacTest1.log        "${commonParams[@]}" -s 'url(../results/RamsinaTestA-Regular.ttf)|RamsinaTestA' & 
 
 
 wait
