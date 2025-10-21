@@ -24,7 +24,7 @@ Here are a few of the most frequently asked questions specifically regarding Ram
 
 This font was based on the design of the Syriac characters in East Syriac Marcus. The outlines have been cleaned up or redrawn. The Latin characters were imported from Crimson Pro. The font has added support for ligatures and diacritics that the East Syriac style requires. This font was updated to use a more modern build system so that it can be easily updated in the future.
 
-In addition, the design of two characters, U+0738 and U+0739, have been switched to follow the Unicode Standard design. U+0740 has been reverted to the single dot, and U+0324 was added to support the double dot below.
+In addition, the design of two characters, U+0738 (dotted zlama horizontal) and U+0739 (dotted zlama angular), have been swapped to follow the Unicode Standard design. U+0740 (feminine dot) has been reverted to use the single dot, and U+0324 (diaeresis below) was added to support the double dot below.
 
 #### *Why does the Bold weight look so fuzzy?*
 
