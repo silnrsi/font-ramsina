@@ -369,12 +369,12 @@ lookup TawAlaphLigatures { # needed for cv59
 
 # Taw Yudh U+072C U+071D cv60=1 (ligature forms but mark is in wrong position)
 # Used in East Syriac only
-lookup TawYudhLigatureCV60 { # cv60 ss20
+lookup TawYudhLigature { # cv60 ss20
   lookupflag IgnoreMarks;
 #    sub [taw-syriac taw-syriac.fina] yudh-syriac by [taw_yudh-syriac taw_yudh-syriac.fina];
     sub taw-syriac yudh-syriac by taw_yudh-syriac;
     sub taw-syriac.fina yudh-syriac by taw_yudh-syriac.fina;
-} TawYudhLigatureCV60 ;
+} TawYudhLigature ;
 
 #---  ssxx and cvxx lookups  ---
 
@@ -382,24 +382,6 @@ lookup ss01_lkp {
   lookupflag IgnoreMarks;
     sub [kaph-syriac mim-syriac nun-syriac] by [kaph-syriac.cv15 mim-syriac.cv17 nun-syriac.cv18];
 } ss01_lkp;
-
-# He Yudh U+0717 U+071D cv38 (marks position)
-# Used in East Syriac only
-lookup HeYudhLigatureSS { # ss16
-  lookupflag IgnoreMarks;
-    sub he-syriac yudh-syriac by he_yudh-syriac ;
-    sub he-syriac.fina yudh-syriac by he_yudh-syriac.fina ;
-} HeYudhLigatureSS ;
-
-# Sadhe Nun U+0728 U+0722 cv55 (marks position)
-# Used in East Syriac, West Syriac, Estrangela
-lookup SadheNunLigatureSS { # ss17
-  lookupflag IgnoreMarks;
-    sub sadhe-syriac nun-syriac by sadhe_nun-syriac ;
-    sub sadhe-syriac.fina nun-syriac by sadhe_nun-syriac.fina ;
-    sub sadhe-syriac nun-syriac.cv18 by sadhe_nun-syriac ;
-    sub sadhe-syriac.fina nun-syriac.cv18 by sadhe_nun-syriac.fina ;
-} SadheNunLigatureSS ;
 
 lookup TawAlaphTriangleLigatures { # needed for ss18
   lookupflag IgnoreMarks;
@@ -410,13 +392,6 @@ lookup TawAlaphTwinedLigatures { # needed for ss19
   lookupflag IgnoreMarks;
     sub [taw_alaph-syriac taw_alaph-syriac.fina] by [taw_alaph-syriac.twined taw_alaph-syriac.fina.twined];
 } TawAlaphTwinedLigatures ;
-
-lookup TawYudhLigatureSS { # ss20
-  lookupflag IgnoreMarks;
-    sub taw-syriac yudh-syriac by taw_yudh-syriac;
-    sub taw-syriac.fina yudh-syriac by taw_yudh-syriac.fina;
-} TawYudhLigatureSS ;
-
 
 
 #---  ssxx and cvxx lookups  ---
@@ -449,7 +424,7 @@ feature ccmp {  # Glyph Composition/Decomposition
         lookup LamAlaphLig;           # was r1
         lookup AlaphLigs;             # was r2
         lookup RukkakhaSquare;        # was SquareDot
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Syriac script lookups
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
 } ccmp ;
@@ -469,7 +444,7 @@ feature ccmp {  # Glyph Composition/Decomposition
 feature fina {  # Terminal Forms
     script syrc;
         lookup ltrFina;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Syriac script lookups
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
 } fina ;
@@ -479,7 +454,7 @@ feature fina {  # Terminal Forms
 feature fin2 {  # use when the preceding base character cannot be joined to, and that preceding base character is not a 'Dalath', 'Rish', or dotless 'Dalath-Rish'
     script syrc;
         lookup ltrFin2;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Syriac script lookups
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
 } fin2 ;
@@ -487,7 +462,7 @@ feature fin2 {  # use when the preceding base character cannot be joined to, and
 feature fin3 {  # used when the preceding base character is a 'Dalath', 'Rish', or dotless 'Dalath-Rish'.
     script syrc;
         lookup ltrFin3;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Syriac script lookups
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
 } fin3 ;
@@ -499,7 +474,7 @@ feature fin3 {  # used when the preceding base character is a 'Dalath', 'Rish', 
 feature medi {  # Medial Forms
     script syrc;
         lookup ltrMedi;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Syriac script lookups
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
 } medi ;
@@ -509,7 +484,7 @@ feature medi {  # Medial Forms
 feature med2 {  # used in the middle of Syriac words when the preceding base character can be joined to it.
     script syrc;
         lookup ltrMed2;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Syriac script lookups
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
 } med2 ;
@@ -521,7 +496,7 @@ feature med2 {  # used in the middle of Syriac words when the preceding base cha
 feature init {  # Initial Forms
     script syrc;
         lookup ltrInit;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Syriac script lookups
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
 } init ;
@@ -537,7 +512,7 @@ feature rlig {  # Ligatures  -- these are done before ssxx and cvXX
         lookup TawAlaph;
         lookup DalathRukkakha;   # was r3
         lookup MusicLigatures;   # not in ESM
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Syriac script lookups
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
 } rlig ;
@@ -552,7 +527,7 @@ feature calt {
 # Lookups: 1
     script syrc; # Syriac
         lookup RightJoinFinaAlt;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Syriac script lookups
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
 
@@ -594,15 +569,7 @@ feature cv02 {  # Character Variant 2
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
         ParamUILabelNameID { name 3 1 0x0409 "Digit alternates" ; };
     } ;
-    script DFLT;  
-        language dflt;  
-            lookup Digits;
-    script syrc;  
-        language dflt;
-            lookup Digits;
-     # Force other languages to include Syriac script lookups:
-      language SYRN ;  # syc, syr
-      language SYR ;  # aii, amw, cld, syc, syr, tru
+      lookup Digits;
 } cv02 ;
 
 feature cv15 {  # Character Variant 15
@@ -775,10 +742,10 @@ feature cv60 {  # Character Variant 60
     } ;
     script DFLT;  
         language dflt;  
-        lookup TawYudhLigatureCV60;
+        lookup TawYudhLigature;
     script syrc;  # Syriac
         language dflt;
-        lookup TawYudhLigatureCV60;
+        lookup TawYudhLigature;
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
 } cv60 ;
@@ -794,10 +761,13 @@ feature ss01 {
     script DFLT;  
         language dflt;  
             lookup ss01_lkp;
+    script latn;  
+        language dflt;  
+            lookup ss01_lkp;
         script syrc;  # Syriac
         language dflt;
             lookup ss01_lkp;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Syriac script lookups
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
 } ss01;
@@ -806,10 +776,13 @@ feature ss16 {
     featureNames { name 3 1 0x409 "He Yudh ligature" ; };
     script DFLT;  
       language dflt;  
-          lookup HeYudhLigatureSS;
+          lookup HeYudhLigature;
+    script latn;  
+      language dflt;  
+          lookup HeYudhLigature;
     script syrc;  # Syriac
       language dflt;
-          lookup HeYudhLigatureSS;
+          lookup HeYudhLigature;
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
 } ss16;
@@ -820,10 +793,13 @@ feature ss17 {
    };
     script DFLT;  
       language dflt;  
-          lookup SadheNunLigatureSS;
+          lookup SadheNunLigature;
+    script latn;  
+      language dflt;  
+          lookup SadheNunLigature;
     script syrc;  # Syriac
       language dflt;
-          lookup SadheNunLigatureSS;
+          lookup SadheNunLigature;
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
 } ss17;
@@ -833,6 +809,9 @@ feature ss18 {
       name 3 1 0x409 "Taw Alaph triangle ligature";
    };
     script DFLT;  
+      language dflt;  
+          lookup TawAlaphTriangleLigatures;
+    script latn;  
       language dflt;  
           lookup TawAlaphTriangleLigatures;
     script syrc;  # Syriac
@@ -849,6 +828,9 @@ feature ss19 {
     script DFLT;  
       language dflt;  
           lookup TawAlaphTwinedLigatures;
+    script latn;  
+      language dflt;  
+          lookup TawAlaphTwinedLigatures;
     script syrc;  # Syriac
       language dflt;
           lookup TawAlaphTwinedLigatures;
@@ -862,10 +844,13 @@ feature ss20 {
    };
     script DFLT;  
       language dflt;  
-          lookup TawYudhLigatureSS;
+          lookup TawYudhLigature;
+    script latn;  
+      language dflt;  
+          lookup TawYudhLigature;
     script syrc;  # Syriac
       language dflt;
-          lookup TawYudhLigatureSS;
+          lookup TawYudhLigature;
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
 } ss20;
@@ -874,3 +859,15 @@ feature ss20 {
 #---  liga feature (pass 10) ---
 
 # not used
+
+feature aalt {
+	feature ccmp;
+  feature ss01;
+  feature ss16;
+  feature ss17;
+  feature ss18;
+  feature ss19;
+  feature ss20;
+  feature cv02;
+  feature calt;
+} aalt;
