@@ -48,6 +48,7 @@ designspace('source/RamsinaTestA.designspace',
     woff = woff('web/${DS:FILENAME_BASE}.woff',
         metadata=f'../source/{FAMILY}-WOFF-metadata.xml',
         ),
+    shortcircuit = False,
     )
 
 def configure(ctx):
