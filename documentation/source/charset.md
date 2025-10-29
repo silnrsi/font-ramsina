@@ -1,6 +1,6 @@
 ---
 title: Ramsina - Character Set Support
-fontversion: 1.109
+fontversion: 1.110
 ---
 
 This font supports supports most of the characters in the Syriac block. 

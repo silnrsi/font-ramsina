@@ -86,7 +86,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL Global: Ramsina Regular: 2025</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.109</string>
+  <string>Version 1.110</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -190,7 +190,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>109</integer>
+  <integer>110</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>
@@ -215,7 +215,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
         <key>name</key>
         <string>Esho Marcus</string>
         <key>role</key>
-        <string>Type design</string>
+        <string>East Syriac Marcus Type design</string>
         <key>url</key>
         <string>https://github.com/SparksoftSystems/Syriac-Fonts</string>
       </dict>
@@ -223,7 +223,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
         <key>name</key>
         <string>Sargon Hasson</string>
         <key>role</key>
-        <string>Opentype design</string>
+        <string>East Syriac Marcus Opentype design</string>
         <key>url</key>
         <string>https://github.com/SparksoftSystems/Syriac-Fonts</string>
       </dict>
