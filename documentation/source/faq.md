@@ -28,7 +28,7 @@ In addition, the design of two characters, U+0738 (dotted zlama horizontal) and 
 
 #### *Why does the Bold weight look so fuzzy?*
 
-Because Idiqlat is already quite heavy, it does not come with a Bold weight. If you tried to turn on Bold using the application’s UI controls such as a “B” button you will get what is called “fake” Bold. This will not look good. It would be better to choose a lighter weight, to use underlining, or to choose another font in order to show emphasis.
+Because Ramsina is already quite heavy, it does not come with a Bold weight. If you tried to turn on Bold using the application’s UI controls such as a “B” button you will get what is called “fake” Bold. This will not look good. It would be better to choose a lighter weight, to use underlining, or to choose another font in order to show emphasis.
 
 ### *I notice that this font is missing 0727 SYRIAC LETTER REVERSED PE and the characters from the Syriac Supplement block (0860..086F). Will you add them?*
 
