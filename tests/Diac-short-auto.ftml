@@ -7,7 +7,7 @@
     <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
     <fontsrc label="RamsinaTestA">url(../results/RamsinaTestA-Regular.ttf)</fontsrc>
     <styles>
-      <style feats="'ss01' 1" name="ss01_1"/>
+      <style feats="'ss16' 1" name="ss16_1"/>
     </styles>
     <title>Diac Short (auto)</title>
     <widths string="38%"/>
@@ -94,7 +94,7 @@ U+0739">
       <string>\u00071F\u000739 \u00071F\u000739\u00071F\u000739\u00071F\u000739 </string>
     </test>
     <test label="U+071F
-U+0739" stylename="ss01_1">
+U+0739" stylename="ss16_1">
       <comment>kaph-syriac zlamadottedangular-syriac</comment>
       <string>\u00071F\u000739 \u00071F\u000739\u00071F\u000739\u00071F\u000739 </string>
     </test>
@@ -104,7 +104,7 @@ U+0742">
       <string>\u00071F\u000742 \u00071F\u000742\u00071F\u000742\u00071F\u000742 </string>
     </test>
     <test label="U+071F
-U+0742" stylename="ss01_1">
+U+0742" stylename="ss16_1">
       <comment>kaph-syriac rukkakha-syriac</comment>
       <string>\u00071F\u000742 \u00071F\u000742\u00071F\u000742\u00071F\u000742 </string>
     </test>
@@ -114,7 +114,7 @@ U+0743">
       <string>\u00071F\u000743 \u00071F\u000743\u00071F\u000743\u00071F\u000743 </string>
     </test>
     <test label="U+071F
-U+0743" stylename="ss01_1">
+U+0743" stylename="ss16_1">
       <comment>kaph-syriac twodotsverticalabove-syriac</comment>
       <string>\u00071F\u000743 \u00071F\u000743\u00071F\u000743\u00071F\u000743 </string>
     </test>
@@ -124,7 +124,7 @@ U+0744">
       <string>\u00071F\u000744 \u00071F\u000744\u00071F\u000744\u00071F\u000744 </string>
     </test>
     <test label="U+071F
-U+0744" stylename="ss01_1">
+U+0744" stylename="ss16_1">
       <comment>kaph-syriac twodotsverticalbelow-syriac</comment>
       <string>\u00071F\u000744 \u00071F\u000744\u00071F\u000744\u00071F\u000744 </string>
     </test>
@@ -139,7 +139,7 @@ U+0739">
       <string>\u000721\u000739 \u000721\u000739\u000721\u000739\u000721\u000739 </string>
     </test>
     <test label="U+0721
-U+0739" stylename="ss01_1">
+U+0739" stylename="ss16_1">
       <comment>mim-syriac zlamadottedangular-syriac</comment>
       <string>\u000721\u000739 \u000721\u000739\u000721\u000739\u000721\u000739 </string>
     </test>
@@ -149,7 +149,7 @@ U+0742">
       <string>\u000721\u000742 \u000721\u000742\u000721\u000742\u000721\u000742 </string>
     </test>
     <test label="U+0721
-U+0742" stylename="ss01_1">
+U+0742" stylename="ss16_1">
       <comment>mim-syriac rukkakha-syriac</comment>
       <string>\u000721\u000742 \u000721\u000742\u000721\u000742\u000721\u000742 </string>
     </test>
@@ -159,7 +159,7 @@ U+0743">
       <string>\u000721\u000743 \u000721\u000743\u000721\u000743\u000721\u000743 </string>
     </test>
     <test label="U+0721
-U+0743" stylename="ss01_1">
+U+0743" stylename="ss16_1">
       <comment>mim-syriac twodotsverticalabove-syriac</comment>
       <string>\u000721\u000743 \u000721\u000743\u000721\u000743\u000721\u000743 </string>
     </test>
@@ -169,7 +169,7 @@ U+0744">
       <string>\u000721\u000744 \u000721\u000744\u000721\u000744\u000721\u000744 </string>
     </test>
     <test label="U+0721
-U+0744" stylename="ss01_1">
+U+0744" stylename="ss16_1">
       <comment>mim-syriac twodotsverticalbelow-syriac</comment>
       <string>\u000721\u000744 \u000721\u000744\u000721\u000744\u000721\u000744 </string>
     </test>
@@ -179,7 +179,7 @@ U+0739">
       <string>\u000722\u000739 \u000722\u000739\u000722\u000739\u000722\u000739 </string>
     </test>
     <test label="U+0722
-U+0739" stylename="ss01_1">
+U+0739" stylename="ss16_1">
       <comment>nun-syriac zlamadottedangular-syriac</comment>
       <string>\u000722\u000739 \u000722\u000739\u000722\u000739\u000722\u000739 </string>
     </test>
@@ -189,7 +189,7 @@ U+0742">
       <string>\u000722\u000742 \u000722\u000742\u000722\u000742\u000722\u000742 </string>
     </test>
     <test label="U+0722
-U+0742" stylename="ss01_1">
+U+0742" stylename="ss16_1">
       <comment>nun-syriac rukkakha-syriac</comment>
       <string>\u000722\u000742 \u000722\u000742\u000722\u000742\u000722\u000742 </string>
     </test>
@@ -199,7 +199,7 @@ U+0743">
       <string>\u000722\u000743 \u000722\u000743\u000722\u000743\u000722\u000743 </string>
     </test>
     <test label="U+0722
-U+0743" stylename="ss01_1">
+U+0743" stylename="ss16_1">
       <comment>nun-syriac twodotsverticalabove-syriac</comment>
       <string>\u000722\u000743 \u000722\u000743\u000722\u000743\u000722\u000743 </string>
     </test>
@@ -209,7 +209,7 @@ U+0744">
       <string>\u000722\u000744 \u000722\u000744\u000722\u000744\u000722\u000744 </string>
     </test>
     <test label="U+0722
-U+0744" stylename="ss01_1">
+U+0744" stylename="ss16_1">
       <comment>nun-syriac twodotsverticalbelow-syriac</comment>
       <string>\u000722\u000744 \u000722\u000744\u000722\u000744\u000722\u000744 </string>
     </test>

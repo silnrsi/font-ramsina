@@ -8,7 +8,7 @@
     <fontsrc label="RamsinaTestA">url(../results/RamsinaTestA-Regular.ttf)</fontsrc>
     <styles>
       <style feats="'cv02' 1" name="cv02_1"/>
-      <style feats="'ss01' 1" name="ss01_1"/>
+      <style feats="'ss16' 1" name="ss16_1"/>
     </styles>
     <title>AllChars (auto)</title>
     <widths string="38%"/>
@@ -399,7 +399,7 @@
       <comment>kaph-syriac</comment>
       <string>\u00071F \u00071F\u00200D \u00200D\u00071F\u00200D \u00200D\u00071F \u00071F\u00071F\u00071F </string>
     </test>
-    <test label="U+071F" stylename="ss01_1">
+    <test label="U+071F" stylename="ss16_1">
       <comment>kaph-syriac</comment>
       <string>\u00071F \u00071F\u00200D \u00200D\u00071F\u00200D \u00200D\u00071F \u00071F\u00071F\u00071F </string>
     </test>
@@ -411,7 +411,7 @@
       <comment>mim-syriac</comment>
       <string>\u000721 \u000721\u00200D \u00200D\u000721\u00200D \u00200D\u000721 \u000721\u000721\u000721 </string>
     </test>
-    <test label="U+0721" stylename="ss01_1">
+    <test label="U+0721" stylename="ss16_1">
       <comment>mim-syriac</comment>
       <string>\u000721 \u000721\u00200D \u00200D\u000721\u00200D \u00200D\u000721 \u000721\u000721\u000721 </string>
     </test>
@@ -419,7 +419,7 @@
       <comment>nun-syriac</comment>
       <string>\u000722 \u000722\u00200D \u00200D\u000722\u00200D \u00200D\u000722 \u000722\u000722\u000722 </string>
     </test>
-    <test label="U+0722" stylename="ss01_1">
+    <test label="U+0722" stylename="ss16_1">
       <comment>nun-syriac</comment>
       <string>\u000722 \u000722\u00200D \u00200D\u000722\u00200D \u00200D\u000722 \u000722\u000722\u000722 </string>
     </test>
