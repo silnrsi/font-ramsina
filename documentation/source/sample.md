@@ -1,6 +1,6 @@
 ---
 title: Ramsina - Type Sample
-fontversion: 1.110
+fontversion: 1.130
 ---
 
 This document demonstrates all of the characters in the font. It is organized by Unicode block. Alternate glyphs that are available through features are demonstrated in the [Features](features.md) document. At the end is a sample demonstrating Syriac shaping and another example of running text.
@@ -65,7 +65,7 @@ Regular: <span class='ramsinaL-R normal'>&#x060C; &#x061B; &#x061F; &#x0640; &#x
 
 #### Regular:
 
-<p dir="rtl"><span class='ramsina-R normal'>&#x0710; &#x200D;&#x0710; &#x0712; &#x0712;&#x0712;&#x0712; &#x0713; &#x0713;&#x0713;&#x0713; &#x0714; &#x0714;&#x0714;&#x0714; &#x0715; &#x200D;&#x0715; &#x0716; &#x200D;&#x0716; &#x0717; &#x200D;&#x0717; &#x0718; &#x200D;&#x0718; &#x0719; &#x200D;&#x0719; &#x071a; &#x071a;&#x071a;&#x071a; &#x071b; &#x071b;&#x071b;&#x071b; &#x071c; &#x071c;&#x071c;&#x071c; &#x071d; &#x071d;&#x071d;&#x071d; &#x071d; &#x200D;&#x071d; &#x071f; &#x071f;&#x071f;&#x071f; &#x0720; &#x0720;&#x0720;&#x0720; &#x0721; &#x0721;&#x0721;&#x0721; &#x0722; &#x0722;&#x0722;&#x0722; &#x0723; &#x0723;&#x0723;&#x0723; &#x0724; &#x0724;&#x0724;&#x0724; &#x0725; &#x0725;&#x0725;&#x0725; &#x0726; &#x0726;&#x0726;&#x0726; &#x0728; &#x200D;&#x0728; &#x0729; &#x0729;&#x0729;&#x0729; &#x072a; &#x200D;&#x072a; &#x072b; &#x072b;&#x072b;&#x072b; &#x072c; &#x200D;&#x072c; </span></p>
+<p dir="rtl"><span class='ramsina-R normal'>&#x0710; &#x200D;&#x0710; &#x0712; &#x0712;&#x0712;&#x0712; &#x0713; &#x0713;&#x0713;&#x0713; &#x0714; &#x0714;&#x0714;&#x0714; &#x0715; &#x200D;&#x0715; &#x0716; &#x200D;&#x0716; &#x0717; &#x200D;&#x0717; &#x0718; &#x200D;&#x0718; &#x0719; &#x200D;&#x0719; &#x071a; &#x071a;&#x071a;&#x071a; &#x071b; &#x071b;&#x071b;&#x071b; &#x071c; &#x071c;&#x071c;&#x071c; &#x071d; &#x071d;&#x071d;&#x071d; &#x071d; &#x200D;&#x071d; &#x071f; &#x071f;&#x071f;&#x071f; &#x0720; &#x0720;&#x0720;&#x0720; &#x0721; &#x0721;&#x0721;&#x0721; &#x0722; &#x0722;&#x0722;&#x0722; &#x0723; &#x0723;&#x0723;&#x0723; &#x0724; &#x0724;&#x0724;&#x0724; &#x0725; &#x0725;&#x0725;&#x0725; &#x0726; &#x0726;&#x0726;&#x0726; &#x0727; &#x0727;&#x0727;&#x0727; &#x0728; &#x200D;&#x0728; &#x0729; &#x0729;&#x0729;&#x0729; &#x072a; &#x200D;&#x072a; &#x072b; &#x072b;&#x072b;&#x072b; &#x072c; &#x200D;&#x072c; </span></p>
 
 
 

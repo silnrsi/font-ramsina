@@ -1,6 +1,6 @@
 ---
 title: Ramsina - Announcement
-fontversion: 1.110
+fontversion: 1.130
 ---
 
 We are very pleased to announce the release of Ramsina, a new font for the East Syriac style of the Syriac script. The font name, Ramsina, is a pure Assyrian name for females adored by many. The emphasis is on the second syllable: rahm-SEE-nah.

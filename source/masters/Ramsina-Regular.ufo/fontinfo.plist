@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Ramsina</string>
   <key>openTypeHeadCreated</key>
-  <string>2025/10/22 15:45:23</string>
+  <string>2025/11/19 11:07:52</string>
   <key>openTypeHheaAscender</key>
   <integer>1560</integer>
   <key>openTypeHheaDescender</key>
@@ -82,7 +82,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL Global: Ramsina Regular: 2025</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.120</string>
+  <string>Version 1.130</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -186,7 +186,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>120</integer>
+  <integer>130</integer>
   <key>woffMetadataCredits</key>
   <dict>
     <key>credits</key>

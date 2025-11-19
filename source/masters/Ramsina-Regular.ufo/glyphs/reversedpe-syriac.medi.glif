@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="reversedpe-syriac.medi" format="2">
+  <advance width="877"/>
+  <anchor x="530" y="975" name="above"/>
+  <anchor x="84" y="975" name="aboveleft"/>
+  <anchor x="315" y="-150" name="below"/>
+  <anchor x="84" y="-150" name="belowleft"/>
+  <outline>
+    <component base="reversedpe-syriac.fina"/>
+    <component base="kashida-ar.quarter" xOffset="787"/>
+    <component base="kashida-ar.quarter"/>
+  </outline>
+</glyph>
