@@ -11,7 +11,7 @@ of the license along with this Font Software. If this is not the case, go to
 /* use Ramsina - Regular in .woff format */
 @font-face {
   font-family: Ramsina;
-  src: url(Ramsina-Regular.woff2);
+  src: url(RamsinaTestA-Regular.woff2);
 }
 
 /* set body to use Ramsina in .woff format */
@@ -44,6 +44,34 @@ h3 {
   -webkit-font-feature-settings: "ss01" 1;
   font-size: 200%; direction: rtl; text-align: right;
 }
+.ss02 {
+  font-family: Ramsina; 
+  font-feature-settings: "ss02" 1;
+  -moz-font-feature-settings: "ss02" 1;
+  -webkit-font-feature-settings: "ss02" 1;
+  font-size: 200%; direction: rtl; text-align: right;
+}
+.ss03 {
+  font-family: Ramsina; 
+  font-feature-settings: "ss03" 1;
+  -moz-font-feature-settings: "ss03" 1;
+  -webkit-font-feature-settings: "ss03" 1;
+  font-size: 200%; direction: rtl; text-align: right;
+}
+.ss04 {
+  font-family: Ramsina; 
+  font-feature-settings: "ss04" 1;
+  -moz-font-feature-settings: "ss04" 1;
+  -webkit-font-feature-settings: "ss04" 1;
+  font-size: 200%; direction: rtl; text-align: right;
+}
+.ss05 {
+  font-family: Ramsina; 
+  font-feature-settings: "ss05" 1;
+  -moz-font-feature-settings: "ss05" 1;
+  -webkit-font-feature-settings: "ss05" 1;
+  font-size: 200%; direction: rtl; text-align: right;
+}
 .ss16 {
   font-family: Ramsina; 
   font-feature-settings: "ss16" 1;
@@ -51,32 +79,3 @@ h3 {
   -webkit-font-feature-settings: "ss16" 1;
   font-size: 200%; direction: rtl; text-align: right;
 }
-.ss17 {
-  font-family: Ramsina; 
-  font-feature-settings: "ss17" 1;
-  -moz-font-feature-settings: "ss17" 1;
-  -webkit-font-feature-settings: "ss17" 1;
-  font-size: 200%; direction: rtl; text-align: right;
-}
-.ss18 {
-  font-family: Ramsina; 
-  font-feature-settings: "ss18" 1;
-  -moz-font-feature-settings: "ss18" 1;
-  -webkit-font-feature-settings: "ss18" 1;
-  font-size: 200%; direction: rtl; text-align: right;
-}
-.ss19 {
-  font-family: Ramsina; 
-  font-feature-settings: "ss19" 1;
-  -moz-font-feature-settings: "ss19" 1;
-  -webkit-font-feature-settings: "ss19" 1;
-  font-size: 200%; direction: rtl; text-align: right;
-}
-.ss20 {
-  font-family: Ramsina; 
-  font-feature-settings: "ss20" 1;
-  -moz-font-feature-settings: "ss20" 1;
-  -webkit-font-feature-settings: "ss20" 1;
-  font-size: 200%; direction: rtl; text-align: right;
-}
-		
