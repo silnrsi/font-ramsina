@@ -13,7 +13,7 @@
   <key>familyName</key>
   <string>Ramsina</string>
   <key>openTypeHeadCreated</key>
-  <string>2025/12/03 09:14:34</string>
+  <string>2025/12/09 10:09:49</string>
   <key>openTypeHheaAscender</key>
   <integer>1560</integer>
   <key>openTypeHheaDescender</key>
@@ -180,7 +180,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>styleName</key>
   <string>Regular</string>
   <key>trademark</key>
-  <string>Marcus and Nohadra are trademarks of Sparksoft Systems. Ramsina is a trademark of SIL Global.</string>
+  <string>Marcus and Nohadro are trademarks of Sparksoft Systems. Ramsina is a trademark of SIL Global.</string>
   <key>unitsPerEm</key>
   <integer>2048</integer>
   <key>versionMajor</key>

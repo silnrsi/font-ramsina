@@ -44,7 +44,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CCPP</string>
+      <string>CPP</string>
     </dict>
   </lib>
 </glyph>

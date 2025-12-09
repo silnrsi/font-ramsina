@@ -58,6 +58,10 @@
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
+  <key>com.schriftgestaltung.customParameter.GSFont.openTypeNameUniqueID</key>
+  <string>SIL Global: Ramsina Regular: 2025</string>
+  <key>com.schriftgestaltung.customParameter.GSFont.openTypeNameVersion</key>
+  <string>Version 1.130</string>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
@@ -70,6 +74,10 @@
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
   <string/>
+  <key>com.schriftgestaltung.customParameter.GSFontMaster.openTypeNameUniqueID</key>
+  <string>SIL Global: Ramsina Regular: 2025</string>
+  <key>com.schriftgestaltung.customParameter.GSFontMaster.openTypeNameVersion</key>
+  <string>Version 1.130</string>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
   <integer>400</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
