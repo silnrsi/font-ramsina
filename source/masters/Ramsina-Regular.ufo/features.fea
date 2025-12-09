@@ -1828,12 +1828,13 @@ lookup kern_dalath_sadhe_nun {
     # FKern: {Dolath, Sodeh} {Nun}
     # GPOS lookup 1, type 2 (Pair adjustment)
     lookupflag RightToLeft IgnoreMarks;
-    pos dalath-syriac 0 nun-syriac.cv18 150;
-    pos dalath-syriac.fina 0 nun-syriac.cv18 150;
-    pos sadhe-syriac 0 nun-syriac.cv18 250;
-    pos sadhe-syriac.fina 0 nun-syriac.cv18 250;
-    pos waw-syriac 0 nun-syriac.cv18 -75;
-    pos waw-syriac.fina 0 nun-syriac.cv18 -75;
+            pos dalath-syriac 0 nun-syriac.cv18 150;
+        pos dalath-syriac.fina 0 nun-syriac.cv18 150;
+        pos sadhe-syriac 0 nun-syriac.cv18 250;
+        pos sadhe-syriac.fina 0 nun-syriac.cv18 250;
+        pos waw-syriac 0 nun-syriac.cv18 -75;
+        pos waw-syriac.fina 0 nun-syriac.cv18 -75;
+
     
 } kern_dalath_sadhe_nun;
 
@@ -1841,14 +1842,15 @@ lookup kern_sadhe_gamal {
     # FKern: {Sadhe} {Gamal}
     # GPOS lookup 1, type 2 (Pair adjustment)
     lookupflag RightToLeft IgnoreMarks;
-    pos sadhe-syriac 0 gamal-syriac 150;
-    pos sadhe-syriac.fina 0 gamal-syriac 150;
-    pos sadhe-syriac.fina 0 gamal-syriac.init 150;
-    pos sadhe-syriac.fina 0 gamal-syriac.init 150;
-    pos sadhe-syriac 0 gamalgarshuni-syriac 150;
-    pos sadhe-syriac.fina 0 gamalgarshuni-syriac 150;
-    pos sadhe-syriac.fina 0 gamalgarshuni-syriac.init 150;
-    pos sadhe-syriac.fina 0 gamalgarshuni-syriac.init 150;
+            pos sadhe-syriac 0 gamal-syriac 150;
+        pos sadhe-syriac.fina 0 gamal-syriac 150;
+        pos sadhe-syriac.fina 0 gamal-syriac.init 150;
+        pos sadhe-syriac.fina 0 gamal-syriac.init 150;
+        pos sadhe-syriac 0 gamalgarshuni-syriac 150;
+        pos sadhe-syriac.fina 0 gamalgarshuni-syriac 150;
+        pos sadhe-syriac.fina 0 gamalgarshuni-syriac.init 150;
+        pos sadhe-syriac.fina 0 gamalgarshuni-syriac.init 150;
+
     
 } kern_sadhe_gamal;
 
@@ -1856,7 +1858,9 @@ lookup kern_nun_1 {
     # FKern: {Dolath, Sodeh} {Nun}
     # GPOS lookup 8, type 1 (Single adjustment)
     lookupflag RightToLeft;
-    pos nun-syriac.cv18 250;
+            pos nun-syriac.cv18 250;
+
+    
 } kern_nun_1;
 
 lookup kern_nun2 {
