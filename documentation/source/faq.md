@@ -1,6 +1,6 @@
 ---
 title: Ramsina - Frequently Asked Questions
-fontversion: 1.130
+fontversion: 2.000
 ---
 
 Many questions can be answered by consulting the following FAQ pages. Here are a few sample questions answered in each FAQ:
@@ -22,9 +22,16 @@ Here are a few of the most frequently asked questions specifically regarding Ram
 
 #### *How is this font different from East Syriac Marcus?*
 
-This font was based on the design of the Syriac characters in East Syriac Marcus. The outlines have been cleaned up or redrawn. The Latin characters were imported from Crimson Pro. The font has added support for ligatures and diacritics that the East Syriac style requires. It also supports the Syriac abbreviation mark which is rendered by a line with a dot at each end and in the center. This font was updated to use a more modern build system so that it can be easily updated in the future.
+This font was based on the design of the Syriac characters in East Syriac Marcus.
 
-In addition, the design of two characters, U+0738 (dotted zlama horizontal) and U+0739 (dotted zlama angular), have been swapped to follow the Unicode Standard design. U+0740 (feminine dot) has been reverted to use the single dot, and U+0324 (diaeresis below) was added to support the double dot below.
+- The outlines have been cleaned up or redrawn.
+- The Latin characters were imported from Crimson Pro.
+- The default isolate designs of _kaph_, _mim_, and _nun_ have been modified. The original designs are still available through a font feature. 
+- The font has added support for alternates, ligatures, and diacritics that the East Syriac style requires.
+- It also supports the Syriac abbreviation mark which is rendered by a line with a dot at each end and in the center.
+- This font was updated to use a more modern build system so that it can be easily updated in the future.
+- The design of two characters, U+0738 (dotted zlama horizontal) and U+0739 (dotted zlama angular), have been swapped to follow the Unicode Standard design. 
+- U+0740 (feminine dot) has been reverted to use the single dot, and U+0324 (diaeresis below) was added to support the double dot below.
 
 #### *Why does the Bold weight look so fuzzy?*
 
@@ -33,5 +40,3 @@ Because Ramsina is already quite heavy, it does not come with a Bold weight. If 
 ### *I notice that this font is missing 072D..072F, 074D..074F, and the characters from the Syriac Supplement block (0860..086F). Will you add them?*
 
 This font supports the East Syriac style of writing. No examples of those characters are provided in the East Syriac style.
-
-In addition, we do not plan to add additional support to this font with the exception of minor bug fixes. 

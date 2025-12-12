@@ -1,8 +1,7 @@
 ---
 title: Ramsina - Version History
-fontversion: 1.130
+fontversion: 2.000
 ---
 
-### xx xxx 2025 (WSTech team) Ramsina Version 1.xxx
-- First version of font
-
+### 2025 Dec 17 (WSTech team) Ramsina Version 2.000 (production release)
+- Initial version of font (based on East Syriac Marcus)

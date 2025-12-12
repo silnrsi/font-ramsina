@@ -11,7 +11,7 @@ of the license along with this Font Software. If this is not the case, go to
 /* use Ramsina - Regular in .woff format */
 @font-face {
   font-family: Ramsina;
-  src: url(RamsinaTestA-Regular.woff2);
+  src: url(Ramsina-Regular.woff2);
 }
 
 /* set body to use Ramsina in .woff format */

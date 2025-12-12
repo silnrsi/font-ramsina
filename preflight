@@ -15,7 +15,8 @@ psfnormalize -p checkfix=fix source/masters/Ramsina-Regular.ufo       &
 wait
 
 echo "-----Syncing glyph orders, psnames, and other metadata to other UFOs..."
-psfsyncmasters -q source/RamsinaTestA.designspace 
+# psfsyncmasters -q source/RamsinaTestA.designspace 
+psfsyncmasters -q source/Ramsina.designspace 
 
 echo "Updating woff metadata files..."
 psfmakewoffmetadata -q -n  Ramsina        -i org.sil.fonts source/masters/*-Regular.ufo  -o "source/Ramsina-WOFF-metadata.xml"

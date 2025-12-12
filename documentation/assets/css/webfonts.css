@@ -5,7 +5,7 @@ released under the MIT license (https://opensource.org/licenses/MIT).
 */
 @font-face {
     font-family: Ramsina-R;
-    src: url("../../../web/RamsinaTestA-Regular.woff2") format("woff2");
+    src: url("../../../web/Ramsina-Regular.woff2") format("woff2");
 }
 
 .ramsina-R { font-family: Ramsina-R; direction: rtl; text-align: right;}

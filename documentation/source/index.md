@@ -1,6 +1,6 @@
 ---
 title: Ramsina - Documentation
-fontversion: 1.130
+fontversion: 2.000
 ---
 
 Thank you for your interest in the Ramsina font. This font supports the East Syriac style of the Syriac script.  

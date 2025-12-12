@@ -1,6 +1,6 @@
 ---
 title: Ramsina - About
-fontversion: 1.130
+fontversion: 2.000
 ---
 
 ## About this project
@@ -13,14 +13,9 @@ For more information on the visual characteristics of the font family see [Desig
 
 ## Future plans
 
-These fonts are actively maintained and improved, and recent changes to their development process will enable more frequent releases.
+No major changes to this font are anticipated. We will be releasing maintenance updates to fix bugs.
 
-The highest priorities for future additions and enhancements are mainly driven by:
-
-- New additions to [The Unicode Standard](https://unicode.org/)
-- Requests from language communities using the fonts
-
-Please send us your requests using the [issue tracker on the font website](https://github.com/silnrsi/font-ramsina/). If you are interested in helping us make the fonts better see the [Developer](developer.md) page.
+Please report bugs using the [issue tracker on the font website](https://github.com/silnrsi/font-ramsina/issues). 
 
 ## Announcement list
 

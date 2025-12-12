@@ -32,7 +32,7 @@ if '--autohint' in opts:
 else:
     cmds.append(cmd('gftools fix-nonhinting --no-backup -q ${DEP} ${TGT}'))
 
-designspace('source/RamsinaTestA.designspace',
+designspace('source/Ramsina.designspace',
     target = process('${DS:FILENAME_BASE}.ttf', *cmds),
     params = '--decomposeComponents --removeOverlaps -c ^_',
     version=VERSION,  # Needed to ensure dev information on version string

@@ -1,6 +1,6 @@
 ---
 title: Ramsina - Versions and Changes
-fontversion: 1.130
+fontversion: 2.000
 ---
 
 ## Announcement list
@@ -9,7 +9,7 @@ If you would like stay informed of updates to ERamsina and other SIL fonts, plea
 
 ## Current versions
 
-The latest version of the fonts is always available from the Ramsina download page](https://github.com/silnrsi/font-ramsina/releases) as a .zip archive for all major platforms.
+The latest version of the fonts is always available from the [Ramsina download page](https://github.com/silnrsi/font-ramsina/releases) as a .zip archive for all major platforms.
 
 ## Change history
 
