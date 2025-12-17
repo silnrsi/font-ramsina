@@ -1,6 +1,6 @@
 # Ramsina
 
-Ramsina is a font family for the East Syriac script. The font was designed as a revival, or facsimile, of metal type cut in India from around 1920.
+Ramsina is a font family for the East Syriac script. The font was designed as a close revival, or facsimile, of metal type cut in India from around 1920.
 
 For more details about this project, including its design history and acknowledgements see [FONTLOG.txt](FONTLOG.txt).
 

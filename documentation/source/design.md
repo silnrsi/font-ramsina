@@ -17,6 +17,14 @@ Type samples showing some of the inventory of glyphs can be found here:
 ![Ramsina Sample - Genesis 11](../assets/images/RamsinaGen11.png){.fullsize}
 <figcaption>Ramsina Sample - Genesis 11</figcaption>
 
+## Character Set
+
+For a complete list of characters included in this font, see [Character Set Support](charset.md).
+
+## Font Features
+
+Alternate glyphs that are available through features are demonstrated in the [Features](features.md) document. 
+
 ## Alaph shape
 
 The shape of U+0710 SYRIAC LETTER ALAPH varies, depending on context, the character that precedes it, and whether it has a diacritic or not. These are conventions, and there is no documented hard rules of how the shape is rendered. This font follows the _Khudra_ (the most widely used Syriac book in the church) convention.
