@@ -4,8 +4,8 @@
   <head>
     <fontscale>400</fontscale>
     <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
-    <fontsrc label="Atour">url(../references/EASTSM-Atourmodified.TTF)</fontsrc>
-    <fontsrc label="Ramsina">url(../results/Ramsina-Regular.ttf)</fontsrc>
+    <fontsrc label="Ramsina v2">url(../references/Ramsina-Regular.ttf)</fontsrc>
+    <fontsrc label="Ramsina">url(../results/RamsinaTestB-Regular.ttf)</fontsrc>
     <styles>
       <style feats="'cv02' 1" name="cv02_1"/>
       <style feats="'cv15' 1" name="cv15_1"/>

@@ -537,6 +537,14 @@ feature rlig {  # Ligatures  -- these are done before ssxx and cvXX
       language SYR ;  # aii, amw, cld, syc, syr, tru
 } rlig ;
 
+feature rclt { # Required Contextual Alternates
+    script syrc;
+        lookup RightJoinFinaAlt;
+      # Force other languages to include Syriac script lookups
+      language SYRN ;  # syc, syr
+      language SYR ;  # aii, amw, cld, syc, syr, tru
+} rclt ;
+
 #---  stch feature (pass 8 or 9) ---
 
 feature stch {
@@ -571,19 +579,20 @@ feature stch {
 # HB PAUSE
 
 #---  calt feature (pass 9)  ---
+# Moved this lookup to rclt
 # CHANGED! dfltCALT?
-feature calt {
+# feature calt {
 # GSUB feature: Contextual Alternates
 # Lookups: 1
-    script syrc; # Syriac
-        lookup RightJoinFinaAlt;
+#    script syrc; # Syriac
+#        lookup RightJoinFinaAlt;
       # Force other languages to include Syriac script lookups
-      language SYRN ;  # syc, syr
-      language SYR ;  # aii, amw, cld, syc, syr, tru
+#      language SYRN ;  # syc, syr
+#      language SYR ;  # aii, amw, cld, syc, syr, tru
 
-    script latn ;
-        lookup dfltCALT ;  # for bare diacritics (on white space) in Latin text
-} calt;
+#    script latn ;
+#        lookup dfltCALT ;  # for bare diacritics (on white space) in Latin text
+# } calt;
 
 # HB PAUSE
 
@@ -918,5 +927,4 @@ feature aalt {
   feature ss05;
   feature ss16;
   feature cv02;
-  feature calt;
 } aalt;

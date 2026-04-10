@@ -40,13 +40,13 @@
         <!-- stylemapstylename: use "regular" for all styles except B: use "bold" -->
 
         <!-- Ramsina Regular -->
-        <instance  familyname="Ramsina TestA"
-                     filename="instances/RamsinaTestA-Regular.ufo"
-                         name="Ramsina TestA Regular"
-           stylemapfamilyname="Ramsina TestA"
+        <instance  familyname="Ramsina TestB"
+                     filename="instances/RamsinaTestB-Regular.ufo"
+                         name="Ramsina TestB Regular"
+           stylemapfamilyname="Ramsina TestB"
             stylemapstylename="regular"
                     stylename="Regular"
-           postscriptfontname="RamsinaTestA-Regular">
+           postscriptfontname="RamsinaTestB-Regular">
             <location>
                 <dimension name="weight" xvalue="400.000000" />
                 <dimension name="width" xvalue="100.000000" />
