@@ -1343,6 +1343,7 @@ feature stch {
 
 # HB PAUSE
 #---  calt feature (pass 9)  ---
+# moved to rclt because Adobe Premiere was disabling calt
 # HB PAUSE
 #********************
 # all remaining substitution features (dlig,salt, ssxx, cvxx, liga, aalt):
