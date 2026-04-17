@@ -4,7 +4,7 @@
   <head>
     <fontscale>400</fontscale>
     <fontsrc label="ESM">url(../references/v1.100/EASTSM-Regular.ttf)</fontsrc>
-    <fontsrc label="2.0">url(../references/v2.000/Ramsina-Regular.ttf)</fontsrc>
+    <fontsrc label="2.1">url(../references/v2.100/Ramsina-Regular.ttf)</fontsrc>
     <fontsrc label="Ramsina">url(../results/Ramsina-Regular.ttf)</fontsrc>
     <styles>
       <style feats="'cv02' 1" name="cv02_1"/>
