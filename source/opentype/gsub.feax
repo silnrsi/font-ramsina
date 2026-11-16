@@ -219,6 +219,57 @@ lookup DalathRukkakha { # 0715 0742
     sub dalath-syriac.fina rukkakha-syriac by dalath_hbasaEsasadotted-syriac.fina ;
 } DalathRukkakha ;
 
+do let f = info("familyName");
+   if f.find("Idiqlat") != -1 ; {
+
+@DualLinkAny = [@DualLinkIsol @DualLinkInit @DualLinkMedi @DualLinkFina] ;
+@RightLinkAny = [@RightLinkIsol @RightLinkFina] ;
+
+lookup connectBoth {
+    sub @DualLinkIsol by @DualLinkMedi ;
+    sub @DualLinkFina by @DualLinkMedi ;
+    sub @DualLinkInit by @DualLinkMedi ;
+} connectBoth;
+
+lookup connectLeft {
+    sub @DualLinkIsol  by @DualLinkFina ;
+    sub @DualLinkInit  by @DualLinkMedi ;
+    sub @RightLinkIsol by @RightLinkFina ;
+} connectLeft;
+
+lookup connectRight {
+    sub @DualLinkIsol by @DualLinkInit ;
+    sub @DualLinkFina by @DualLinkMedi ;
+} connectRight;
+
+lookup bhaForms {
+  lookupflag IgnoreMarks ;
+    sub [@DualLinkInit @DualLinkMedi zerowidthjoiner]
+            [@DualLinkIsol @DualLinkInit @DualLinkFina]'  lookup connectBoth  
+                [@DualLinkAny @RightLinkAny zerowidthjoiner];
+    
+    sub [@DualLinkInit @DualLinkMedi zerowidthjoiner]
+            [@DualLinkIsol @DualLinkInit @RightLinkIsol]' lookup connectLeft;
+
+    sub  
+            [@DualLinkIsol @DualLinkFina]'                lookup connectRight 
+                [@DualLinkAny @RightLinkAny zerowidthjoiner];
+    
+} bhaForms;
+
+
+}   #end do - Idiqlat
+
+do let f = info("familyName");
+   if f.find("Ramsina") != -1 ; {
+
+lookup bhaForms {
+  lookupflag IgnoreMarks ;
+     # nothing to do
+} bhaForms;
+
+}   #end do - Ramsina
+
 # HB PAUSE
 
 # Can have up to 3 music-syriac but they need to be a tight ligature
@@ -227,6 +278,32 @@ lookup MusicLigatures {
     sub music-syriac music-syriac  by  music2-syriac ;
     sub music-syriac music-syriac music-syriac by  music3-syriac ;
 } MusicLigatures ;
+
+# HB PAUSE
+
+# Malayalam ligature
+do let f = info("familyName");
+   if f.find("Idiqlat") != -1 ; {
+
+lookup NnaTtaMalayalamLigature {
+  lookupflag 0; ;
+    sub nnaMalayalam-syriac ttaMalayalam-syriac by nnaMalayalam_ttaMalayalam-syriac ;
+    sub nnaMalayalam-syriac.init ttaMalayalam-syriac.medi by nnaMalayalam_ttaMalayalam-syriac.init ;
+    sub nnaMalayalam-syriac.init ttaMalayalam-syriac.fina by nnaMalayalam_ttaMalayalam-syriac ;
+    sub nnaMalayalam-syriac.init ttaMalayalam-syriac.medi by nnaMalayalam_ttaMalayalam-syriac.init ;
+    sub nnaMalayalam-syriac.medi ttaMalayalam-syriac.medi by nnaMalayalam_ttaMalayalam-syriac.medi ;
+    sub nnaMalayalam-syriac.medi ttaMalayalam-syriac.fina by nnaMalayalam_ttaMalayalam-syriac.fina ;
+} NnaTtaMalayalamLigature ;
+}   #end do - Idiqlat
+
+do let f = info("familyName");
+   if f.find("Ramsina") != -1 ; {
+
+lookup NnaTtaMalayalamLigature {
+  lookupflag 0; ;
+ # nothing to do
+ } NnaTtaMalayalamLigature ;
+}   #end do - Ramsina
 
 # HB PAUSE
 
@@ -528,6 +605,8 @@ feature rlig {  # Ligatures  -- these are done before ssxx and cvXX
         lookup TawAlaph;
         lookup DalathRukkakha;   # was r3
         lookup MusicLigatures;   # not in ESM
+        lookup NnaTtaMalayalamLigature; # not in ESM
+        lookup bhaForms;         # not in Ramsina
       # Force other languages to include Syriac script lookups
       language SYRN ;  # syc, syr
       language SYR ;  # aii, amw, cld, syc, syr, tru
@@ -898,6 +977,7 @@ feature ss16 {
 } ss16;
 
 #---  liga feature (pass 10) ---
+        
 
 # not used
 

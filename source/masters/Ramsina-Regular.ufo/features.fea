@@ -974,8 +974,18 @@ lookup DalathRukkakha {
     sub dalath-syriac.fina rukkakha-syriac by dalath_hbasaEsasadotted-syriac.fina;
 } DalathRukkakha;
 
-# HB PAUSE
-# Can have up to 3 music-syriac but they need to be a tight ligature
+    
+
+#end do - Idiqlat
+    # nothing to do
+    #end do - Ramsina
+    # HB PAUSE
+    # Can have up to 3 music-syriac but they need to be a tight ligature
+    lookup bhaForms {
+        lookupflag IgnoreMarks;
+    } bhaForms;
+
+
 lookup MusicLigatures {
     lookupflag MarkAttachmentType @MusicLigatureParts;
     sub music-syriac music-syriac by music2-syriac;
@@ -983,7 +993,19 @@ lookup MusicLigatures {
 } MusicLigatures;
 
 # HB PAUSE
-# The breve below must almost touch
+# Malayalam ligature
+    
+
+#end do - Idiqlat
+    # nothing to do
+    #end do - Ramsina
+    # HB PAUSE
+    # The breve below must almost touch
+    lookup NnaTtaMalayalamLigature {
+        lookupflag 0;
+    } NnaTtaMalayalamLigature;
+
+
 lookup PeBreveBelow {
     # 0715 0742
     lookupflag 0;
@@ -1291,6 +1313,10 @@ feature rlig {
     # was r3
     lookup MusicLigatures;
     # not in ESM
+    lookup NnaTtaMalayalamLigature;
+    # not in ESM
+    lookup bhaForms;
+    # not in Ramsina
     # Force other languages to include Syriac script lookups
     language SYRN;
     # syc, syr
@@ -1859,6 +1885,13 @@ lookup kern_nun2 {
     pos [alaph-syriac alaph-syriac.med2 alaph-syriac.fina alaph-syriac.fin2 alaph-syriac.fin3] @kern_below nun-syriac' lookup kern_nun_1;
 } kern_nun2;
 
+lookup kern_ra {
+    # FKern: {Dolath, Sodeh} {Nun}
+    # GPOS lookup 8, type 1 (Single adjustment)
+    lookupflag RightToLeft;
+    
+} kern_ra;
+
 lookup MarkToBase {
     lookupflag 0;
     pos base A <anchor 412 824> mark @_above;
@@ -2306,6 +2339,7 @@ feature kern {
     lookup kern_dalath_sadhe_nun;
     lookup kern_sadhe_gamal;
     lookup kern_nun2;
+    lookup kern_ra;
 } kern;
 
 #********************
